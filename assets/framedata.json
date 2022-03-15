@@ -20,11 +20,6 @@
       "On Guard (F)": -7,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 6,
       "On Guard (F)": -6,
@@ -277,11 +272,6 @@
       "On Guard (F)": -7,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 4,
       "On Guard (F)": 4,
@@ -347,11 +337,6 @@
       "On Guard (F)": "-5~+6",
       "Notes": "Depends On Range"
     },
-    "<Unchain Circle Starting Move>": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Formalist Blue (df + B)": {
       "Startup (F)": 16,
       "On Guard (F)": -1,
@@ -375,11 +360,6 @@
     "Hp Repun Kamui (qcb + C)": {
       "Startup (F)": 15,
       "On Guard (F)": -1,
-      "Notes": null
-    },
-    "<Uncahin Circle Move>": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Bye Bye Rogue (u + A/C)": {
@@ -410,11 +390,6 @@
     "With A Lamp For Pathway (f +B/D)": {
       "Startup (F)": null,
       "On Guard (F)": -12,
-      "Notes": null
-    },
-    "<Unchain Circle Finishing Move>": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Crown Under Sky (f,f + A)": {
@@ -472,11 +447,6 @@
     "Close D": {
       "Startup (F)": 7,
       "On Guard (F)": 6,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -579,10 +549,20 @@
       "On Guard (F)": "When Guard Last Kick = -15",
       "Notes": null
     },
-    "Psycho Teleport": {
-      "Startup (F)": "Lk Teleport (qcf + B)",
+    "Lk Teleport (qcf + B)": {
+      "Startup (F)": null,
       "On Guard (F)": null,
       "Notes": "Heavy Normals Cancel Lk Teleport = 15F on Recovery"
+    },
+    "Hk Teleport (qcf + D)": {
+      "Startup (F)": null,
+      "On Guard (F)": null,
+      "Notes": "Heavy Normals Cancel Hk Teleport = 25F on Recovery"
+    },
+    "Fake Teleport (qcb + D)": {
+      "Startup (F)": null,
+      "On Guard (F)": null,
+      "Notes": "Heavy Normals Cancel Fake Psycho Teleport = 25F on Recovery"
     },
     "Shining Crystal Bit (hcb x 2 + A/C)": {
       "Startup (F)": 3,
@@ -630,11 +610,6 @@
       "Startup (F)": "1st Hit = 3 / 2nd hit = 5",
       "On Guard (F)": "When Guard 2nd Hit = -3",
       "Notes": "Active Frame = 7 / 8F, Fastest cl.D in the game"
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
     },
     "Far A": {
       "Startup (F)": 5,
@@ -858,11 +833,6 @@
       "On Guard (F)": -4,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 4,
       "On Guard (F)": -1,
@@ -1003,11 +973,6 @@
     "Close D": {
       "Startup (F)": 6,
       "On Guard (F)": -11,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -1162,11 +1127,6 @@
       "On Guard (F)": -6,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 4,
       "On Guard (F)": 0,
@@ -1240,7 +1200,7 @@
     "Hk Straight Slicer (charge b~f + D)": {
       "Startup (F)": 17,
       "On Guard (F)": "-19~-8",
-      "Notes": null
+      "Notes": "Depends On Range"
     },
     "Lk Vertical Arrow (dp + B)": {
       "Startup (F)": 6,
@@ -1312,11 +1272,6 @@
     "Close D": {
       "Startup (F)": 10,
       "On Guard (F)": -3,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -1454,11 +1409,6 @@
     "Close D": {
       "Startup (F)": 10,
       "On Guard (F)": "When Guard 2nd Hit = -2",
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -1658,11 +1608,6 @@
       "On Guard (F)": -6,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 4,
       "On Guard (F)": -2,
@@ -1813,11 +1758,6 @@
     "Close D": {
       "Startup (F)": 5,
       "On Guard (F)": -6,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -1987,11 +1927,6 @@
       "On Guard (F)": -6,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 5,
       "On Guard (F)": 2,
@@ -2108,7 +2043,7 @@
       "Notes": null
     },
     "САНАГИ О ЯБУРЙ ЧИёУХАМАУ [Sanagi wo Yaburi, Chou wa mau] (qcf x 2 + BD)": {
-      "Startup (F)": "?",
+      "Startup (F)": null,
       "On Guard (F)": -65,
       "Notes": null
     }
@@ -2132,11 +2067,6 @@
     "Close D": {
       "Startup (F)": 12,
       "On Guard (F)": -13,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -2196,8 +2126,8 @@
     },
     "Shining Wizard (hcb + A/C)": {
       "Startup (F)": "4 (point-blank)",
-      "On Guard (F)": "Run recovery = 21",
-      "Notes": "Run (4f start-up)"
+      "On Guard (F)": "Run recovery = 21, Grab recovery = 20",
+      "Notes": "Run (4f start-up), Grab (1f start-up)"
     },
     "Lk Frankensteiner (close dp + B)": {
       "Startup (F)": 12,
@@ -2211,8 +2141,8 @@
     },
     "Mount Tackle (hcf + A/C)": {
       "Startup (F)": "10 (point-blank)",
-      "On Guard (F)": "Run recovery = 14",
-      "Notes": "Run (8f start-up) - Low invuln during active frames"
+      "On Guard (F)": "Run recovery = 14, Tackle = -41",
+      "Notes": "Run (8f start-up) - Low invuln during active frames, Tackle (3f start-up) - Low invuln (start-up+active) - 21f blockstun"
     },
     "Lp Gatling Attack (charge b~f + A)": {
       "Startup (F)": 9,
@@ -2269,11 +2199,6 @@
     "Close D": {
       "Startup (F)": 5,
       "On Guard (F)": -2,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -2353,8 +2278,8 @@
     },
     "Reverse Drop (close, hcb, f + B/D)": {
       "Startup (F)": "23 (point-blank)",
-      "On Guard (F)": "Run recovery = 3",
-      "Notes": "Run (4f start-up) - Low invuln during active frames"
+      "On Guard (F)": "Run recovery = 3, Grab recovery = 56",
+      "Notes": "Run (4f start-up) - Low invuln during active frames, Grab (20f start-up)"
     },
     "Cloud Tosser (hcf + A)": {
       "Startup (F)": 6,
@@ -2388,7 +2313,7 @@
     },
     "Hourinkazan (hcb x 2 + BD)": {
       "Startup (F)": 18,
-      "On Guard (F)": "?",
+      "On Guard (F)": null,
       "Notes": null
     }
   },
@@ -2411,11 +2336,6 @@
     "Close D": {
       "Startup (F)": 10,
       "On Guard (F)": 4,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -2511,7 +2431,7 @@
     "Hp Prenilinium (dp + C)": {
       "Startup (F)": 10,
       "On Guard (F)": "1st Hit = -18 / 2nd Hit = -20",
-      "Notes": null
+      "Notes": "1st Hit & 2nd Hit Have Different Block Stun Or Different Hit Stop"
     },
     "Tree Of Beginning (hcb + A/C)": {
       "Startup (F)": 14,
@@ -2568,11 +2488,6 @@
     "Close D": {
       "Startup (F)": 6,
       "On Guard (F)": -7,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -2668,7 +2583,7 @@
     "Hk Heidern End (qcb hcf + D)": {
       "Startup (F)": 14,
       "On Guard (F)": "-32~-21",
-      "Notes": null
+      "Notes": "Depends On Range"
     },
     "MAX Final Bringer (qcf x 2 + AC)": {
       "Startup (F)": 6,
@@ -2705,11 +2620,6 @@
     "Close D": {
       "Startup (F)": 10,
       "On Guard (F)": 1,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -2894,11 +2804,6 @@
       "On Guard (F)": -1,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 7,
       "On Guard (F)": 4,
@@ -2989,14 +2894,34 @@
       "On Guard (F)": -30,
       "Notes": "Low invuln from frame 7 until recovery"
     },
-    "Lp 127 Shiki: Aoihana (qcb + A) x3": {
+    "Lp 127 Shiki: Aoihana (qcb + A)": {
       "Startup (F)": "1st = 9",
       "On Guard (F)": -11,
       "Notes": null
     },
-    "Hp 127 Shiki: Aoihana (qcb + C)  x3": {
+    "Lp 127 Shiki: Aoihana (qcb + A > qcb+P)": {
+      "Startup (F)": "2nd = 8",
+      "On Guard (F)": -13,
+      "Notes": null
+    },
+    "Lp 127 Shiki: Aoihana (qcb + A > qcb+P > qcb+P)": {
+      "Startup (F)": "3rd = 18",
+      "On Guard (F)": -13,
+      "Notes": null
+    },
+    "Hp 127 Shiki: Aoihana (qcb + C) ": {
       "Startup (F)": "1st = 12",
       "On Guard (F)": -13,
+      "Notes": null
+    },
+    "Hp 127 Shiki: Aoihana (qcb + C > qcb+P)": {
+      "Startup (F)": "2nd = 12",
+      "On Guard (F)": -14,
+      "Notes": null
+    },
+    "Hp 127 Shiki: Aoihana (qcb + C > qcb+P > qcb+P)": {
+      "Startup (F)": "3rd = 18",
+      "On Guard (F)": -22,
       "Notes": null
     },
     "Kuzukaze(close hcb, f + A/C)": {
@@ -3054,11 +2979,6 @@
     "Close D": {
       "Startup (F)": 8,
       "On Guard (F)": -4,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -3243,11 +3163,6 @@
       "On Guard (F)": 4,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 5,
       "On Guard (F)": 0,
@@ -3361,7 +3276,7 @@
     "HP TNT Punch (Px3, HP)": {
       "Startup (F)": 12,
       "On Guard (F)": "/",
-      "Notes": null
+      "Notes": "Each hit has 27/29f of block/hitstun"
     },
     "> LP TNT Punch Finisher ( Px4 > qcf + A)": {
       "Startup (F)": 21,
@@ -3428,11 +3343,6 @@
     "Close D": {
       "Startup (F)": 8,
       "On Guard (F)": -7,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -3570,12 +3480,12 @@
       "On Guard (F)": -13,
       "Notes": null
     },
-    "Lp Eins Trigger(qcf + A)": {
+    "Lp Eins Trigger (qcf + A)": {
       "Startup (F)": 8,
       "On Guard (F)": -7,
       "Notes": null
     },
-    "Hp Eins Trigger(qcf + C)": {
+    "Hp Eins Trigger (qcf + C)": {
       "Startup (F)": 10,
       "On Guard (F)": -9,
       "Notes": null
@@ -3598,7 +3508,7 @@
     "> Hk Second Spike (qcf+P > qcb + D)": {
       "Startup (F)": null,
       "On Guard (F)": "-26~-19",
-      "Notes": null
+      "Notes": "Depends On Range"
     },
     "Lp Crow Bites (dp + A)": {
       "Startup (F)": 4,
@@ -3623,7 +3533,7 @@
     "> Narrow Spike (qcb+D > qcb + B/D)": {
       "Startup (F)": 7,
       "On Guard (F)": "-8~+2",
-      "Notes": null
+      "Notes": "Depends On Range"
     },
     "Lk Black Out (qcf + B)": {
       "Startup (F)": "Total Active Frame = 32",
@@ -3685,11 +3595,6 @@
     "Close D": {
       "Startup (F)": 10,
       "On Guard (F)": -2,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -3754,8 +3659,8 @@
     },
     "Hp Tatsumaki Souda (hcb, f + C)": {
       "Startup (F)": 7,
-      "On Guard (F)": null,
-      "Notes": null
+      "On Guard (F)": "Proximity Unblockable",
+      "Notes": "No invuln"
     },
     "Lp Kasane Ate (qcf + A)": {
       "Startup (F)": 18,
@@ -3777,10 +3682,20 @@
       "On Guard (F)": "1st Hit = -16 / 2nd Hit = -10",
       "Notes": "Vuln mid guard frame (2-7) ; Mid+Low inv (8-10) ; Low inv (11-17)"
     },
-    "Senkou Sagashi (qcb + A/C)x3": {
+    "Senkou Sagashi (qcb + P)": {
       "Startup (F)": "1st Rekka = 10",
       "On Guard (F)": "When Guard 2nd Hit = -6",
       "Notes": "Hidden Ver. Startup = 13F, On Guard = -4F"
+    },
+    "Senkou Sagashi (qcb + P > qcb+P)": {
+      "Startup (F)": "2nd",
+      "On Guard (F)": -17,
+      "Notes": null
+    },
+    "Senkou Sagashi (qcb + P > qcb+P > qcb+P)": {
+      "Startup (F)": "3rd",
+      "On Guard (F)": "When Guard Last Kick = -7",
+      "Notes": null
     },
     "Messhin Mutoh (hcf + B)": {
       "Startup (F)": 1,
@@ -3847,11 +3762,6 @@
     "Close D": {
       "Startup (F)": 6,
       "On Guard (F)": -6,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -4006,11 +3916,6 @@
       "On Guard (F)": -8,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 6,
       "On Guard (F)": 1,
@@ -4079,7 +3984,7 @@
     "Hp Arrow Dash Blast (qcb + C)": {
       "Startup (F)": 14,
       "On Guard (F)": "-26~-15",
-      "Notes": null
+      "Notes": "Depends On Range"
     },
     "Lp Dragon Scale Tackle (rdp + A)": {
       "Startup (F)": 20,
@@ -4183,11 +4088,6 @@
       "On Guard (F)": "1st Hit = -4 / 2nd Hit = 4",
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 5,
       "On Guard (F)": -2,
@@ -4256,7 +4156,7 @@
     "Lk Hishoukyaku (in air, qcf + B)": {
       "Startup (F)": null,
       "On Guard (F)": -23,
-      "Notes": "Not Sure About Advantageous Flag and Disadvantageous Flag Frame"
+      "Notes": null
     },
     "Hk Hishoukyaku (in air, qcf + D)": {
       "Startup (F)": null,
@@ -4283,14 +4183,34 @@
       "On Guard (F)": "RIP",
       "Notes": "Full invuln frame (1-5)"
     },
-    "Lp Sanrengeki (qcb + A)x3": {
+    "Lp Sanrengeki (qcb + A)": {
       "Startup (F)": "1st Hit = 9",
       "On Guard (F)": -12,
       "Notes": null
     },
-    "Hp Sanrengeki (qcb + C)x3": {
+    "Lp Sanrengeki (qcb + A > qcb+P)": {
+      "Startup (F)": "2nd = 9",
+      "On Guard (F)": -7,
+      "Notes": null
+    },
+    "Lp Sanrengeki (qcb + A > qcb+P > qcb+P)": {
+      "Startup (F)": "3rd = 19 / 4th = 22",
+      "On Guard (F)": 0,
+      "Notes": null
+    },
+    "Hp Sanrengeki (qcb + C)": {
       "Startup (F)": "1st Hit = 9",
       "On Guard (F)": -12,
+      "Notes": null
+    },
+    "Hp Sanrengeki (qcb + C > qcb+P)": {
+      "Startup (F)": "2nd = 9",
+      "On Guard (F)": -7,
+      "Notes": null
+    },
+    "Hp Sanrengeki (qcb + C > qcb+P > qcb+P)": {
+      "Startup (F)": "3rd = 15",
+      "On Guard (F)": -15,
       "Notes": null
     },
     "> Sankuugeki 1 (qcb+P > uf + B/D)": {
@@ -4301,7 +4221,7 @@
     "> > Sankuugeki 2 (qcb+P > uf + B/D > d + B/D)": {
       "Startup (F)": "2nd Hit = 16",
       "On Guard (F)": "2nd Hit = -11~-5",
-      "Notes": null
+      "Notes": "Depends On Range"
     },
     "Lk Hou'oukyaku (d, db, b, db, f + B)": {
       "Startup (F)": 9,
@@ -4348,11 +4268,6 @@
     "Close D": {
       "Startup (F)": 5,
       "On Guard (F)": -5,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -4512,11 +4427,6 @@
       "On Guard (F)": -6,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 6,
       "On Guard (F)": -7,
@@ -4615,17 +4525,17 @@
     "Hk Lay Spin (qcb + D)": {
       "Startup (F)": "1st Hit = 15 / 2nd Hit = 31",
       "On Guard (F)": "When Guard 2nd Hit = -2",
-      "Notes": null
+      "Notes": "Depends On Range"
     },
     "> Stand (qcb+K > f + B)": {
       "Startup (F)": null,
       "On Guard (F)": "-5~-2",
-      "Notes": null
+      "Notes": "Depends On Range"
     },
     "> Sit (qcb+K > f + D)": {
       "Startup (F)": null,
       "On Guard (F)": "-17~-6",
-      "Notes": null
+      "Notes": "Depends On Range"
     },
     "Diamond Edge (qcf x 2 + A/C)": {
       "Startup (F)": 12,
@@ -4634,7 +4544,7 @@
     },
     "Freeze Execution (hcb x 2 + AC)": {
       "Startup (F)": 15,
-      "On Guard (F)": "Each At Opposite Corner Of Screen = -21",
+      "On Guard (F)": "-19~-21",
       "Notes": null
     },
     "Freeze Compression (qcf x 2 + BD)": {
@@ -4662,11 +4572,6 @@
     "Close D": {
       "Startup (F)": 5,
       "On Guard (F)": -7,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -4828,12 +4733,6 @@
       "Startup (F)": 5,
       "On Guard (F)": -7,
       "On Hit (F)": -5,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "On Hit (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -5122,11 +5021,6 @@
       "On Guard (F)": -11,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 3,
       "On Guard (F)": -1,
@@ -5245,7 +5139,7 @@
     "Hp Shutenharai (qcf x 2 + C)": {
       "Startup (F)": 27,
       "On Guard (F)": "1st Hit = -36 / When Guard All = 15",
-      "Notes": null
+      "Notes": "OTG"
     },
     "MAX Orochinagi (qcb hcf + AC)": {
       "Startup (F)": "Charge Part = 3 / Throw Fire Part = 20",
@@ -5277,11 +5171,6 @@
     "Close D": {
       "Startup (F)": 6,
       "On Guard (F)": -9,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -5411,13 +5300,13 @@
     },
     "Lk RED Kick": {
       "Startup (F)": 19,
-      "On Guard (F)": "Short Size Char Stand Guard = -3",
-      "Notes": "Depends On Char Size"
+      "On Guard (F)": "-7~-3",
+      "Notes": "Depends On Char Size and crouching/standing"
     },
     "Hk RED Kick": {
       "Startup (F)": 30,
-      "On Guard (F)": "Stand Guard EXCEPT Choi = -6",
-      "Notes": null
+      "On Guard (F)": "-6~-4",
+      "Notes": "Depends On Char Size and crouching/standing"
     },
     "Lp Mu-Shiki (qcf x 2 + A)": {
       "Startup (F)": 6,
@@ -5427,7 +5316,7 @@
     "Hp Mu-Shiki (qcf x 2 + C)": {
       "Startup (F)": 8,
       "On Guard (F)": -27,
-      "Notes": null
+      "Notes": "Guard Crush"
     },
     "Futsumitama (qcf x 2 + B/D)": {
       "Startup (F)": 7,
@@ -5465,11 +5354,6 @@
       "Startup (F)": 7,
       "On Guard (F)": "1st Hit = 7 / 2nd Hit = -3",
       "Notes": "Low invuln from frame 3 to the end of active frames"
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
     },
     "Far A": {
       "Startup (F)": 4,
@@ -5621,11 +5505,6 @@
     "Close D": {
       "Startup (F)": 9,
       "On Guard (F)": -2,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -5800,11 +5679,6 @@
       "On Guard (F)": -10,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 5,
       "On Guard (F)": 0,
@@ -5872,13 +5746,13 @@
     },
     "Lk Ukihane (in air, d+B OR d~u+P > d+B)": {
       "Startup (F)": 25,
-      "On Guard (F)": "Bao, Chin = +1 ; Choi = +3",
+      "On Guard (F)": "-7~+3",
       "Notes": "Depends on character size"
     },
     "Hk Ukihane (d~u+P > d+D)": {
       "Startup (F)": 16,
-      "On Guard (F)": "Bao, Chin = -7 ; Choi = -5",
-      "Notes": null
+      "On Guard (F)": "-12~-5",
+      "Notes": "Depends on character size"
     },
     "Lp Musasabi no Mai (in air, qcb+A)": {
       "Startup (F)": 17,
@@ -5886,9 +5760,9 @@
       "Notes": "Depends on character size and range"
     },
     "Hp Musasabi no Mai (in air, qcb+C)": {
-      "Startup (F)": null,
+      "Startup (F)": 17,
       "On Guard (F)": "-17 ~ -1",
-      "Notes": null
+      "Notes": "Depends on character size and range"
     },
     "Lp Ryu Enbu (qcb + A)": {
       "Startup (F)": 15,
@@ -5940,6 +5814,21 @@
       "On Guard (F)": -9,
       "Notes": null
     },
+    "Dishevelled Kacho Sen (qcb + D > qcb+D)": {
+      "Startup (F)": "2nd = 6 (2 Hits)",
+      "On Guard (F)": "When Guard 2nd Hit = -7",
+      "Notes": null
+    },
+    "Dishevelled Kacho Sen (qcb + D > qcb+D > qcb+D)": {
+      "Startup (F)": "3rd = 6 (2 Hits)",
+      "On Guard (F)": "When Guard 2nd Hit = -13",
+      "Notes": null
+    },
+    "Dishevelled Kacho Sen (qcb + D > qcb+D > qcb+D > qcb+D)": {
+      "Startup (F)": "4th = 12 (3 Hits)",
+      "On Guard (F)": "When Guard All = -1",
+      "Notes": null
+    },
     "Blossom Storm (qcf x 2 + A/C)": {
       "Startup (F)": 6,
       "On Guard (F)": null,
@@ -5985,11 +5874,6 @@
     "Close D": {
       "Startup (F)": 9,
       "On Guard (F)": "When Guard 2nd Hit = -3",
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -6062,23 +5946,43 @@
       "On Guard (F)": -8,
       "Notes": null
     },
-    "Lp Death Row (qcb + A) x 3": {
+    "Lp Death Row (qcb + A)": {
       "Startup (F)": "1st = 11",
       "On Guard (F)": -18,
       "Notes": null
     },
-    "Hp Death Row (qcb + C) x 3": {
+    "Lp Death Row (qcb + A > qcb+P)": {
+      "Startup (F)": "2nd = 10",
+      "On Guard (F)": -13,
+      "Notes": null
+    },
+    "Lp Death Row (qcb + A > qcb+P > qcb+P)": {
+      "Startup (F)": "3rd = 15",
+      "On Guard (F)": -16,
+      "Notes": null
+    },
+    "Hp Death Row (qcb + C)": {
       "Startup (F)": "1st = 11",
       "On Guard (F)": -20,
       "Notes": null
     },
+    "Hp Death Row (qcb + C > qcb+P)": {
+      "Startup (F)": "2nd = 13",
+      "On Guard (F)": -15,
+      "Notes": null
+    },
+    "Hp Death Row (qcb + C > qcb+P > qcb+P)": {
+      "Startup (F)": "3rd = 16",
+      "On Guard (F)": -23,
+      "Notes": null
+    },
     "Lp Ebony Tears (qcf hcb + A)": {
-      "Startup (F)": null,
+      "Startup (F)": 27,
       "On Guard (F)": "When Guard Closely = 5",
       "Notes": null
     },
     "Hp Ebony Tears (qcf hcb + C)": {
-      "Startup (F)": null,
+      "Startup (F)": 27,
       "On Guard (F)": "When Guard Closely = 3",
       "Notes": null
     },
@@ -6147,11 +6051,6 @@
     "Close D": {
       "Startup (F)": 12,
       "On Guard (F)": -3,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -6266,8 +6165,8 @@
     },
     "System 3: Maxima Lift (hcb + B/D)": {
       "Startup (F)": "17 (point-blank)",
-      "On Guard (F)": "Run recovery = 18",
-      "Notes": "Run (17f start-up)"
+      "On Guard (F)": "Run recovery = 18, Grab recovery = 43",
+      "Notes": "Run (17f start-up), Grab (1f start-up)"
     },
     "Maxima Revenger (close hcb x 2 + B/D)": {
       "Startup (F)": 1,
@@ -6324,11 +6223,6 @@
     "Close D": {
       "Startup (F)": 6,
       "On Guard (F)": -5,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -6451,11 +6345,6 @@
     "Close D": {
       "Startup (F)": 7,
       "On Guard (F)": -5,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -6583,11 +6472,6 @@
     "Close D": {
       "Startup (F)": 17,
       "On Guard (F)": -1,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -6725,11 +6609,6 @@
     "Close D": {
       "Startup (F)": 8,
       "On Guard (F)": -2,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -6879,11 +6758,6 @@
       "On Guard (F)": -2,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 4,
       "On Guard (F)": -2,
@@ -7002,7 +6876,7 @@
     "Max Tiger Spin (close hcb x 2 + AC)": {
       "Startup (F)": null,
       "On Guard (F)": null,
-      "Notes": null
+      "Notes": "Command Grab"
     },
     "Hypnotic Tiger (qcb hcf + AC)": {
       "Startup (F)": 14,
@@ -7029,11 +6903,6 @@
     "Close D": {
       "Startup (F)": 6,
       "On Guard (F)": "1st Hit = -6 / 2nd Hit =  -1",
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -7196,11 +7065,6 @@
     "Close D": {
       "Startup (F)": 6,
       "On Guard (F)": -1,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -7375,11 +7239,6 @@
       "On Guard (F)": -7,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 4,
       "On Guard (F)": -1,
@@ -7463,7 +7322,7 @@
     "Hp Koho (dp + C)": {
       "Startup (F)": 6,
       "On Guard (F)": "1st hit = 6 / When Guard All = -28",
-      "Notes": null
+      "Notes": "Full invuln start-up with 1st hit"
     },
     "Lk Hien Shippu Kyaku (hcb + B)": {
       "Startup (F)": "7(1st hit) ; 10(2nd hit)",
@@ -7515,6 +7374,11 @@
       "On Guard (F)": -25,
       "Notes": "Full invuln frame 1 to 7"
     },
+    "": {
+      "Startup (F)": null,
+      "On Guard (F)": null,
+      "Notes": null
+    },
     "Retsu Ryukohranbu (qcf hcb + AC)": {
       "Startup (F)": 13,
       "On Guard (F)": -21,
@@ -7545,11 +7409,6 @@
     "Close D": {
       "Startup (F)": 7,
       "On Guard (F)": 1,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -7625,7 +7484,7 @@
     "Slide kick (With Cancel ~ df + B)": {
       "Startup (F)": 7,
       "On Guard (F)": "-4~0",
-      "Notes": null
+      "Notes": "Depends On Range"
     },
     "Lk Bow Moon (hcb + B)": {
       "Startup (F)": 10,
@@ -7683,8 +7542,8 @@
       "Notes": "Full invuln frame 1 to 4"
     },
     "HP Dual Rising Sun (qcf x 2 + C)": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
+      "Startup (F)": 5,
+      "On Guard (F)": "When Guard All = 7",
       "Notes": "Full invuln frame 1 to 5"
     },
     "Lk Moon Ocean (qcf hcb + B)": {
@@ -7737,11 +7596,6 @@
     "Close D": {
       "Startup (F)": 9,
       "On Guard (F)": "1st Hit = -18 / 2nd Hit = -13",
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -7851,8 +7705,8 @@
     },
     "Diamond Bust (hcf + B/D)": {
       "Startup (F)": "13 (point-blank)",
-      "On Guard (F)": "Run recovery = 17(B) - 25(D)",
-      "Notes": "Run (10f start-up) - Low invuln during active frames"
+      "On Guard (F)": "Run recovery = 17(B) - 25(D), Grab recovery = 29",
+      "Notes": "Run (10f start-up) - Low invuln during active frames, Grab (4f start-up) - Low invuln frame 1 to 3"
     },
     "DM Shermie Carnival (close hcf x 2 + A/C)": {
       "Startup (F)": 9,
@@ -7899,11 +7753,6 @@
     "Close D": {
       "Startup (F)": 9,
       "On Guard (F)": "1st Hit = -18 / 2nd Hit = -3",
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -8088,11 +7937,6 @@
       "On Guard (F)": -7,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 5,
       "On Guard (F)": 1,
@@ -8166,7 +8010,7 @@
     "Lk 202 Shiki: Kototsuki Mikansei (hcb + B)": {
       "Startup (F)": 10,
       "On Guard (F)": "When Guard 2nd Hit = -28",
-      "Notes": "After 1st Hit, Doesn't Force Opponent To Guard Continuously"
+      "Notes": null
     },
     "Hk 202 Shiki: Kototsuki Mikansei (hcb + D)": {
       "Startup (F)": 11,
@@ -8191,7 +8035,7 @@
     "Hk Shingo Kick (hcf + D)": {
       "Startup (F)": 16,
       "On Guard (F)": "-14~-4",
-      "Notes": null
+      "Notes": "Depends On Range"
     },
     "Lp Shingo Kinsei Ore Shiki Zenpou Tenshin (qcb + A)": {
       "Startup (F)": 15,
@@ -8216,7 +8060,7 @@
     "Hp Geshiki: Kake Hourin (qcf x 2 + C)": {
       "Startup (F)": 12,
       "On Guard (F)": -9,
-      "Notes": null
+      "Notes": "Guard Crush"
     },
     "Lp Shingo Kinsei Ore \"Mushiki\" (qcb hcf + A)": {
       "Startup (F)": 11,
@@ -8258,11 +8102,6 @@
     "Close D": {
       "Startup (F)": 8,
       "On Guard (F)": -3,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -8378,7 +8217,7 @@
     "Hp Ryukohranbu (qcf hcb + C)": {
       "Startup (F)": 15,
       "On Guard (F)": "-31~20",
-      "Notes": null
+      "Notes": "Depends On Range"
     },
     "MAX Ryukohranbu (qcf hcb + AC)": {
       "Startup (F)": 6,
@@ -8410,11 +8249,6 @@
     "Close D": {
       "Startup (F)": 8,
       "On Guard (F)": -3,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -8596,12 +8430,6 @@
       "Startup (F)": 5,
       "On Guard (F)": -8,
       "On Hit (F)": -6,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "On Hit (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -8812,7 +8640,7 @@
       "Startup (F)": 19,
       "On Guard (F)": "While Guarding Last Hit = -17",
       "On Hit (F)": null,
-      "Notes": "Full Inv. 16F"
+      "Notes": "Full Inv. 16F, Until 17F = Crouching position, 18F = Guarantee Activation."
     },
     "Rising Force (qcf x 2 + AC)": {
       "Startup (F)": 16,
@@ -8840,11 +8668,6 @@
     "Close D": {
       "Startup (F)": 6,
       "On Guard (F)": "When Guard 2nd Hit = -14",
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -8952,10 +8775,15 @@
       "On Guard (F)": -15,
       "Notes": null
     },
-    "Puncher Vision (qcf/qcb + B/D)": {
+    "Lk Puncher Vision (qcf/qcb + B)": {
       "Startup (F)": 1,
       "On Guard (F)": "Heavy, qcf / qcb+B = Light/Heavy, f+A, qcf / qcb+B = -1 / +1",
       "Notes": "qcb+B(1/14/4) ; qcf+B(1/14/6) ; (knee and up)-invuln during active frames"
+    },
+    "Hk Puncher Vision (qcf/qcb + D)": {
+      "Startup (F)": 1,
+      "On Guard (F)": "Heavy, qcf / qcb+D = Light/Heavy, f+A, qcf / qcb+D = -8 / -5",
+      "Notes": "qcb+D(1/20/4) ; qcf+D(1/21/6) ; (knee and up)-invuln during active frames"
     },
     "> Upper (qcf/qcb+K > f + A)": {
       "Startup (F)": null,
@@ -9007,11 +8835,6 @@
     "Close D": {
       "Startup (F)": 5,
       "On Guard (F)": -2,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -9151,11 +8974,6 @@
       "On Guard (F)": -13,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 12,
       "On Guard (F)": -15,
@@ -9201,9 +9019,29 @@
       "On Guard (F)": 0,
       "Notes": null
     },
+    "Whip Shot (f + A)": {
+      "Startup (F)": "1st = 20",
+      "On Guard (F)": "-21~-17",
+      "Notes": "25f blockstun"
+    },
+    "Whip Shot (f + A)x2": {
+      "Startup (F)": "2nd =  11",
+      "On Guard (F)": -18,
+      "Notes": "25f blockstun"
+    },
+    "Whip Shot (f + A)x3": {
+      "Startup (F)": "3rd =  7",
+      "On Guard (F)": -17,
+      "Notes": "25f blockstun"
+    },
+    "Whip Shot (f + A)x4": {
+      "Startup (F)": "4th =  12",
+      "On Guard (F)": -18,
+      "Notes": "25f blockstun"
+    },
     "Whip Shot (f + A)x5": {
-      "Startup (F)": 20,
-      "On Guard (F)": "1st = -21~-17",
+      "Startup (F)": "5th =  10",
+      "On Guard (F)": -19,
       "Notes": "25f blockstun"
     },
     "Lp Boomerang Shot (hcf + A)": {
@@ -9296,11 +9134,6 @@
     "Close D": {
       "Startup (F)": 6,
       "On Guard (F)": -4,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -9418,15 +9251,25 @@
       "On Guard (F)": null,
       "Notes": null
     },
-    "Chou Pairon (AC > b,df + C > b + C)": {
+    "Chou Pairon (AC)": {
       "Startup (F)": "1st Hit = 8",
       "On Guard (F)": -18,
       "Notes": "Can Kara cancel into the next"
     },
+    "Chou Pairon (AC > b,df + C)": {
+      "Startup (F)": "2nd",
+      "On Guard (F)": -17,
+      "Notes": "Can Whiff cancel into the next"
+    },
+    "Chou Pairon (AC > b,df + C > b + C)": {
+      "Startup (F)": "3rd",
+      "On Guard (F)": -5,
+      "Notes": "Guard Crush"
+    },
     "Maijinga (hcb x 2 + B/D)": {
       "Startup (F)": 4,
       "On Guard (F)": null,
-      "Notes": "Unable To Jump After Flash"
+      "Notes": "Full invuln frame(1-3), Unable To Jump After Flash"
     },
     "Lk Hirotoshi Kami (qcf hcb + B)": {
       "Startup (F)": 13,
@@ -9473,11 +9316,6 @@
     "Close D": {
       "Startup (F)": "6 / 9",
       "On Guard (F)": "-8 / -5",
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -9583,12 +9421,12 @@
     "LK Ver. Serpent Slash (qcb + B)": {
       "Startup (F)": "1st Hit = 7 / 2nd Hit = 10",
       "On Guard (F)": "When Guard 2nd Hit = -17",
-      "Notes": null
+      "Notes": "Heavy Normals Cancel Into Serpent Slash Cancel = -2F On Guard"
     },
     "HP Ver. Serpent Slash (qcb + C)": {
       "Startup (F)": "1st Hit = 13 / 2nd Hit = 16",
       "On Guard (F)": "When Guard 2nd Hit = -17",
-      "Notes": null
+      "Notes": "Heavy Normals Cancel Into Serpent Slash Cancel = -2F On Guard"
     },
     "Bombshell Badda-Bing (close hcb, f + A/C)": {
       "Startup (F)": 1,
@@ -9660,11 +9498,6 @@
     "Close D": {
       "Startup (F)": 4,
       "On Guard (F)": -8,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -9770,7 +9603,7 @@
     "Hk Sledgehammer (qcb + D)": {
       "Startup (F)": 28,
       "On Guard (F)": "-15~-14",
-      "Notes": null
+      "Notes": "Depends On Range"
     },
     "Lp Upper Dual (dp + A)": {
       "Startup (F)": 10,
@@ -9837,11 +9670,6 @@
     "Close D": {
       "Startup (F)": 4,
       "On Guard (F)": -8,
-      "Notes": null
-    },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
       "Notes": null
     },
     "Far A": {
@@ -9976,11 +9804,6 @@
       "On Guard (F)": -3,
       "Notes": null
     },
-    "": {
-      "Startup (F)": null,
-      "On Guard (F)": null,
-      "Notes": null
-    },
     "Far A": {
       "Startup (F)": 4,
       "On Guard (F)": -5,
@@ -10088,8 +9911,8 @@
     },
     "Hyakuretsu Binta (hcb + B/D)": {
       "Startup (F)": "15 (point-blank)",
-      "On Guard (F)": "Run recovery = 34(B) / 37 (D)",
-      "Notes": "Run (11f start-up) - Low invuln during active frames"
+      "On Guard (F)": "Run recovery = 34(B) / 37 (D), Grab recovery = 13",
+      "Notes": "Run (11f start-up) - Low invuln during active frames, Grab (5f start-up)"
     },
     "Lk Yuri Super Slash (hcf + B)": {
       "Startup (F)": 15,
@@ -10104,12 +9927,12 @@
     "Lk Raiouken (in air, qcf + B)": {
       "Startup (F)": "?",
       "On Guard (F)": "?",
-      "Notes": "While Max Mode, 6A to Lk Yuri Super Slash = +6 on Guard"
+      "Notes": "While Max Mode, f+A to Lk Yuri Super Slash = +6 on Guard"
     },
     "Hk Raiouken (in air, qcf + D)": {
       "Startup (F)": "?",
       "On Guard (F)": "?",
-      "Notes": "While Max Mode, 6A to Hk Yuri Super Slash = +3 on Guard"
+      "Notes": "While Max Mode, f+A to Hk Yuri Super Slash = +3 on Guard"
     },
     "Hien Hou'ou Kyaku (qcf hcb + B/D)": {
       "Startup (F)": 9,
