@@ -56,9 +56,8 @@ module.exports = {
           character = 'EX Takuma'
             }
         if (character === 'K Dash' ||
-            character === 'K`' ||
-            character === 'K') {
-          character = 'K''
+            character === 'K`') {
+          character = 'K'
             }
         if (character === 'May Lee' ||
             character === 'May Lee(Standard)') {
@@ -162,6 +161,7 @@ module.exports = {
       'Iori': 'Iori Yagami',
       'Jhun': 'Jhun Hoon',
       'Joe': 'Joe Higashi',
+      'K': 'K%27',
       'Kasumi': 'Kasumi Todoh',
       'Kim': 'Kim Kaphwan',
       'Kula': 'Kula Diamond',
