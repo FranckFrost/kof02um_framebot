@@ -180,12 +180,11 @@ module.exports = {
       'Takuma': 'Takuma Sakazaki',
       'Terry': 'Terry Bogard',
       'Yashiro': 'Yashiro Nanakase',
-      'Yuri': 'Yuri Sakazaki',
+      'Yuri': 'Yuri Sakazaki'
     };
-    const link = character
-    if charLink[character] {
-      link = charLink[character]
+    if (charLink[character] === undefined) {
+      return character;
     }
-    return link;
+    return charLink[character];
   }
 };
