@@ -114,8 +114,9 @@ module.exports = {
         // Get lowercase trimmed character name for official site url.
         let lowerCaseChar = character.toLowerCase();
         lowerCaseChar = lowerCaseChar.split(/\s+/).join('');
-        // Get character number for thumbnail.
+        // Get character link and img for header and thumbnail.
         const link = this.getCharacterLink(character);
+        const img = this.getCharacterImg(character);
         // console.log(charNo);
         const embed = new MessageEmbed()
           .setColor('#0x1a2c78')
@@ -123,7 +124,7 @@ module.exports = {
           .setURL('https://dreamcancel.com/wiki/index.php/The_King_of_Fighters_2002_UM/' + link)
           .setAuthor({ name: escapedMoves, iconURL: 'https://pbs.twimg.com/profile_images/1150082025673625600/m1VyNZtc_400x400.png', url: 'https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4' })
           // .setDescription('Move input')
-          .setThumbnail('https://dreamcancel.com/wiki/index.php/File:02UM_' + character + '_Profile.png')
+          .setThumbnail('https://tiermaker.com/images/chart/chart/the-king-of-fighters-2002-um-characters-137019/64px-portraitkof2002um' + img + 'png.png')
           .addFields(
             { name: 'Startup', value: startup, inline: true },
             { name: 'Active', value: active, inline: true },
@@ -136,12 +137,12 @@ module.exports = {
             { name: 'Notes', value: notes },
             // { name: 'Inline field title', value: 'Some value here', inline: true },
           )
-          .setFooter({ text: 'Got feedback? Join the bot server: https://discord.gg/2Yqnwd4cUr', iconURL: 'https://www.deviantart.com/alchemist10/art/The-King-Of-Fighters-2002-Unlimited-Match-526662291' });
+          .setFooter({ text: 'Got feedback? Join the bot server: https://discord.gg/8JNXHxf', iconURL: 'https://www.deviantart.com/alchemist10/art/The-King-Of-Fighters-2002-Unlimited-Match-526662291' });
           (moveData['Image'] !== null) ? embed.setImage(moveData['Image']) : embed.addField('No image was found for this move', 'Feel free to share one with the [developers](https://github.com/FranckFrost/kof02um_framebot/issues) if you have one.', true);
         return interaction.reply({embeds: [embed]});
       } catch (err) {
         console.log("Error parsing JSON string:", err);
-        return interaction.reply('There was an error while processing your request, if the problem persists, contact the bot developers. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1yBxwJEmzGDqsH2Gy5bitwVe2NGQvXRIkwUP0_SmskFU) to look for the data.');
+        return interaction.reply('There was an error while processing your request, if the problem persists, contact the bot developers. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) to look for the data.');
       }
     });
   },
@@ -193,5 +194,20 @@ module.exports = {
       return character;
     }
     return charLink[character];
+  },
+  getCharacterImg: function(character) {
+    const charImg = {
+      'EX Kensou': 'kensouex',
+      'EX Robert': 'robertex',
+      'EX Takuma': 'takumaex',
+      'Kyo-1': 'kyo1',
+      'Kyo-2': 'kyo2',
+      'May Lee(Normal)': 'maylee',
+      'May Lee(Hero)': 'maylee',
+    };
+    if (charImg[character] === undefined) {
+      return character.toLowerCase().replace(' ', '');
+    }
+    return charImg[character];
   }
 };
