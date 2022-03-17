@@ -24,7 +24,7 @@ module.exports = {
     fs.readFile("./assets/framedata.json", "utf8", (err, jsonObject) => {
       if (err) {
         // console.log("Error reading file from disk:", err);
-        return interaction.reply('Could not load frame data file. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1yBxwJEmzGDqsH2Gy5bitwVe2NGQvXRIkwUP0_SmskFU) for the data.');
+        return interaction.reply('Could not load frame data file. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for the data.');
       }
       try {
         let data = JSON.parse(jsonObject);
@@ -65,7 +65,7 @@ module.exports = {
             }
         // If character not found, exit.
         if (data.hasOwnProperty(character) === false) {
-          return interaction.reply('Could not find character: ' + character + '. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1yBxwJEmzGDqsH2Gy5bitwVe2NGQvXRIkwUP0_SmskFU) for available characters.');
+          return interaction.reply('Could not find character: ' + character + '. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for available characters.');
         }
         // Trim extra whitespaces from move.
         /* let parsedMove = move.trim();
@@ -101,7 +101,7 @@ module.exports = {
         escapedMoves = escapedMoves.trimEnd();*/
         // If move not found, exit.
         if (data[character].hasOwnProperty(escapedMoves) === false) {
-          return interaction.reply('Could not find specified move: ' + move + '. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1yBxwJEmzGDqsH2Gy5bitwVe2NGQvXRIkwUP0_SmskFU) for available data.');
+          return interaction.reply('Could not find specified move: ' + move + '. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for available data.');
         }
         let moveData = data[character][escapedMoves];
         const startup = (moveData['Startup (F)'] !== null) ? moveData['Startup (F)'].toString() : '-';
@@ -121,7 +121,7 @@ module.exports = {
           .setColor('#0x1a2c78')
           .setTitle(character)
           .setURL('https://dreamcancel.com/wiki/index.php/The_King_of_Fighters_2002_UM/' + link)
-          .setAuthor({ name: escapedMoves, iconURL: 'https://pbs.twimg.com/profile_images/1150082025673625600/m1VyNZtc_400x400.png', url: 'https://docs.google.com/spreadsheets/d/1yBxwJEmzGDqsH2Gy5bitwVe2NGQvXRIkwUP0_SmskFU' })
+          .setAuthor({ name: escapedMoves, iconURL: 'https://pbs.twimg.com/profile_images/1150082025673625600/m1VyNZtc_400x400.png', url: 'https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4' })
           // .setDescription('Move input')
           .setThumbnail('https://dreamcancel.com/wiki/index.php/File:02UM_' + character + '_Profile.png')
           .addFields(
