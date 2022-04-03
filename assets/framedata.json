@@ -1,5 +1,85 @@
 {
   "Andy": {
+    "Crouch Height:": {
+      "Startup (F)": "Low (Middle in block)",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": "4/36/1",
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": "4/27/1",
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": "3",
+      "Active (F)": 9,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active. Fastest backdash in the game."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "30f (+4F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "29f (+6F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "5 / 5",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 3,
       "Active (F)": null,
@@ -502,6 +582,86 @@
     }
   },
   "Angel": {
+    "Crouch Height:": {
+      "Startup (F)": "Low (Middle in block)",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 31,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 23,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 4,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": "4",
+      "Active (F)": 12,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "20f (-6F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "18f (-5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "13 / 26",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -854,6 +1014,86 @@
     }
   },
   "Athena": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 41,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 31,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 2,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 16,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "15f (-11F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "23f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "2020-08-11T07:00:00.000Z",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 6,
       "Active (F)": null,
@@ -1176,6 +1416,86 @@
     }
   },
   "Bao": {
+    "Crouch Height:": {
+      "Startup (F)": "Lowest",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Thinnest and smallest hurtbox in the game"
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 38,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 29,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 13,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "30f (+4F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "29f (+6F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "11 / 8",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 5,
       "Active (F)": 4,
@@ -1648,6 +1968,86 @@
     }
   },
   "Benimaru": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 35,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 27,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 4,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 4,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "32f (+6F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "27f (+4F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "2020-04-18T07:00:00.000Z",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -1930,6 +2330,86 @@
     }
   },
   "Billy": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 35,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 26,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "31f (+5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "25f (+2F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "28 / 28",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 7,
       "Active (F)": null,
@@ -2232,6 +2712,86 @@
     }
   },
   "Blue Mary": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 32,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 24,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": "3",
+      "Active (F)": 17,
+      "Recovery (F)": 4,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "21f (-5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "31f (+8F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "9 / 3",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 3,
       "Active (F)": null,
@@ -2524,6 +3084,86 @@
     }
   },
   "Chang": {
+    "Crouch Height:": {
+      "Startup (F)": "Highest",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Sole highest croucher in the game"
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 30,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 23,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 22,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "20f (-3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "31 / 34",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Slowest char in the game"
+    },
     "Close A": {
       "Startup (F)": 6,
       "Active (F)": null,
@@ -2796,6 +3436,86 @@
     }
   },
   "Chin": {
+    "Crouch Height:": {
+      "Startup (F)": "Lowest",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 34,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 26,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 26,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "29f (+3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "24f (+1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "29 / 33",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 6,
       "Active (F)": null,
@@ -3188,6 +3908,86 @@
     }
   },
   "Choi": {
+    "Crouch Height:": {
+      "Startup (F)": "Lowest",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 40,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 30,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 16,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "30f (+7F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "2020-02-02T08:00:00.000Z",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -3490,6 +4290,86 @@
     }
   },
   "Chris": {
+    "Crouch Height:": {
+      "Startup (F)": "Slightly taller than Low (Slighty Shorter than Low in block)",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Lowest during run"
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 29,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 22,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 21,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "29f (+3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "20f (-3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "20 / 6",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 5,
       "Active (F)": null,
@@ -3822,6 +4702,86 @@
     }
   },
   "Orochi Chris": {
+    "Crouch Height:": {
+      "Startup (F)": "Slightly taller than Low (Slighty Shorter than Low in block)",
+      "Active (F)": "Lowest during run",
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 29,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 22,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 21,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "29f (+3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "20f (-3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "20 / 6",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 5,
       "Active (F)": null,
@@ -4104,6 +5064,86 @@
     }
   },
   "Clark": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 31,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 24,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "25f (-1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "24f (+1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "26 / 24",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 5,
       "Active (F)": null,
@@ -4366,6 +5406,86 @@
     }
   },
   "Daimon": {
+    "Crouch Height:": {
+      "Startup (F)": "High",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 34,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 26,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "25f (-1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (+3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "30 / 32",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 5,
       "Active (F)": null,
@@ -4638,6 +5758,86 @@
     }
   },
   "Foxy": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 31,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 23,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": "3",
+      "Active (F)": 12,
+      "Recovery (F)": 6,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "21f (-5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "25f (+2F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "13 / 12",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 6,
       "Active (F)": null,
@@ -4940,6 +6140,86 @@
     }
   },
   "Heidern": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 32,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 24,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 4,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 4,
+      "Active (F)": 15,
+      "Recovery (F)": 4,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "29f (+3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "28f (+5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "3 / 22",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -5202,6 +6482,86 @@
     }
   },
   "Hinako": {
+    "Crouch Height:": {
+      "Startup (F)": "Low (Slightly shorter than High in block)",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Tends to behave like High crouchers on block"
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 34,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 26,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "21f (-5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "28f (+5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "29 / 29",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -5564,6 +6924,86 @@
     }
   },
   "Iori": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 29,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 22,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 4,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 16,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "28f (+2F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "24f (+1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "7 / 23",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 5,
       "Active (F)": null,
@@ -5916,6 +7356,86 @@
     }
   },
   "Jhun": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 33,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 25,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": "3",
+      "Active (F)": 12,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "32f (+6F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "28f (+5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "9 / 13",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -6278,6 +7798,86 @@
     }
   },
   "Joe": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 36,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 28,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 21,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "20f (-6F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "25f (+2F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "12 / 21",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -6640,6 +8240,86 @@
     }
   },
   "K": {
+    "Crouch Height:": {
+      "Startup (F)": "Low (Middle in block)",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 31,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 23,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 4,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": "4",
+      "Active (F)": 12,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "23f (-3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "23f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "13 / 12",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -7142,6 +8822,86 @@
     }
   },
   "Kasumi": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 33,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 25,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": "3",
+      "Active (F)": 11,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "20f (-6F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "18f (-5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "24 / 18",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 5,
       "Active (F)": null,
@@ -7474,6 +9234,86 @@
     }
   },
   "Kensou": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 38,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 29,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "25f (-1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "28f (+5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "8 / 9",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 6,
       "Active (F)": null,
@@ -7776,6 +9616,86 @@
     }
   },
   "EX Kensou": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 38,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 29,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "25f (-1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "28f (+5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "8 / 9",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 6,
       "Active (F)": null,
@@ -8118,6 +10038,86 @@
     }
   },
   "Kim": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 33,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 25,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 19,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "21f (-5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "28f (+5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "9 / 13",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 5,
       "Active (F)": null,
@@ -8480,6 +10480,86 @@
     }
   },
   "King": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 34,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 26,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": "3",
+      "Active (F)": 12,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "25f (+2F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "14 / 11",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 6,
       "Active (F)": null,
@@ -8792,6 +10872,86 @@
     }
   },
   "Kula": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 32,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 24,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 14,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "19f (-7F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "25f (+2F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "9 / 7",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 6,
       "Active (F)": null,
@@ -9084,6 +11244,86 @@
     }
   },
   "Kusanagi": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 31,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 23,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 15,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "23f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "13 / 12",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -9396,6 +11636,86 @@
     }
   },
   "Kyo": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 31,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 23,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 15,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "23f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "13 / 12",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 5,
       "Active (F)": null,
@@ -9878,6 +12198,86 @@
     }
   },
   "Kyo-1": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 31,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 23,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 15,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "23f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "13 / 12",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 3,
       "Active (F)": null,
@@ -10180,6 +12580,86 @@
     }
   },
   "Kyo-2": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 31,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 23,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 15,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "23f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "13 / 12",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -10542,6 +13022,86 @@
     }
   },
   "Leona": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "O.Leona has the lowest hurtbox in the game when running"
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": "35 (Orochi: 23)",
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration. O.Leona has the lowest and fastest jumps in the game."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": "27 (Orochi: 18)",
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration. O.Leona has the lowest and fastest hops in the game."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": "3",
+      "Active (F)": 10,
+      "Recovery (F)": 5,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "28f (+2F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "22f (-1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "5 / 13 (Orochi: 1 / 1)",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "O.Leona is the sole fastest character in the game"
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -10844,6 +13404,86 @@
     }
   },
   "Lin": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 32,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 24,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": "3",
+      "Active (F)": 10,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "24f (-2F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "31f (+8F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "17 / 27",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 3,
       "Active (F)": null,
@@ -11186,6 +13826,86 @@
     }
   },
   "Mai": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 35,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 27,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 16,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "21f (-5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "20f (-3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "4 / 3",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 5,
       "Active (F)": null,
@@ -11578,6 +14298,86 @@
     }
   },
   "Mature": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 32,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 24,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 4,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "21f (-5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "24f (+1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "10 / 11",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 3,
       "Active (F)": null,
@@ -11930,6 +14730,86 @@
     }
   },
   "Maxima": {
+    "Crouch height:": {
+      "Startup (F)": "High",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 36,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 27,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 4,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": "4",
+      "Active (F)": 11,
+      "Recovery (F)": 5,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": "0",
+      "Active (F)": "36f (+10F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering. Slowest wake-up in the game."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "18f (-5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "27 / 31",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 5,
       "Active (F)": null,
@@ -12272,6 +15152,86 @@
     }
   },
   "May Lee(Normal)": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 37,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 28,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": "3",
+      "Active (F)": 12,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "25f (-1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "32f (+9F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln. Slowest recovery roll in the game."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "13 / 12",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -12514,6 +15474,86 @@
     }
   },
   "May Lee(Hero)": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 37,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 28,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": "3",
+      "Active (F)": 12,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "25f (-1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "32f (+9F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln. Slowest recovery roll in the game."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "13 / 12",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": "1st Hit = 4 / 2nd Hit = 11",
       "Active (F)": null,
@@ -12766,6 +15806,86 @@
     }
   },
   "Nameless": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 31,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 23,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 13,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "23f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "13 / 30",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -13038,6 +16158,86 @@
     }
   },
   "Ralf": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 32,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 24,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 4,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 4,
+      "Active (F)": 18,
+      "Recovery (F)": 4,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "13f (-13F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering. Fastest wake-up in the game."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "24f (+1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "17 / 27",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 3,
       "Active (F)": null,
@@ -13330,6 +16530,86 @@
     }
   },
   "Ramon": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 35,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 27,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 15,
+      "Recovery (F)": 4,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "32f (+6F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "24f (+1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "5 / 13",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 2,
       "Active (F)": null,
@@ -13622,6 +16902,86 @@
     }
   },
   "Robert": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 34,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 26,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "20f (-6F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "27f (+4F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "14 / 15",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 7,
       "Active (F)": null,
@@ -13944,6 +17304,86 @@
     }
   },
   "EX Robert": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 34,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 26,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "20f (-6F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "27f (+4F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "14 / 15",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 7,
       "Active (F)": null,
@@ -14286,6 +17726,86 @@
     }
   },
   "Ryo": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 31,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 24,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 14,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "21f (-5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (+3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "22 / 17",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -14618,6 +18138,86 @@
     }
   },
   "Seth": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 34,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 26,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 15,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "29f (+6F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "19 / 16",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 5,
       "Active (F)": null,
@@ -14990,6 +18590,86 @@
     }
   },
   "Shermie": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 32,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 24,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "31f (+5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "22f (-1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "9 / 19",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 6,
       "Active (F)": null,
@@ -15302,6 +18982,86 @@
     }
   },
   "Orochi Shermie": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 32,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 24,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "31f (+5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "22f (-1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "9 / 19",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 6,
       "Active (F)": null,
@@ -15664,6 +19424,86 @@
     }
   },
   "Shingo": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 34,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 26,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "23f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "19 / 17",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -15996,6 +19836,86 @@
     }
   },
   "Takuma": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 31,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 24,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 2,
+      "Active (F)": 14,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "23f (-3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (+3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "23 / 20",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -16288,6 +20208,86 @@
     }
   },
   "EX Takuma": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 31,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 24,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 2,
+      "Active (F)": 14,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "23f (-3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (+3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "23 / 20",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -16640,6 +20640,86 @@
     }
   },
   "Terry": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 34,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 26,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "25f (-1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "28f (+5F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "15 / 10",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -17042,6 +21122,86 @@
     }
   },
   "Vanessa": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 34,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 26,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": "3",
+      "Active (F)": 10,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "25f (-1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "27f (+4F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "16 / 7",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 6,
       "Active (F)": null,
@@ -17374,6 +21534,86 @@
     }
   },
   "Vice": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 35,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 27,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 19,
+      "Recovery (F)": 4,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "24f (+1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "25 / 23",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 3,
       "Active (F)": null,
@@ -17646,6 +21886,86 @@
     }
   },
   "Whip": {
+    "Crouch Height:": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 32,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 24,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 14,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "17f (-9F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "21f (-2F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "9 / 22",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 6,
       "Active (F)": null,
@@ -17968,6 +22288,86 @@
     }
   },
   "Xiangfei": {
+    "Crouch Height:": {
+      "Startup (F)": "Slightly shorter than Middle (Lowest in block)",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Thinnest and smallest hurtbox in the game when blocking"
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 32,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 24,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 13,
+      "Recovery (F)": 5,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "30f (+4F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "16f (-7F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln. Fastest recovery roll in the game."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "10 / 11",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 5,
       "Active (F)": null,
@@ -18330,6 +22730,86 @@
     }
   },
   "Yamazaki": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 32,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 24,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "19f (-7F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "27f (+4F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "21 / 25",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -18692,6 +23172,86 @@
     }
   },
   "Yashiro": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 29,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 22,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 4,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 16,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "24f (-2F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "27f (+4F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "6 / 14",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -19034,6 +23594,86 @@
     }
   },
   "Orochi Yashiro": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 29,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 22,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 4,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 16,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "24f (-2F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "27f (+4F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "6 / 14",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
@@ -19296,6 +23936,86 @@
     }
   },
   "Yuri": {
+    "Crouch Height:": {
+      "Startup (F)": "Low",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Jump:": {
+      "Startup (F)": 4,
+      "Active (F)": 34,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Hop:": {
+      "Startup (F)": 4,
+      "Active (F)": 26,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration."
+    },
+    "Run:": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
+    "Backdash:": {
+      "Startup (F)": 3,
+      "Active (F)": 13,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Airborne while active."
+    },
+    "Wake-up:": {
+      "Startup (F)": 0,
+      "Active (F)": "13f (-13F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering. Fastest wake-up in the game."
+    },
+    "Recovery roll:": {
+      "Startup (F)": 0,
+      "Active (F)": "23f (0F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln."
+    },
+    "Run / Walk rank:": {
+      "Startup (F)": "16 / 7",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Image": null,
+      "Damage": null,
+      "Notes": null
+    },
     "Close A": {
       "Startup (F)": 4,
       "Active (F)": null,
