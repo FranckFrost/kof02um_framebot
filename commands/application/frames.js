@@ -15,7 +15,7 @@ module.exports = {
     .addStringOption(move =>
   		move.setName('move')
         .setAutocomplete(true)
-  			.setDescription('The move name and input.')
+  			.setDescription('The move name or input.')
   			.setRequired(true)),
   async execute(interaction) {
     const char = interaction.options.getString('character');
