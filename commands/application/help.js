@@ -9,7 +9,7 @@ module.exports = {
     const embed = new MessageEmbed()
           .setColor('#0x1a2c78')
           .setTitle('Need Help?')
-          .setAuthor({ name: 'KOF02UM FrameBot', iconURL: 'https://cdn.discordapp.com/icons/630700639382405120/2f0abc591122b2bd038650bee6868faa.png', url: 'https://discord.gg/8JNXHxf' })
+          .setAuthor({ name: 'KOF02UM FrameBot', iconURL: 'https://cdn.discordapp.com/icons/630700639382405120/2f0abc591122b2bd038650bee6868faa.webp?size=240', url: 'https://discord.gg/8JNXHxf' })
           .addFields(
             { name: 'Getting started', value: 'The bot provides a "move per command" response where you get to ask for information of a certain move of a certain character individually per request. The bot uses autocomplete, so please keep typing to filter the results to your needs. The bot has a **/frames** slash command which accept 2 arguments:', inline: false },
             { name: '\u200B', value: '\u200B' },
