@@ -53,7 +53,6 @@ client.on('interactionCreate', async autocomplete => {
     }
     // 
     const character = autocomplete.options.getString('character')
-    // console.log(character)
     // If move is focused 
     if (currentName === "move" && character !== "") {
       // currentValue = autocomplete.options.getFocused()
@@ -88,22 +87,6 @@ client.on('interactionCreate', async autocomplete => {
 client.on('interactionCreate', async interaction => {
   if (!interaction.isCommand()) return;
 
- //  if (!interaction.isAutocomplete()) return;
-	// if (interaction.commandName === 'frames' || interaction.commandName === 'embed') {
-	// 	let currentValue = interaction.options.getFocused();
- //    const options = [];
- //    characters.forEach((character) => {
- //      if (character.includes(currentValue.charAt(0).toUpperCase())) {
- //        let charObj = {}
- //        charObj["name"] = character;
- //        charObj["value"] = character;
- //        if (options.length < 25) {
- //          options.push(charObj);
- //        }
- //      }
- //    })
-	// 	interaction.respond(options);
- //  } 
   const command = client.commands.get(interaction.commandName);
 
   if (!command) return;
