@@ -101,7 +101,7 @@ module.exports = {
         escapedMoves = escapedMoves.trimEnd();*/
         // If move not found, exit.
         if (data[character].hasOwnProperty(escapedMoves) === false) {
-          return interaction.reply('Could not find specified move: ' + move + '. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for available data.');
+          return interaction.reply('Could not find specified move: ' + move + 'for ' + character + '. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for available data.');
         }
         let moveData = data[character][escapedMoves];
         const startup = (moveData['Startup (F)'] !== null) ? moveData['Startup (F)'].toString() : '-';
@@ -138,7 +138,7 @@ module.exports = {
             // { name: 'Inline field title', value: 'Some value here', inline: true },
           )
           .setFooter({ text: 'Got feedback? Join the 02UM server: discord.gg/8JNXHxf', iconURL: 'https://cdn.iconscout.com/icon/free/png-128/discord-3-569463.png' });
-          (moveData['Image'] !== null) ? embed.setImage(moveData['Image']) : embed.addField('No image was found for this move', 'Feel free to share one with the [developers](https://github.com/FranckFrost/kof02um_framebot/issues) if you have one.', true);
+          (moveData['Image'] !== null) ? embed.setImage(moveData['Image']) : embed.addField('No image was found for this move', 'Feel free to share with the [developers](https://github.com/FranckFrost/kof02um_framebot/issues) if you have one.', true);
         return interaction.reply({embeds: [embed]});
       } catch (err) {
         console.log("Error parsing JSON string:", err);
