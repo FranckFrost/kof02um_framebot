@@ -1,7 +1,7 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const fs = require('fs');
 const { MessageEmbed } = require('discord.js');
-//const { MessageEmbedVideo } = require('discord.js');
+const { MessageEmbedVideo } = require('discord.js');
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -118,6 +118,7 @@ module.exports = {
         const link = this.getCharacterLink(character);
         const img = this.getCharacterImg(character);
         // console.log(charNo);
+        const embeds = [];
         const embed = new MessageEmbed()
           .setColor('#0x1a2c78')
           .setTitle(character)
@@ -138,8 +139,45 @@ module.exports = {
             // { name: 'Inline field title', value: 'Some value here', inline: true },
           )
           .setFooter({ text: 'Got feedback? Join the 02UM server: discord.gg/8JNXHxf', iconURL: 'https://cdn.iconscout.com/icon/free/png-128/discord-3-569463.png' });
-          (moveData['Image'] !== null) ? embed.setImage(moveData['Image']) : embed.addField('No image was found for this move', 'Feel free to share with the [developers](https://github.com/FranckFrost/kof02um_framebot/issues) if you have one.', true);
-        return interaction.reply({embeds: [embed]});
+          (moveData['Image'] != null) ? embed.setImage(moveData['Image']) : embed.addField('No image was found for this move', 'Feel free to share with the [developers](https://github.com/FranckFrost/kof02um_framebot/issues) if you have one.', true);
+        embeds.push(embed);
+        if (moveData['Image1'] != null) {
+          const embed1 = new MessageEmbed().setImage(moveData['Image1']);
+          embeds.push(embed1);
+        }
+        if (moveData['Image2'] != null) {
+          const embed2 = new MessageEmbed().setImage(moveData['Image2']);
+          embeds.push(embed2);
+        }
+        if (moveData['Image3'] != null) {
+          const embed3 = new MessageEmbed().setImage(moveData['Image3']);
+          embeds.push(embed3);
+        }
+        if (moveData['Image4'] != null) {
+          const embed4 = new MessageEmbed().setImage(moveData['Image4']);
+          embeds.push(embed4);
+        }
+        if (moveData['Image5'] != null) {
+          const embed5 = new MessageEmbed().setImage(moveData['Image5']);
+          embeds.push(embed5);
+        }
+        if (moveData['Image6'] != null) {
+          const embed6 = new MessageEmbed().setImage(moveData['Image6']);
+          embeds.push(embed6);
+        }
+        if (moveData['Image7'] != null) {
+          const embed7 = new MessageEmbed().setImage(moveData['Image7']);
+          embeds.push(embed7);
+        }
+        if (moveData['Image8'] != null) {
+          const embed8 = new MessageEmbed().setImage(moveData['Image8']);
+          embeds.push(embed8);
+        }
+        if (moveData['Image9'] != null) {
+          const embed9 = new MessageEmbed().setImage(moveData['Image9']);
+          embeds.push(embed9);
+        } //10 embeds max per message
+        return interaction.reply({embeds: embeds});
       } catch (err) {
         console.log("Error parsing JSON string:", err);
         return interaction.reply('There was an error while processing your request, if the problem persists, contact the bot developers. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) to look for the data.');
