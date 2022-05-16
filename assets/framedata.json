@@ -1,6 +1,25 @@
 {
   "Andy": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low (Middle in block)",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -19,7 +38,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": "4/36/1",
       "Recovery (F)": 1,
@@ -38,7 +57,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": "4/27/1",
       "Recovery (F)": 1,
@@ -57,7 +76,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -76,7 +95,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": "3",
       "Active (F)": 9,
       "Recovery (F)": 3,
@@ -95,7 +114,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "30f (+4F)",
       "Recovery (F)": 0,
@@ -114,7 +133,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "29f (+6F)",
       "Recovery (F)": 0,
@@ -133,7 +152,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "5 / 5",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -1104,7 +1123,26 @@
     }
   },
   "Angel": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low (Middle in block)",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -1123,7 +1161,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 31,
       "Recovery (F)": 1,
@@ -1142,7 +1180,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 23,
       "Recovery (F)": 1,
@@ -1161,7 +1199,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 4,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 3,
@@ -1180,7 +1218,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": "4",
       "Active (F)": 12,
       "Recovery (F)": 3,
@@ -1199,7 +1237,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "20f (-6F)",
       "Recovery (F)": 0,
@@ -1218,7 +1256,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "18f (-5F)",
       "Recovery (F)": 0,
@@ -1237,7 +1275,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "13 / 26",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -1923,7 +1961,26 @@
     }
   },
   "Athena": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -1942,7 +1999,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 41,
       "Recovery (F)": 1,
@@ -1961,7 +2018,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 31,
       "Recovery (F)": 1,
@@ -1980,7 +2037,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 2,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 1,
@@ -1999,7 +2056,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 16,
       "Recovery (F)": 3,
@@ -2018,7 +2075,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "15f (-11F)",
       "Recovery (F)": 0,
@@ -2037,7 +2094,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "23f (0F)",
       "Recovery (F)": 0,
@@ -2056,7 +2113,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "2020-08-11T07:00:00.000Z",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -2685,7 +2742,26 @@
     }
   },
   "Bao": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Lowest",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -2704,7 +2780,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 38,
       "Recovery (F)": 1,
@@ -2723,7 +2799,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 29,
       "Recovery (F)": 1,
@@ -2742,7 +2818,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -2761,7 +2837,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 13,
       "Recovery (F)": 3,
@@ -2780,7 +2856,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "30f (+4F)",
       "Recovery (F)": 0,
@@ -2799,7 +2875,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "29f (+6F)",
       "Recovery (F)": 0,
@@ -2818,7 +2894,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "11 / 8",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -3732,7 +3808,26 @@
     }
   },
   "Benimaru": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -3751,7 +3846,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 35,
       "Recovery (F)": 1,
@@ -3770,7 +3865,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 27,
       "Recovery (F)": 1,
@@ -3789,7 +3884,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 4,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 3,
@@ -3808,7 +3903,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 18,
       "Recovery (F)": 4,
@@ -3827,7 +3922,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "32f (+6F)",
       "Recovery (F)": 0,
@@ -3846,7 +3941,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "27f (+4F)",
       "Recovery (F)": 0,
@@ -3865,7 +3960,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "2020-04-18T07:00:00.000Z",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -4418,7 +4513,26 @@
     }
   },
   "Billy": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -4437,7 +4551,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 35,
       "Recovery (F)": 1,
@@ -4456,7 +4570,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 26,
       "Recovery (F)": 1,
@@ -4475,7 +4589,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -4494,7 +4608,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 18,
       "Recovery (F)": 3,
@@ -4513,7 +4627,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "31f (+5F)",
       "Recovery (F)": 0,
@@ -4532,7 +4646,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "25f (+2F)",
       "Recovery (F)": 0,
@@ -4551,7 +4665,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "28 / 28",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -5142,7 +5256,26 @@
     }
   },
   "Blue Mary": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -5161,7 +5294,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 32,
       "Recovery (F)": 1,
@@ -5180,7 +5313,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 24,
       "Recovery (F)": 1,
@@ -5199,7 +5332,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -5218,7 +5351,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": "3",
       "Active (F)": 17,
       "Recovery (F)": 4,
@@ -5237,7 +5370,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "21f (-5F)",
       "Recovery (F)": 0,
@@ -5256,7 +5389,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "31f (+8F)",
       "Recovery (F)": 0,
@@ -5275,7 +5408,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "9 / 3",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -5847,7 +5980,26 @@
     }
   },
   "Chang": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Highest",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -5866,7 +6018,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 30,
       "Recovery (F)": 1,
@@ -5885,7 +6037,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 23,
       "Recovery (F)": 1,
@@ -5904,7 +6056,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -5923,7 +6075,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 22,
       "Recovery (F)": 3,
@@ -5942,7 +6094,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "26f (0F)",
       "Recovery (F)": 0,
@@ -5961,7 +6113,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "20f (-3F)",
       "Recovery (F)": 0,
@@ -5980,7 +6132,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "31 / 34",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -6514,7 +6666,26 @@
     }
   },
   "Chin": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Lowest",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -6533,7 +6704,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 34,
       "Recovery (F)": 1,
@@ -6552,7 +6723,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 26,
       "Recovery (F)": 1,
@@ -6571,7 +6742,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -6590,7 +6761,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 26,
       "Recovery (F)": 3,
@@ -6609,7 +6780,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "29f (+3F)",
       "Recovery (F)": 0,
@@ -6628,7 +6799,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "24f (+1F)",
       "Recovery (F)": 0,
@@ -6647,7 +6818,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "29 / 33",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -7409,7 +7580,26 @@
     }
   },
   "Choi": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Lowest",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -7428,7 +7618,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 40,
       "Recovery (F)": 1,
@@ -7447,7 +7637,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 30,
       "Recovery (F)": 1,
@@ -7466,7 +7656,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 3,
@@ -7485,7 +7675,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 16,
       "Recovery (F)": 3,
@@ -7504,7 +7694,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "26f (0F)",
       "Recovery (F)": 0,
@@ -7523,7 +7713,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "30f (+7F)",
       "Recovery (F)": 0,
@@ -7542,7 +7732,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "2020-02-02T08:00:00.000Z",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -8133,7 +8323,26 @@
     }
   },
   "Chris": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Slightly taller than Low (Slighty Shorter than Low in block)",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -8152,7 +8361,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 29,
       "Recovery (F)": 1,
@@ -8171,7 +8380,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 22,
       "Recovery (F)": 1,
@@ -8190,7 +8399,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -8209,7 +8418,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 21,
       "Recovery (F)": 3,
@@ -8228,7 +8437,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "29f (+3F)",
       "Recovery (F)": 0,
@@ -8247,7 +8456,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "20f (-3F)",
       "Recovery (F)": 0,
@@ -8266,7 +8475,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "20 / 6",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -8914,7 +9123,26 @@
     }
   },
   "Orochi Chris": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Slightly taller than Low (Slighty Shorter than Low in block)",
       "Active (F)": "Lowest during run",
       "Recovery (F)": null,
@@ -8933,7 +9161,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 29,
       "Recovery (F)": 1,
@@ -8952,7 +9180,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 22,
       "Recovery (F)": 1,
@@ -8971,7 +9199,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -8990,7 +9218,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 21,
       "Recovery (F)": 3,
@@ -9009,7 +9237,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "29f (+3F)",
       "Recovery (F)": 0,
@@ -9028,7 +9256,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "20f (-3F)",
       "Recovery (F)": 0,
@@ -9047,7 +9275,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "20 / 6",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9600,7 +9828,26 @@
     }
   },
   "Clark": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9619,7 +9866,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 31,
       "Recovery (F)": 1,
@@ -9638,7 +9885,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 24,
       "Recovery (F)": 1,
@@ -9657,7 +9904,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -9676,7 +9923,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 18,
       "Recovery (F)": 3,
@@ -9695,7 +9942,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "25f (-1F)",
       "Recovery (F)": 0,
@@ -9714,7 +9961,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "24f (+1F)",
       "Recovery (F)": 0,
@@ -9733,7 +9980,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "26 / 24",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -10248,7 +10495,26 @@
     }
   },
   "Daimon": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "High",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -10267,7 +10533,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 34,
       "Recovery (F)": 1,
@@ -10286,7 +10552,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 26,
       "Recovery (F)": 1,
@@ -10305,7 +10571,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -10324,7 +10590,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 18,
       "Recovery (F)": 3,
@@ -10343,7 +10609,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "25f (-1F)",
       "Recovery (F)": 0,
@@ -10362,7 +10628,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "26f (+3F)",
       "Recovery (F)": 0,
@@ -10381,7 +10647,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "30 / 32",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -10915,7 +11181,26 @@
     }
   },
   "Foxy": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -10934,7 +11219,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 31,
       "Recovery (F)": 1,
@@ -10953,7 +11238,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 23,
       "Recovery (F)": 1,
@@ -10972,7 +11257,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -10991,7 +11276,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": "3",
       "Active (F)": 12,
       "Recovery (F)": 6,
@@ -11010,7 +11295,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "21f (-5F)",
       "Recovery (F)": 0,
@@ -11029,7 +11314,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "25f (+2F)",
       "Recovery (F)": 0,
@@ -11048,7 +11333,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "13 / 12",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -11639,7 +11924,26 @@
     }
   },
   "Heidern": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -11658,7 +11962,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 32,
       "Recovery (F)": 1,
@@ -11677,7 +11981,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 24,
       "Recovery (F)": 1,
@@ -11696,7 +12000,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 4,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 3,
@@ -11715,7 +12019,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 4,
       "Active (F)": 15,
       "Recovery (F)": 4,
@@ -11734,7 +12038,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "29f (+3F)",
       "Recovery (F)": 0,
@@ -11753,7 +12057,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "28f (+5F)",
       "Recovery (F)": 0,
@@ -11772,7 +12076,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "3 / 22",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -12287,7 +12591,26 @@
     }
   },
   "Hinako": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low (Slightly shorter than High in block)",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -12306,7 +12629,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 34,
       "Recovery (F)": 1,
@@ -12325,7 +12648,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 26,
       "Recovery (F)": 1,
@@ -12344,7 +12667,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -12363,7 +12686,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 18,
       "Recovery (F)": 3,
@@ -12382,7 +12705,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "21f (-5F)",
       "Recovery (F)": 0,
@@ -12401,7 +12724,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "28f (+5F)",
       "Recovery (F)": 0,
@@ -12420,7 +12743,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "29 / 29",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -13125,7 +13448,26 @@
     }
   },
   "Iori": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -13144,7 +13486,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 29,
       "Recovery (F)": 1,
@@ -13163,7 +13505,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 22,
       "Recovery (F)": 1,
@@ -13182,7 +13524,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 4,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 3,
@@ -13201,7 +13543,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 16,
       "Recovery (F)": 3,
@@ -13220,7 +13562,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "28f (+2F)",
       "Recovery (F)": 0,
@@ -13239,7 +13581,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "24f (+1F)",
       "Recovery (F)": 0,
@@ -13258,7 +13600,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "7 / 23",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -13944,7 +14286,26 @@
     }
   },
   "Jhun": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -13963,7 +14324,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 33,
       "Recovery (F)": 1,
@@ -13982,7 +14343,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 25,
       "Recovery (F)": 1,
@@ -14001,7 +14362,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -14020,7 +14381,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": "3",
       "Active (F)": 12,
       "Recovery (F)": 3,
@@ -14039,7 +14400,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "32f (+6F)",
       "Recovery (F)": 0,
@@ -14058,7 +14419,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "28f (+5F)",
       "Recovery (F)": 0,
@@ -14077,7 +14438,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "9 / 13",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -14782,7 +15143,26 @@
     }
   },
   "Joe": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -14801,7 +15181,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 36,
       "Recovery (F)": 1,
@@ -14820,7 +15200,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 28,
       "Recovery (F)": 1,
@@ -14839,7 +15219,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -14858,7 +15238,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 21,
       "Recovery (F)": 3,
@@ -14877,7 +15257,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "20f (-6F)",
       "Recovery (F)": 0,
@@ -14896,7 +15276,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "25f (+2F)",
       "Recovery (F)": 0,
@@ -14915,7 +15295,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "12 / 21",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -15620,7 +16000,26 @@
     }
   },
   "K": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low (Middle in block)",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -15639,7 +16038,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 31,
       "Recovery (F)": 1,
@@ -15658,7 +16057,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 23,
       "Recovery (F)": 1,
@@ -15677,7 +16076,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 4,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -15696,7 +16095,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": "4",
       "Active (F)": 12,
       "Recovery (F)": 3,
@@ -15715,7 +16114,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "23f (-3F)",
       "Recovery (F)": 0,
@@ -15734,7 +16133,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "23f (0F)",
       "Recovery (F)": 0,
@@ -15753,7 +16152,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "13 / 12",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -16724,7 +17123,26 @@
     }
   },
   "Kasumi": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -16743,7 +17161,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 33,
       "Recovery (F)": 1,
@@ -16762,7 +17180,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 25,
       "Recovery (F)": 1,
@@ -16781,7 +17199,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 3,
@@ -16800,7 +17218,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": "3",
       "Active (F)": 11,
       "Recovery (F)": 3,
@@ -16819,7 +17237,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "20f (-6F)",
       "Recovery (F)": 0,
@@ -16838,7 +17256,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "18f (-5F)",
       "Recovery (F)": 0,
@@ -16857,7 +17275,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "24 / 18",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -17505,7 +17923,26 @@
     }
   },
   "Kensou": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -17524,7 +17961,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 38,
       "Recovery (F)": 1,
@@ -17543,7 +17980,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 29,
       "Recovery (F)": 1,
@@ -17562,7 +17999,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -17581,7 +18018,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 18,
       "Recovery (F)": 3,
@@ -17600,7 +18037,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "25f (-1F)",
       "Recovery (F)": 0,
@@ -17619,7 +18056,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "28f (+5F)",
       "Recovery (F)": 0,
@@ -17638,7 +18075,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "8 / 9",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -18229,7 +18666,26 @@
     }
   },
   "EX Kensou": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -18248,7 +18704,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 38,
       "Recovery (F)": 1,
@@ -18267,7 +18723,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 29,
       "Recovery (F)": 1,
@@ -18286,7 +18742,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -18305,7 +18761,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 18,
       "Recovery (F)": 3,
@@ -18324,7 +18780,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "25f (-1F)",
       "Recovery (F)": 0,
@@ -18343,7 +18799,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "28f (+5F)",
       "Recovery (F)": 0,
@@ -18362,7 +18818,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "8 / 9",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -19029,7 +19485,26 @@
     }
   },
   "Kim": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -19048,7 +19523,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 33,
       "Recovery (F)": 1,
@@ -19067,7 +19542,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 25,
       "Recovery (F)": 1,
@@ -19086,7 +19561,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -19105,7 +19580,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 19,
       "Recovery (F)": 3,
@@ -19124,7 +19599,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "21f (-5F)",
       "Recovery (F)": 0,
@@ -19143,7 +19618,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "28f (+5F)",
       "Recovery (F)": 0,
@@ -19162,7 +19637,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "9 / 13",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -19867,7 +20342,26 @@
     }
   },
   "King": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -19886,7 +20380,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 34,
       "Recovery (F)": 1,
@@ -19905,7 +20399,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 26,
       "Recovery (F)": 1,
@@ -19924,7 +20418,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -19943,7 +20437,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": "3",
       "Active (F)": 12,
       "Recovery (F)": 3,
@@ -19962,7 +20456,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "26f (0F)",
       "Recovery (F)": 0,
@@ -19981,7 +20475,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "25f (+2F)",
       "Recovery (F)": 0,
@@ -20000,7 +20494,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "14 / 11",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -20610,7 +21104,26 @@
     }
   },
   "Kula": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -20629,7 +21142,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 32,
       "Recovery (F)": 1,
@@ -20648,7 +21161,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 24,
       "Recovery (F)": 1,
@@ -20667,7 +21180,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -20686,7 +21199,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 14,
       "Recovery (F)": 3,
@@ -20705,7 +21218,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "19f (-7F)",
       "Recovery (F)": 0,
@@ -20724,7 +21237,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "25f (+2F)",
       "Recovery (F)": 0,
@@ -20743,7 +21256,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "9 / 7",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -21315,7 +21828,26 @@
     }
   },
   "Kusanagi": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -21334,7 +21866,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 31,
       "Recovery (F)": 1,
@@ -21353,7 +21885,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 23,
       "Recovery (F)": 1,
@@ -21372,7 +21904,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -21391,7 +21923,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 15,
       "Recovery (F)": 3,
@@ -21410,7 +21942,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "26f (0F)",
       "Recovery (F)": 0,
@@ -21429,7 +21961,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "23f (0F)",
       "Recovery (F)": 0,
@@ -21448,7 +21980,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "13 / 12",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -22058,7 +22590,7 @@
     }
   },
   "Kyo": {
-    "Crouch Height:": {
+    "Idle": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -22066,7 +22598,26 @@
       "On Guard (F)": null,
       "Damage": null,
       "Notes": null,
-      "Image": "https://imgur.com/5C6DU4l.png",
+      "Image": "https://imgur.com/kKR43gv.gif",
+      "Image1": "https://imgur.com/OJkN99y.gif",
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
+      "Startup (F)": "Middle",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": "https://imgur.com/9jXUmaw.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22077,7 +22628,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 31,
       "Recovery (F)": 1,
@@ -22085,7 +22636,7 @@
       "On Guard (F)": null,
       "Damage": null,
       "Notes": "Unthrowable for the entire duration.",
-      "Image": null,
+      "Image": "https://imgur.com/8k6ISQB.gif",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22096,7 +22647,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 23,
       "Recovery (F)": 1,
@@ -22104,7 +22655,7 @@
       "On Guard (F)": null,
       "Damage": null,
       "Notes": "Unthrowable for the entire duration.",
-      "Image": null,
+      "Image": "https://imgur.com/LS93DAw.gif",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22115,7 +22666,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -22123,7 +22674,7 @@
       "On Guard (F)": null,
       "Damage": null,
       "Notes": null,
-      "Image": null,
+      "Image": "https://imgur.com/zGGHI5i.gif",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22134,15 +22685,15 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 15,
       "Recovery (F)": 3,
       "On Hit (F)": null,
       "On Guard (F)": null,
       "Damage": null,
-      "Notes": "Airborne while active.",
-      "Image": null,
+      "Notes": "Airborne while active. Doing j.d+C adds speed and distance.",
+      "Image": "https://imgur.com/pGqYUa9.gif",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22153,7 +22704,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": null,
       "Active (F)": "26f (0F)",
       "Recovery (F)": null,
@@ -22161,7 +22712,7 @@
       "On Guard (F)": null,
       "Damage": null,
       "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering.",
-      "Image": "https://i.imgur.com/4KPDkMs.gif",
+      "Image": null,
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22172,7 +22723,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "23f (0F)",
       "Recovery (F)": 0,
@@ -22191,7 +22742,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "13 / 12",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -22199,7 +22750,7 @@
       "On Guard (F)": null,
       "Damage": null,
       "Notes": null,
-      "Image": null,
+      "Image": "https://imgur.com/4mlyR0W.gif",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22218,7 +22769,7 @@
       "On Guard (F)": 1,
       "Damage": 25,
       "Notes": null,
-      "Image": "https://imgur.com/hPm3fHO.png",
+      "Image": "https://imgur.com/4WO30OZ.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22237,7 +22788,7 @@
       "On Guard (F)": -2,
       "Damage": 25,
       "Notes": null,
-      "Image": "https://imgur.com/EedrJeW.png",
+      "Image": "https://imgur.com/QCR4grx.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22256,7 +22807,7 @@
       "On Guard (F)": -1,
       "Damage": 67,
       "Notes": null,
-      "Image": "https://imgur.com/FjtIp4A.png",
+      "Image": "https://imgur.com/nPFipW2.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22275,7 +22826,7 @@
       "On Guard (F)": -7,
       "Damage": 100,
       "Notes": null,
-      "Image": "https://imgur.com/uvsR3vU.png",
+      "Image": "https://imgur.com/bru4xZI.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22294,7 +22845,7 @@
       "On Guard (F)": 1,
       "Damage": 33,
       "Notes": null,
-      "Image": "https://imgur.com/AkOgvMC.png",
+      "Image": "https://imgur.com/gbxKMQa.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22313,7 +22864,7 @@
       "On Guard (F)": -7,
       "Damage": 42,
       "Notes": null,
-      "Image": "https://imgur.com/fAOutS4.png",
+      "Image": "https://imgur.com/7psMTBF.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22332,7 +22883,7 @@
       "On Guard (F)": -1,
       "Damage": 75,
       "Notes": null,
-      "Image": "https://imgur.com/DMeZS72.png",
+      "Image": "https://imgur.com/FQAX4Ff.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22351,7 +22902,7 @@
       "On Guard (F)": -4,
       "Damage": 100,
       "Notes": "Low invuln frame 2 to 18",
-      "Image": "https://imgur.com/FHgHS77.png",
+      "Image": "https://imgur.com/SKc8cEE.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22370,7 +22921,7 @@
       "On Guard (F)": 1,
       "Damage": 25,
       "Notes": null,
-      "Image": "https://imgur.com/l0QPsiW.png",
+      "Image": "https://imgur.com/B65GZVN.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22389,7 +22940,7 @@
       "On Guard (F)": 1,
       "Damage": 17,
       "Notes": null,
-      "Image": "https://imgur.com/OT4TURu.png",
+      "Image": "https://imgur.com/qjXyy0s.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22408,7 +22959,7 @@
       "On Guard (F)": -9,
       "Damage": 110,
       "Notes": null,
-      "Image": "https://imgur.com/QUEreAW.png",
+      "Image": "https://imgur.com/NPqltMW.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22427,7 +22978,7 @@
       "On Guard (F)": -4,
       "Damage": 100,
       "Notes": null,
-      "Image": "https://imgur.com/HTD5Jch.png",
+      "Image": "https://imgur.com/eDrmzJW.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22446,7 +22997,7 @@
       "On Guard (F)": 2,
       "Damage": 117,
       "Notes": null,
-      "Image": "https://imgur.com/zZ4oUlS.png",
+      "Image": "https://imgur.com/zQtdHsD.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22465,7 +23016,7 @@
       "On Guard (F)": null,
       "Damage": 41,
       "Notes": null,
-      "Image": "https://imgur.com/HhUSiT8.png",
+      "Image": "https://imgur.com/63OLQun.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22484,7 +23035,7 @@
       "On Guard (F)": null,
       "Damage": 50,
       "Notes": null,
-      "Image": "https://imgur.com/HW47vd8.png",
+      "Image": "https://imgur.com/Ip1BeMv.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22503,7 +23054,7 @@
       "On Guard (F)": null,
       "Damage": 75,
       "Notes": null,
-      "Image": "https://imgur.com/DYNSxw3.png",
+      "Image": "https://imgur.com/SyHC4my.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22522,7 +23073,7 @@
       "On Guard (F)": null,
       "Damage": 100,
       "Notes": null,
-      "Image": "https://imgur.com/WqyIc1B.png",
+      "Image": "https://imgur.com/vcAdEjc.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22541,7 +23092,7 @@
       "On Guard (F)": null,
       "Damage": 100,
       "Notes": null,
-      "Image": "https://imgur.com/TmFEJGH.png",
+      "Image": "https://imgur.com/2O9un9n.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22560,7 +23111,7 @@
       "On Guard (F)": null,
       "Damage": 41,
       "Notes": null,
-      "Image": "https://imgur.com/nRptxNt.png",
+      "Image": "https://imgur.com/gtgvhlJ.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22579,7 +23130,7 @@
       "On Guard (F)": null,
       "Damage": 50,
       "Notes": null,
-      "Image": "https://imgur.com/lv5DS27.png",
+      "Image": "https://imgur.com/y4oZooG.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22598,7 +23149,7 @@
       "On Guard (F)": null,
       "Damage": 75,
       "Notes": null,
-      "Image": "https://imgur.com/U2MGW9f.png",
+      "Image": "https://imgur.com/fqPTyGk.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22617,7 +23168,7 @@
       "On Guard (F)": null,
       "Damage": 100,
       "Notes": null,
-      "Image": "https://imgur.com/ilgNG9i.png",
+      "Image": "https://imgur.com/1xVHmRb.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22636,7 +23187,7 @@
       "On Guard (F)": null,
       "Damage": 125,
       "Notes": null,
-      "Image": "https://imgur.com/TmFEJGH.png",
+      "Image": "https://imgur.com/2O9un9n.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22655,7 +23206,7 @@
       "On Guard (F)": null,
       "Damage": 41,
       "Notes": null,
-      "Image": "https://imgur.com/0vfDyaw.png",
+      "Image": "https://imgur.com/li2MXVF.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22674,7 +23225,7 @@
       "On Guard (F)": null,
       "Damage": 50,
       "Notes": null,
-      "Image": "https://imgur.com/rDThdO1.png",
+      "Image": "https://imgur.com/6qsYFgj.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22693,7 +23244,7 @@
       "On Guard (F)": null,
       "Damage": 92,
       "Notes": null,
-      "Image": "https://imgur.com/q1MLXlS.png",
+      "Image": "https://imgur.com/LZ7s8B5.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22712,7 +23263,7 @@
       "On Guard (F)": -11,
       "Damage": 83,
       "Notes": null,
-      "Image": "https://imgur.com/lbwhfhw.png",
+      "Image": "https://imgur.com/RiRQeii.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22731,7 +23282,7 @@
       "On Guard (F)": -7,
       "Damage": "67 (33+34)",
       "Notes": null,
-      "Image": "https://imgur.com/v8fvX3s.png",
+      "Image": "https://imgur.com/LYlbR2n.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22750,7 +23301,7 @@
       "On Guard (F)": -10,
       "Damage": "133 (66+67)",
       "Notes": null,
-      "Image": "https://imgur.com/SsIicqL.png",
+      "Image": "https://imgur.com/eubBoUl.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22769,7 +23320,7 @@
       "On Guard (F)": null,
       "Damage": 58,
       "Notes": null,
-      "Image": "https://imgur.com/DU2OlhK.png",
+      "Image": "https://imgur.com/qR23kDD.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22788,7 +23339,7 @@
       "On Guard (F)": -22,
       "Damage": null,
       "Notes": "Full invuln start-up with 1st hit",
-      "Image": "https://imgur.com/k5CCOIM.png",
+      "Image": "https://imgur.com/xbVWQ96.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22807,7 +23358,7 @@
       "On Guard (F)": -33,
       "Damage": null,
       "Notes": "Full invuln start-up with 1st hit",
-      "Image": "https://imgur.com/igMjqI6.png",
+      "Image": "https://imgur.com/n43tf8L.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22826,7 +23377,7 @@
       "On Guard (F)": -16,
       "Damage": null,
       "Notes": "Low invuln frame(1-19)",
-      "Image": "https://imgur.com/XIIEuKd.png",
+      "Image": "https://imgur.com/5rxVSLi.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22845,7 +23396,7 @@
       "On Guard (F)": -13,
       "Damage": null,
       "Notes": "High invuln frame(1-14)",
-      "Image": "https://imgur.com/vPTSj7c.png",
+      "Image": "https://imgur.com/Au3iRaE.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22864,7 +23415,7 @@
       "On Guard (F)": "-6 ~ -2",
       "Damage": null,
       "Notes": null,
-      "Image": "https://imgur.com/8c4sN0I.png",
+      "Image": "https://imgur.com/mTdE33F.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22883,7 +23434,7 @@
       "On Guard (F)": "-4 ~ -2",
       "Damage": null,
       "Notes": null,
-      "Image": "https://imgur.com/UcZfVXy.png",
+      "Image": "https://imgur.com/BC0x79L.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22902,7 +23453,7 @@
       "On Guard (F)": -6,
       "Damage": null,
       "Notes": "Upperbody guard on frames 4 to 5",
-      "Image": "https://imgur.com/fPSDyOR.png",
+      "Image": "https://imgur.com/3WSvnnE.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22921,7 +23472,7 @@
       "On Guard (F)": -21,
       "Damage": null,
       "Notes": null,
-      "Image": "https://imgur.com/YPJThoY.png",
+      "Image": "https://imgur.com/8bMNg9j.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22940,7 +23491,7 @@
       "On Guard (F)": -15,
       "Damage": null,
       "Notes": null,
-      "Image": "https://imgur.com/WVpiMbH.png",
+      "Image": "https://imgur.com/haPv12C.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22959,7 +23510,7 @@
       "On Guard (F)": -9,
       "Damage": null,
       "Notes": null,
-      "Image": "https://imgur.com/H2s4dG2.png",
+      "Image": "https://imgur.com/2y7PA0e.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22978,7 +23529,7 @@
       "On Guard (F)": -21,
       "Damage": null,
       "Notes": null,
-      "Image": "https://imgur.com/kyWAQg4.png",
+      "Image": "https://imgur.com/AiIwGgi.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -22997,7 +23548,7 @@
       "On Guard (F)": -9,
       "Damage": null,
       "Notes": null,
-      "Image": "https://imgur.com/H2s4dG2.png",
+      "Image": "https://imgur.com/2y7PA0e.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -23016,7 +23567,7 @@
       "On Guard (F)": -22,
       "Damage": null,
       "Notes": null,
-      "Image": "https://imgur.com/oOzYuiK.png",
+      "Image": "https://imgur.com/WSKPLbf.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -23035,7 +23586,7 @@
       "On Guard (F)": -18,
       "Damage": null,
       "Notes": null,
-      "Image": "https://imgur.com/rObIaFb.png",
+      "Image": "https://imgur.com/2UPLZXP.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -23054,7 +23605,7 @@
       "On Guard (F)": -9,
       "Damage": null,
       "Notes": "Upperbody guard on frames 6 to 9",
-      "Image": "https://imgur.com/MtRN2Lj.png",
+      "Image": "https://imgur.com/mJ3LXhK.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -23073,7 +23624,7 @@
       "On Guard (F)": -19,
       "Damage": null,
       "Notes": null,
-      "Image": "https://imgur.com/jlylbFZ.png",
+      "Image": "https://imgur.com/ijueuwg.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -23092,7 +23643,7 @@
       "On Guard (F)": -28,
       "Damage": null,
       "Notes": null,
-      "Image": "https://imgur.com/7Mc8CsN.png",
+      "Image": "https://imgur.com/7F17q87.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -23111,7 +23662,7 @@
       "On Guard (F)": "-20 ~ -2",
       "Damage": null,
       "Notes": null,
-      "Image": "https://imgur.com/pGN33gH.png",
+      "Image": "https://imgur.com/tqbC5Mn.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -23130,7 +23681,7 @@
       "On Guard (F)": "1st = -14 ~ -12 / 2nd = -5 ~ +3",
       "Damage": "40 (30+10)",
       "Notes": "Below thighs - hit invuln - frames 10 to 13",
-      "Image": "https://imgur.com/Xz6d5gG.png",
+      "Image": "https://imgur.com/ejN9JIe.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -23149,7 +23700,7 @@
       "On Guard (F)": "1st = -14 ~ -12 / 2nd = -5 ~ +3",
       "Damage": "40 (30+10)",
       "Notes": "Below thighs - hit invuln - frames 14 to 17",
-      "Image": "https://imgur.com/UTM1AUH.png",
+      "Image": "https://imgur.com/HZSjlda.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -23168,7 +23719,7 @@
       "On Guard (F)": -23,
       "Damage": null,
       "Notes": null,
-      "Image": "https://imgur.com/qcMv9oQ.png",
+      "Image": "https://imgur.com/UcyDsV8.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -23187,7 +23738,7 @@
       "On Guard (F)": -23,
       "Damage": null,
       "Notes": "Full Invuln start-up and 1st hit",
-      "Image": "https://imgur.com/9h05J8w.png",
+      "Image": "https://imgur.com/TRewDOI.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -23206,8 +23757,8 @@
       "On Guard (F)": "no charge = -15 / slight charge = -18",
       "Damage": null,
       "Notes": "Full invuln 2F, Low invuln while charging",
-      "Image": "https://imgur.com/DFUKUFU.png",
-      "Image1": "https://imgur.com/ZrEHbzR.png",
+      "Image": "https://imgur.com/qxyXllM.png",
+      "Image1": "https://imgur.com/eNyx8Af.png",
       "Image2": null,
       "Image3": null,
       "Image4": null,
@@ -23225,8 +23776,8 @@
       "On Guard (F)": "no charge = -19 / slight charge = -18",
       "Damage": null,
       "Notes": "Full invuln 2F, Upper invuln while charging",
-      "Image": "https://imgur.com/3VXkZcL.png",
-      "Image1": "https://imgur.com/6C8Eu8d.png",
+      "Image": "https://imgur.com/Y8fMhND.png",
+      "Image1": "https://imgur.com/9WXpUsC.png",
       "Image2": null,
       "Image3": null,
       "Image4": null,
@@ -23244,9 +23795,9 @@
       "On Guard (F)": 1,
       "Damage": null,
       "Notes": "Full Invuln 2F, Low invuln while charging",
-      "Image": "https://imgur.com/xdxNrdj.png",
-      "Image1": "https://imgur.com/33obJYA.png",
-      "Image2": "https://imgur.com/nAJNakr.png",
+      "Image": "https://imgur.com/u5OzeAK.png",
+      "Image1": "https://imgur.com/AHBCQ3N.png",
+      "Image2": "https://imgur.com/lhM6Hu1.png",
       "Image3": null,
       "Image4": null,
       "Image5": null,
@@ -23263,7 +23814,7 @@
       "On Guard (F)": null,
       "Damage": null,
       "Notes": "Full Inv. 2F",
-      "Image": "https://imgur.com/x02bH1F.png",
+      "Image": "https://imgur.com/C25UrcL.png",
       "Image1": null,
       "Image2": null,
       "Image3": null,
@@ -23276,7 +23827,26 @@
     }
   },
   "Kyo-1": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -23295,7 +23865,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 31,
       "Recovery (F)": 1,
@@ -23314,7 +23884,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 23,
       "Recovery (F)": 1,
@@ -23333,7 +23903,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -23352,7 +23922,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 15,
       "Recovery (F)": 3,
@@ -23371,7 +23941,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "26f (0F)",
       "Recovery (F)": 0,
@@ -23390,7 +23960,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "23f (0F)",
       "Recovery (F)": 0,
@@ -23409,7 +23979,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "13 / 12",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -24000,7 +24570,26 @@
     }
   },
   "Kyo-2": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -24019,7 +24608,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 31,
       "Recovery (F)": 1,
@@ -24038,7 +24627,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 23,
       "Recovery (F)": 1,
@@ -24057,7 +24646,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -24076,7 +24665,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 15,
       "Recovery (F)": 3,
@@ -24095,7 +24684,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "26f (0F)",
       "Recovery (F)": 0,
@@ -24114,7 +24703,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "23f (0F)",
       "Recovery (F)": 0,
@@ -24133,7 +24722,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "13 / 12",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -24838,7 +25427,26 @@
     }
   },
   "Leona": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -24857,7 +25465,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": "35 (Orochi: 23)",
       "Recovery (F)": 1,
@@ -24876,7 +25484,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": "27 (Orochi: 18)",
       "Recovery (F)": 1,
@@ -24895,7 +25503,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -24914,7 +25522,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": "3",
       "Active (F)": 10,
       "Recovery (F)": 5,
@@ -24933,7 +25541,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "28f (+2F)",
       "Recovery (F)": 0,
@@ -24952,7 +25560,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "22f (-1F)",
       "Recovery (F)": 0,
@@ -24971,7 +25579,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "5 / 13 (Orochi: 1 / 1)",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -25562,7 +26170,26 @@
     }
   },
   "Lin": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -25581,7 +26208,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 32,
       "Recovery (F)": 1,
@@ -25600,7 +26227,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 24,
       "Recovery (F)": 1,
@@ -25619,7 +26246,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -25638,7 +26265,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": "3",
       "Active (F)": 10,
       "Recovery (F)": 3,
@@ -25657,7 +26284,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "24f (-2F)",
       "Recovery (F)": 0,
@@ -25676,7 +26303,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "31f (+8F)",
       "Recovery (F)": 0,
@@ -25695,7 +26322,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "17 / 27",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -26362,7 +26989,26 @@
     }
   },
   "Mai": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -26381,7 +27027,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 35,
       "Recovery (F)": 1,
@@ -26400,7 +27046,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 27,
       "Recovery (F)": 1,
@@ -26419,7 +27065,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -26438,7 +27084,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 16,
       "Recovery (F)": 3,
@@ -26457,7 +27103,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "21f (-5F)",
       "Recovery (F)": 0,
@@ -26476,7 +27122,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "20f (-3F)",
       "Recovery (F)": 0,
@@ -26495,7 +27141,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "4 / 3",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -27257,7 +27903,26 @@
     }
   },
   "Mature": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -27276,7 +27941,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 32,
       "Recovery (F)": 1,
@@ -27295,7 +27960,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 24,
       "Recovery (F)": 1,
@@ -27314,7 +27979,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -27333,7 +27998,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 18,
       "Recovery (F)": 4,
@@ -27352,7 +28017,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "21f (-5F)",
       "Recovery (F)": 0,
@@ -27371,7 +28036,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "24f (+1F)",
       "Recovery (F)": 0,
@@ -27390,7 +28055,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "10 / 11",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -28076,7 +28741,26 @@
     }
   },
   "Maxima": {
-    "Crouch height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "High",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -28095,7 +28779,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 36,
       "Recovery (F)": 1,
@@ -28114,7 +28798,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 27,
       "Recovery (F)": 1,
@@ -28133,7 +28817,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 4,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 3,
@@ -28152,7 +28836,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": "4",
       "Active (F)": 11,
       "Recovery (F)": 5,
@@ -28171,7 +28855,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": "0",
       "Active (F)": "36f (+10F)",
       "Recovery (F)": 0,
@@ -28190,7 +28874,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "18f (-5F)",
       "Recovery (F)": 0,
@@ -28209,7 +28893,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "27 / 31",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -28876,7 +29560,26 @@
     }
   },
   "May Lee(Normal)": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -28895,7 +29598,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 37,
       "Recovery (F)": 1,
@@ -28914,7 +29617,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 28,
       "Recovery (F)": 1,
@@ -28933,7 +29636,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -28952,7 +29655,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": "3",
       "Active (F)": 12,
       "Recovery (F)": 3,
@@ -28971,7 +29674,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "25f (-1F)",
       "Recovery (F)": 0,
@@ -28990,7 +29693,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "32f (+9F)",
       "Recovery (F)": 0,
@@ -29009,7 +29712,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "13 / 12",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -29486,7 +30189,26 @@
     }
   },
   "May Lee(Hero)": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -29505,7 +30227,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 37,
       "Recovery (F)": 1,
@@ -29524,7 +30246,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 28,
       "Recovery (F)": 1,
@@ -29543,7 +30265,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -29562,7 +30284,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": "3",
       "Active (F)": 12,
       "Recovery (F)": 3,
@@ -29581,7 +30303,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "25f (-1F)",
       "Recovery (F)": 0,
@@ -29600,7 +30322,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "32f (+9F)",
       "Recovery (F)": 0,
@@ -29619,7 +30341,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "13 / 12",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -30115,7 +30837,26 @@
     }
   },
   "Nameless": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -30134,7 +30875,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 31,
       "Recovery (F)": 1,
@@ -30153,7 +30894,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 23,
       "Recovery (F)": 1,
@@ -30172,7 +30913,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 3,
@@ -30191,7 +30932,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 13,
       "Recovery (F)": 3,
@@ -30210,7 +30951,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "26f (0F)",
       "Recovery (F)": 0,
@@ -30229,7 +30970,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "23f (0F)",
       "Recovery (F)": 0,
@@ -30248,7 +30989,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "13 / 30",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -30782,7 +31523,26 @@
     }
   },
   "Ralf": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -30801,7 +31561,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 32,
       "Recovery (F)": 1,
@@ -30820,7 +31580,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 24,
       "Recovery (F)": 1,
@@ -30839,7 +31599,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 4,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 3,
@@ -30858,7 +31618,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 4,
       "Active (F)": 18,
       "Recovery (F)": 4,
@@ -30877,7 +31637,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "13f (-13F)",
       "Recovery (F)": 0,
@@ -30896,7 +31656,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "24f (+1F)",
       "Recovery (F)": 0,
@@ -30915,7 +31675,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "17 / 27",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -31487,7 +32247,26 @@
     }
   },
   "Ramon": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -31506,7 +32285,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 35,
       "Recovery (F)": 1,
@@ -31525,7 +32304,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 27,
       "Recovery (F)": 1,
@@ -31544,7 +32323,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -31563,7 +32342,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 15,
       "Recovery (F)": 4,
@@ -31582,7 +32361,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "32f (+6F)",
       "Recovery (F)": 0,
@@ -31601,7 +32380,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "24f (+1F)",
       "Recovery (F)": 0,
@@ -31620,7 +32399,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "5 / 13",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -32192,7 +32971,26 @@
     }
   },
   "Robert": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -32211,7 +33009,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 34,
       "Recovery (F)": 1,
@@ -32230,7 +33028,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 26,
       "Recovery (F)": 1,
@@ -32249,7 +33047,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -32268,7 +33066,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 18,
       "Recovery (F)": 3,
@@ -32287,7 +33085,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "20f (-6F)",
       "Recovery (F)": 0,
@@ -32306,7 +33104,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "27f (+4F)",
       "Recovery (F)": 0,
@@ -32325,7 +33123,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "14 / 15",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -32954,7 +33752,26 @@
     }
   },
   "EX Robert": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -32973,7 +33790,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 34,
       "Recovery (F)": 1,
@@ -32992,7 +33809,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 26,
       "Recovery (F)": 1,
@@ -33011,7 +33828,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -33030,7 +33847,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 18,
       "Recovery (F)": 3,
@@ -33049,7 +33866,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "20f (-6F)",
       "Recovery (F)": 0,
@@ -33068,7 +33885,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "27f (+4F)",
       "Recovery (F)": 0,
@@ -33087,7 +33904,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "14 / 15",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -33754,7 +34571,26 @@
     }
   },
   "Ryo": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -33773,7 +34609,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 31,
       "Recovery (F)": 1,
@@ -33792,7 +34628,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 24,
       "Recovery (F)": 1,
@@ -33811,7 +34647,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -33830,7 +34666,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 14,
       "Recovery (F)": 3,
@@ -33849,7 +34685,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "21f (-5F)",
       "Recovery (F)": 0,
@@ -33868,7 +34704,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "26f (+3F)",
       "Recovery (F)": 0,
@@ -33887,7 +34723,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "22 / 17",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -34535,7 +35371,26 @@
     }
   },
   "Seth": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -34554,7 +35409,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 34,
       "Recovery (F)": 1,
@@ -34573,7 +35428,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 26,
       "Recovery (F)": 1,
@@ -34592,7 +35447,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -34611,7 +35466,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 15,
       "Recovery (F)": 3,
@@ -34630,7 +35485,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "26f (0F)",
       "Recovery (F)": 0,
@@ -34649,7 +35504,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "29f (+6F)",
       "Recovery (F)": 0,
@@ -34668,7 +35523,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "19 / 16",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -35392,7 +36247,26 @@
     }
   },
   "Shermie": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -35411,7 +36285,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 32,
       "Recovery (F)": 1,
@@ -35430,7 +36304,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 24,
       "Recovery (F)": 1,
@@ -35449,7 +36323,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -35468,7 +36342,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 18,
       "Recovery (F)": 3,
@@ -35487,7 +36361,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "31f (+5F)",
       "Recovery (F)": 0,
@@ -35506,7 +36380,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "22f (-1F)",
       "Recovery (F)": 0,
@@ -35525,7 +36399,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "9 / 19",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -36135,7 +37009,26 @@
     }
   },
   "Orochi Shermie": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -36154,7 +37047,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 32,
       "Recovery (F)": 1,
@@ -36173,7 +37066,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 24,
       "Recovery (F)": 1,
@@ -36192,7 +37085,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -36211,7 +37104,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 18,
       "Recovery (F)": 3,
@@ -36230,7 +37123,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "31f (+5F)",
       "Recovery (F)": 0,
@@ -36249,7 +37142,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "22f (-1F)",
       "Recovery (F)": 0,
@@ -36268,7 +37161,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "9 / 19",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -36973,7 +37866,26 @@
     }
   },
   "Shingo": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -36992,7 +37904,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 34,
       "Recovery (F)": 1,
@@ -37011,7 +37923,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 26,
       "Recovery (F)": 1,
@@ -37030,7 +37942,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -37049,7 +37961,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 18,
       "Recovery (F)": 3,
@@ -37068,7 +37980,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "26f (0F)",
       "Recovery (F)": 0,
@@ -37087,7 +37999,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "23f (0F)",
       "Recovery (F)": 0,
@@ -37106,7 +38018,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "19 / 17",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -37754,7 +38666,26 @@
     }
   },
   "Takuma": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -37773,7 +38704,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 31,
       "Recovery (F)": 1,
@@ -37792,7 +38723,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 24,
       "Recovery (F)": 1,
@@ -37811,7 +38742,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -37830,7 +38761,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 2,
       "Active (F)": 14,
       "Recovery (F)": 3,
@@ -37849,7 +38780,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "23f (-3F)",
       "Recovery (F)": 0,
@@ -37868,7 +38799,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "26f (+3F)",
       "Recovery (F)": 0,
@@ -37887,7 +38818,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "23 / 20",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -38459,7 +39390,26 @@
     }
   },
   "EX Takuma": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -38478,7 +39428,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 31,
       "Recovery (F)": 1,
@@ -38497,7 +39447,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 24,
       "Recovery (F)": 1,
@@ -38516,7 +39466,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -38535,7 +39485,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 2,
       "Active (F)": 14,
       "Recovery (F)": 3,
@@ -38554,7 +39504,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "23f (-3F)",
       "Recovery (F)": 0,
@@ -38573,7 +39523,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "26f (+3F)",
       "Recovery (F)": 0,
@@ -38592,7 +39542,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "23 / 20",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -39278,7 +40228,26 @@
     }
   },
   "Terry": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -39297,7 +40266,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 34,
       "Recovery (F)": 1,
@@ -39316,7 +40285,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 26,
       "Recovery (F)": 1,
@@ -39335,7 +40304,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -39354,7 +40323,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 18,
       "Recovery (F)": 3,
@@ -39373,7 +40342,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "25f (-1F)",
       "Recovery (F)": 0,
@@ -39392,7 +40361,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "28f (+5F)",
       "Recovery (F)": 0,
@@ -39411,7 +40380,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "15 / 10",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -40192,7 +41161,26 @@
     }
   },
   "Vanessa": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -40211,7 +41199,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 34,
       "Recovery (F)": 1,
@@ -40230,7 +41218,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 26,
       "Recovery (F)": 1,
@@ -40249,7 +41237,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -40268,7 +41256,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": "3",
       "Active (F)": 10,
       "Recovery (F)": 3,
@@ -40287,7 +41275,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "25f (-1F)",
       "Recovery (F)": 0,
@@ -40306,7 +41294,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "27f (+4F)",
       "Recovery (F)": 0,
@@ -40325,7 +41313,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "16 / 7",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -40973,7 +41961,26 @@
     }
   },
   "Vice": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -40992,7 +41999,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 35,
       "Recovery (F)": 1,
@@ -41011,7 +42018,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 27,
       "Recovery (F)": 1,
@@ -41030,7 +42037,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -41049,7 +42056,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 19,
       "Recovery (F)": 4,
@@ -41068,7 +42075,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "26f (0F)",
       "Recovery (F)": 0,
@@ -41087,7 +42094,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "24f (+1F)",
       "Recovery (F)": 0,
@@ -41106,7 +42113,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "25 / 23",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -41640,7 +42647,26 @@
     }
   },
   "Whip": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -41659,7 +42685,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 32,
       "Recovery (F)": 1,
@@ -41678,7 +42704,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 24,
       "Recovery (F)": 1,
@@ -41697,7 +42723,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -41716,7 +42742,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 14,
       "Recovery (F)": 3,
@@ -41735,7 +42761,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "17f (-9F)",
       "Recovery (F)": 0,
@@ -41754,7 +42780,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "21f (-2F)",
       "Recovery (F)": 0,
@@ -41773,7 +42799,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "9 / 22",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -42402,7 +43428,26 @@
     }
   },
   "Xiangfei": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Slightly shorter than Middle (Lowest in block)",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -42421,7 +43466,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 32,
       "Recovery (F)": 1,
@@ -42440,7 +43485,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 24,
       "Recovery (F)": 1,
@@ -42459,7 +43504,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -42478,7 +43523,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 13,
       "Recovery (F)": 5,
@@ -42497,7 +43542,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "30f (+4F)",
       "Recovery (F)": 0,
@@ -42516,7 +43561,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "16f (-7F)",
       "Recovery (F)": 0,
@@ -42535,7 +43580,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "10 / 11",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -43240,7 +44285,26 @@
     }
   },
   "Yamazaki": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -43259,7 +44323,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 32,
       "Recovery (F)": 1,
@@ -43278,7 +44342,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 24,
       "Recovery (F)": 1,
@@ -43297,7 +44361,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -43316,7 +44380,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 18,
       "Recovery (F)": 3,
@@ -43335,7 +44399,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "19f (-7F)",
       "Recovery (F)": 0,
@@ -43354,7 +44418,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "27f (+4F)",
       "Recovery (F)": 0,
@@ -43373,7 +44437,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "21 / 25",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -44078,7 +45142,26 @@
     }
   },
   "Yashiro": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -44097,7 +45180,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 29,
       "Recovery (F)": 1,
@@ -44116,7 +45199,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 22,
       "Recovery (F)": 1,
@@ -44135,7 +45218,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 4,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 3,
@@ -44154,7 +45237,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 16,
       "Recovery (F)": 3,
@@ -44173,7 +45256,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "24f (-2F)",
       "Recovery (F)": 0,
@@ -44192,7 +45275,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "27f (+4F)",
       "Recovery (F)": 0,
@@ -44211,7 +45294,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "6 / 14",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -44878,7 +45961,26 @@
     }
   },
   "Orochi Yashiro": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -44897,7 +45999,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 29,
       "Recovery (F)": 1,
@@ -44916,7 +46018,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 22,
       "Recovery (F)": 1,
@@ -44935,7 +46037,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 4,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 3,
@@ -44954,7 +46056,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 16,
       "Recovery (F)": 3,
@@ -44973,7 +46075,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "24f (-2F)",
       "Recovery (F)": 0,
@@ -44992,7 +46094,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "27f (+4F)",
       "Recovery (F)": 0,
@@ -45011,7 +46113,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "6 / 14",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -45526,7 +46628,26 @@
     }
   },
   "Yuri": {
-    "Crouch Height:": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
       "Startup (F)": "Low",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -45545,7 +46666,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Jump:": {
+    "Jump": {
       "Startup (F)": 4,
       "Active (F)": 34,
       "Recovery (F)": 1,
@@ -45564,7 +46685,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hop:": {
+    "Hop": {
       "Startup (F)": 4,
       "Active (F)": 26,
       "Recovery (F)": 1,
@@ -45583,7 +46704,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run:": {
+    "Run": {
       "Startup (F)": 3,
       "Active (F)": "10 ~ ∞",
       "Recovery (F)": 2,
@@ -45602,7 +46723,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Backdash:": {
+    "Backdash": {
       "Startup (F)": 3,
       "Active (F)": 13,
       "Recovery (F)": 3,
@@ -45621,7 +46742,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Wake-up:": {
+    "Wake-up": {
       "Startup (F)": 0,
       "Active (F)": "13f (-13F)",
       "Recovery (F)": 0,
@@ -45640,7 +46761,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Recovery roll:": {
+    "Recovery roll": {
       "Startup (F)": 0,
       "Active (F)": "23f (0F)",
       "Recovery (F)": 0,
@@ -45659,7 +46780,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Run / Walk rank:": {
+    "Run / Walk rank": {
       "Startup (F)": "16 / 7",
       "Active (F)": null,
       "Recovery (F)": null,
