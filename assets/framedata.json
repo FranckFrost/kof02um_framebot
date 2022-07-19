@@ -9807,7 +9807,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp АНКОКУ ОРОУИ НАГИ [Ankoku Orochinagi] ([qcb,hcf+A] / [2141236A])": {
+    "Lp АНКОКУ ОРОУИ НАГИ [Ankoku Orochinagi] ([qcb,hcf+A] / [2141236A], Hold to charge)": {
       "Startup (F)": 19,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9826,7 +9826,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp АНКОКУ ОРОУИ НАГИ [Ankoku Orochinagi] ([qcb,hcf+C] / [2141236C])": {
+    "Hp АНКОКУ ОРОУИ НАГИ [Ankoku Orochinagi] ([qcb,hcf+C] / [2141236C], Hold to charge)": {
       "Startup (F)": 21,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9864,7 +9864,7 @@
       "Image8": null,
       "Image9": null
     },
-    "MAX АНКОКУ ОРОУИ НАГИ [Ankoku Orochinagi] ([qcb,hcf+AC] / [2141236AC])": {
+    "MAX АНКОКУ ОРОУИ НАГИ [Ankoku Orochinagi] ([qcb,hcf+AC] / [2141236AC], Hold to charge)": {
       "Startup (F)": 22,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -14970,7 +14970,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Soshuu Stance ([d,d] / [22] + hold A)": {
+    "Soshuu Stance ([d,d+A] / [22+A], Hold to maintain)": {
       "Startup (F)": null,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -15046,7 +15046,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Kirikae Dousa ([b/f] / [4/6] + hold B)": {
+    "Kirikae Dousa ([b/f+B] / [4/6+B], Hold to maintain)": {
       "Startup (F)": 11,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -15065,7 +15065,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Ryouko Stance ([d,d] / [22] + hold B)": {
+    "Ryouko Stance ([d,d+B] / [22+B], Hold to maintain)": {
       "Startup (F)": null,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -15141,7 +15141,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Kirikae Dousa ([b/f] / [4/6] + hold A)": {
+    "Kirikae Dousa ([b/f+A] / [4/6+A], Hold to maintain)": {
       "Startup (F)": "11F?",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -16036,7 +16036,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Golden Tiger Kick ([qcf,uf+B/D] / [2369B/D])": {
+    "Golden Tiger Kick ([qcf,uf+B/D] / [2369B/D], Hold to charge)": {
       "Startup (F)": 10,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -16055,7 +16055,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Strongest Low Kick In History ([qcbx2+B/D] / [214214B/D])": {
+    "Strongest Low Kick In History ([qcbx2+B/D] / [214214B/D], Hold to charge)": {
       "Startup (F)": 25,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -17159,7 +17159,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp Heat Drive ([qcfx2+A] / [236236A])": {
+    "Lp Heat Drive ([qcfx2+A] / [236236A], Hold to charge)": {
       "Startup (F)": 18,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -17178,7 +17178,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp Heat Drive ([qcfx2+C] / [236236C])": {
+    "Hp Heat Drive ([qcfx2+C] / [236236C], Hold to charge)": {
       "Startup (F)": 21,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -19407,14 +19407,14 @@
       "Image8": null,
       "Image9": null
     },
-    "Dragon Drubbing ([dp+A/C] / [623A/C])": {
+    "Dragon Drubbing ([dp+A/C] / [623A/C], Mash C for hits)": {
       "Startup (F)": 11,
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": "Soft KD",
       "On Guard (F)": -4,
       "Damage": null,
-      "Notes": "Mash C during either version of the move to add more hits",
+      "Notes": null,
       "Image": null,
       "Image1": null,
       "Image2": null,
@@ -22645,7 +22645,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp Ura 108 Shiki Orochinagi ([qcb,hcf+A] / [2141236A])": {
+    "Lp Ura 108 Shiki Orochinagi ([qcb,hcf+A] / [2141236A], Hold to charge)": {
       "Startup (F)": 21,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -22664,7 +22664,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp Ura 108 Shiki Orochinagi ([qcb,hcf+C] / [2141236C])": {
+    "Hp Ura 108 Shiki Orochinagi ([qcb,hcf+C] / [2141236C], Hold to charge)": {
       "Startup (F)": 19,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -22702,7 +22702,7 @@
       "Image8": null,
       "Image9": null
     },
-    "MAX Ura 108 Shiki Orochinagi ([qcb,hcf+AC] / [2141236AC])": {
+    "MAX Ura 108 Shiki Orochinagi ([qcb,hcf+AC] / [2141236AC], Hold to charge)": {
       "Startup (F)": 20,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -23166,7 +23166,7 @@
       "Recovery (F)": null,
       "On Hit (F)": null,
       "On Guard (F)": null,
-      "Damage": 41,
+      "Damage": 42,
       "Notes": null,
       "Image": "https://imgur.com/63OLQun.png",
       "Image1": null,
@@ -23261,7 +23261,7 @@
       "Recovery (F)": null,
       "On Hit (F)": null,
       "On Guard (F)": null,
-      "Damage": 41,
+      "Damage": 42,
       "Notes": null,
       "Image": "https://imgur.com/gtgvhlJ.png",
       "Image1": null,
@@ -23356,7 +23356,7 @@
       "Recovery (F)": null,
       "On Hit (F)": null,
       "On Guard (F)": null,
-      "Damage": 41,
+      "Damage": 42,
       "Notes": null,
       "Image": "https://imgur.com/li2MXVF.png",
       "Image1": null,
@@ -23485,11 +23485,11 @@
     },
     "Lp 100 Shiki: Oniyaki ([dp+A] / [623A])": {
       "Startup (F)": 6,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": "4, 13",
+      "Recovery (F)": "27 (11 Landing)",
       "On Hit (F)": "Soft KD",
       "On Guard (F)": -22,
-      "Damage": null,
+      "Damage": "58 (58,42)",
       "Notes": "Full invuln start-up with 1st hit",
       "Image": "https://imgur.com/xbVWQ96.png",
       "Image1": null,
@@ -23504,11 +23504,11 @@
     },
     "Hp 100 Shiki: Oniyaki ([dp+C] / [623C])": {
       "Startup (F)": 6,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": "4, 16",
+      "Recovery (F)": "35 (13 Landing)",
       "On Hit (F)": "Soft KD",
       "On Guard (F)": -33,
-      "Damage": null,
+      "Damage": "108 (75+33)",
       "Notes": "Full invuln start-up with 1st hit",
       "Image": "https://imgur.com/n43tf8L.png",
       "Image1": null,
@@ -23523,11 +23523,11 @@
     },
     "Lk 427 Shiki: Hikigane ([hcb+B] / [63214B])": {
       "Startup (F)": 20,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": 3,
+      "Recovery (F)": 31,
       "On Hit (F)": "Soft KD",
       "On Guard (F)": -16,
-      "Damage": null,
+      "Damage": 58,
       "Notes": "Low invuln frame(1-19)",
       "Image": "https://imgur.com/5rxVSLi.png",
       "Image1": null,
@@ -23542,11 +23542,11 @@
     },
     "Hk 427 Shiki: Hikigane ([hcb+D] / [63214D])": {
       "Startup (F)": 15,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
+      "Active (F)": "2, (1), 3",
+      "Recovery (F)": 25,
+      "On Hit (F)": -11,
       "On Guard (F)": -13,
-      "Damage": null,
+      "Damage": 108,
       "Notes": "High invuln frame(1-14)",
       "Image": "https://imgur.com/Au3iRaE.png",
       "Image1": null,
@@ -23561,11 +23561,11 @@
     },
     "Lk RED Kick ([rdp+B] / [421B])": {
       "Startup (F)": 19,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": "2, 2, 2",
+      "Recovery (F)": "18 (15 Landing)",
       "On Hit (F)": "Hard KD",
       "On Guard (F)": "-6 ~ -2",
-      "Damage": null,
+      "Damage": 108,
       "Notes": null,
       "Image": "https://imgur.com/mTdE33F.png",
       "Image1": null,
@@ -23580,11 +23580,11 @@
     },
     "Hk RED Kick ([rdp+D] / [421D])": {
       "Startup (F)": 30,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": "2, 2, 2",
+      "Recovery (F)": "18 (14 Landing)",
       "On Hit (F)": "Hard KD",
       "On Guard (F)": "-4 ~ -2",
-      "Damage": null,
+      "Damage": 150,
       "Notes": null,
       "Image": "https://imgur.com/BC0x79L.png",
       "Image1": null,
@@ -23599,11 +23599,11 @@
     },
     "114 Shiki: Ara Kami ([qcf+A] / [236A])": {
       "Startup (F)": 12,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": 6,
+      "Recovery (F)": 18,
       "On Hit (F)": -4,
       "On Guard (F)": -6,
-      "Damage": null,
+      "Damage": 58,
       "Notes": "Upperbody guard on frames 4 to 5",
       "Image": "https://imgur.com/3WSvnnE.png",
       "Image1": null,
@@ -23618,11 +23618,11 @@
     },
     "128 Shiki: Kono Kizu ([qcf+Ax2] / [236Ax2])": {
       "Startup (F)": 8,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": 8,
+      "Recovery (F)": 31,
       "On Hit (F)": "Soft KD",
       "On Guard (F)": -21,
-      "Damage": null,
+      "Damage": 42,
       "Notes": null,
       "Image": "https://imgur.com/8bMNg9j.png",
       "Image1": null,
@@ -23637,11 +23637,11 @@
     },
     "127 Shiki: Yano Sabi 1  ([qcf+Ax2 > A/C] / [236Ax2 > A/C])": {
       "Startup (F)": 14,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": 3,
+      "Recovery (F)": 30,
       "On Hit (F)": "Hard KD",
       "On Guard (F)": -15,
-      "Damage": null,
+      "Damage": 25,
       "Notes": null,
       "Image": "https://imgur.com/haPv12C.png",
       "Image1": null,
@@ -23656,11 +23656,11 @@
     },
     "125 Shiki: Nana Se ([qcf+Ax2 > B/D] / [236Ax2 > B/D])": {
       "Startup (F)": 17,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": 3,
+      "Recovery (F)": 24,
       "On Hit (F)": "Soft KD",
       "On Guard (F)": -9,
-      "Damage": null,
+      "Damage": 67,
       "Notes": null,
       "Image": "https://imgur.com/2y7PA0e.png",
       "Image1": null,
@@ -23675,11 +23675,11 @@
     },
     "127 Shiki: Yano Sabi 2 ([qcf+A > hcb+A/C] / [236A > 63214A/C])": {
       "Startup (F)": 21,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": 4,
+      "Recovery (F)": 35,
       "On Hit (F)": "Hard KD",
       "On Guard (F)": -21,
-      "Damage": null,
+      "Damage": 25,
       "Notes": null,
       "Image": "https://imgur.com/AiIwGgi.png",
       "Image1": null,
@@ -23694,11 +23694,11 @@
     },
     "125 Shiki: Nana Se ([qcf+A > hcb+A/C > B/D] / [236A > 63214A/C > B/D])": {
       "Startup (F)": 20,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": 3,
+      "Recovery (F)": 24,
       "On Hit (F)": "Soft KD",
       "On Guard (F)": -9,
-      "Damage": null,
+      "Damage": 67,
       "Notes": null,
       "Image": "https://imgur.com/2y7PA0e.png",
       "Image1": null,
@@ -23713,11 +23713,11 @@
     },
     "212 Shiki: Kototsuki You ([qcf+A > hcb+A/C > hcb+B/D] / [236A > 63214A/C > 63214B/D])": {
       "Startup (F)": 10,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": "3, 2",
+      "Recovery (F)": 38,
       "On Hit (F)": "Hard KD",
       "On Guard (F)": -22,
-      "Damage": null,
+      "Damage": 83,
       "Notes": null,
       "Image": "https://imgur.com/WSKPLbf.png",
       "Image1": null,
@@ -23732,11 +23732,11 @@
     },
     "Ge Shiki: Migiri Ugachi ([qcf+A > hcb+A/C > A/C] / [236A > 63214A/C > A/C])": {
       "Startup (F)": 20,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": 14,
+      "Recovery (F)": 22,
       "On Hit (F)": "Hard KD",
       "On Guard (F)": -18,
-      "Damage": null,
+      "Damage": 58,
       "Notes": null,
       "Image": "https://imgur.com/2UPLZXP.png",
       "Image1": null,
@@ -23751,11 +23751,11 @@
     },
     "115 Shiki: Doku Kami ([qcf+C] / [236C])": {
       "Startup (F)": 18,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": 6,
+      "Recovery (F)": 21,
       "On Hit (F)": -7,
       "On Guard (F)": -9,
-      "Damage": null,
+      "Damage": 25,
       "Notes": "Upperbody guard on frames 6 to 9",
       "Image": "https://imgur.com/mJ3LXhK.png",
       "Image1": null,
@@ -23770,11 +23770,11 @@
     },
     "401 Shiki: Tsumi Yomi ([qcf+C > hcb+A/C] / [236C > 63214A/C])": {
       "Startup (F)": 11,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": 3,
+      "Recovery (F)": 34,
       "On Hit (F)": -17,
       "On Guard (F)": -19,
-      "Damage": null,
+      "Damage": 33,
       "Notes": null,
       "Image": "https://imgur.com/ijueuwg.png",
       "Image1": null,
@@ -23789,11 +23789,11 @@
     },
     "402 Shiki: Batsu Yomi ([qcf+C > hcb+A/C > f+A/C] / [236C > 63214A/C > 6A/C])": {
       "Startup (F)": 14,
-      "Active (F)": null,
-      "Recovery (F)": null,
+      "Active (F)": 4,
+      "Recovery (F)": 42,
       "On Hit (F)": "Soft KD",
       "On Guard (F)": -28,
-      "Damage": null,
+      "Damage": 33,
       "Notes": null,
       "Image": "https://imgur.com/7F17q87.png",
       "Image1": null,
@@ -23812,7 +23812,7 @@
       "Recovery (F)": null,
       "On Hit (F)": "Soft KD",
       "On Guard (F)": "-20 ~ -2",
-      "Damage": null,
+      "Damage": 58,
       "Notes": null,
       "Image": "https://imgur.com/tqbC5Mn.png",
       "Image1": null,
@@ -23863,14 +23863,14 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp 182 Shiki ([qcfx2+A] / [236236A])": {
+    "Lp 182 Shiki ([qcfx2+A] / [236236A], Hold to charge)": {
       "Startup (F)": 11,
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": "Soft KD",
       "On Guard (F)": -23,
-      "Damage": null,
-      "Notes": null,
+      "Damage": "Lvl1:225 - Lvl2:283 - Lvl3:416 - Lvl4:575",
+      "Notes": "Full invuln frame 1 to 4",
       "Image": "https://imgur.com/UcyDsV8.png",
       "Image1": null,
       "Image2": null,
@@ -23882,13 +23882,13 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp 182 Shiki ([qcfx2+C] / [236236C])": {
+    "Hp 182 Shiki ([qcfx2+C] / [236236C], Hold to charge)": {
       "Startup (F)": 19,
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": "Soft KD",
       "On Guard (F)": -23,
-      "Damage": null,
+      "Damage": "Lvl1:225 - Lvl2:283 - Lvl3:416 - Lvl4:575",
       "Notes": "Full Invuln start-up and 1st hit",
       "Image": "https://imgur.com/TRewDOI.png",
       "Image1": null,
@@ -23901,13 +23901,13 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp Ura 108 Shiki: Orochinagi ([qcb,hcf+A] / [2141236A])": {
+    "Lp Ura 108 Shiki: Orochinagi ([qcb,hcf+A] / [2141236A], Hold to charge)": {
       "Startup (F)": "no charge = 21 / slight charge = 17",
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": "Soft KD",
       "On Guard (F)": "no charge = -15 / slight charge = -18",
-      "Damage": null,
+      "Damage": 233,
       "Notes": "Full invuln 2F, Low invuln while charging",
       "Image": "https://imgur.com/qxyXllM.png",
       "Image1": "https://imgur.com/eNyx8Af.png",
@@ -23920,13 +23920,13 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp Ura 108 Shiki: Orochinagi ([qcb,hcf+C] / [2141236C])": {
+    "Hp Ura 108 Shiki: Orochinagi ([qcb,hcf+C] / [2141236C], Hold to charge)": {
       "Startup (F)": "no charge = 20 / slight charge = 17",
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": "Soft KD",
       "On Guard (F)": "no charge = -19 / slight charge = -18",
-      "Damage": null,
+      "Damage": 233,
       "Notes": "Full invuln 2F, Upper invuln while charging",
       "Image": "https://imgur.com/Y8fMhND.png",
       "Image1": "https://imgur.com/9WXpUsC.png",
@@ -23939,13 +23939,13 @@
       "Image8": null,
       "Image9": null
     },
-    "Max Ura 108 Shiki: Orochinagi ([qcb,hcf+AC] / [2141236AC])": {
+    "Max Ura 108 Shiki: Orochinagi ([qcb,hcf+AC] / [2141236AC], Hold to charge)": {
       "Startup (F)": 3,
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": "Soft KD",
       "On Guard (F)": 1,
-      "Damage": null,
+      "Damage": 342,
       "Notes": "Full Invuln 2F, Low invuln while charging",
       "Image": "https://imgur.com/u5OzeAK.png",
       "Image1": "https://imgur.com/AHBCQ3N.png",
@@ -23964,7 +23964,7 @@
       "Recovery (F)": 39,
       "On Hit (F)": "Soft KD",
       "On Guard (F)": null,
-      "Damage": null,
+      "Damage": 442,
       "Notes": "Full Inv. 2F",
       "Image": "https://imgur.com/C25UrcL.png",
       "Image1": null,
@@ -24606,7 +24606,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp Orochinagi ([qcb,hcf+A] / [2141236A])": {
+    "Lp Orochinagi ([qcb,hcf+A] / [2141236A], Hold to charge)": {
       "Startup (F)": 21,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -24625,7 +24625,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp Orochinagi ([qcb,hcf+C] / [2141236C])": {
+    "Hp Orochinagi ([qcb,hcf+C] / [2141236C], Hold to charge)": {
       "Startup (F)": 19,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -24682,7 +24682,7 @@
       "Image8": null,
       "Image9": null
     },
-    "MAX Orochinagi ([qcb,hcf+AC] / [2141236AC])": {
+    "MAX Orochinagi ([qcb,hcf+AC] / [2141236AC], Hold to charge)": {
       "Startup (F)": "Charge Part = 3 / Throw Fire Part = 20",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -24701,7 +24701,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Amenohabakiri ([qcb,hcf+BD] / [2141236BD])": {
+    "Amenohabakiri ([qcb,hcf+BD] / [2141236BD], Hold to charge)": {
       "Startup (F)": 15,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -33921,7 +33921,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Ryuko Ranbu: Absolute": {
+    "Ryuko Ranbu: Absolute ([qcf,hcb+BD] / [2363214BD])": {
       "Startup (F)": 46,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -37789,7 +37789,7 @@
       "Image9": null
     },
     "B Ver. МУГЭЦУНОРАЙУН [Mugetu no Raiun] ([hcf+B] / [41236B])": {
-      "Startup (F)": "Less Than 35F?",
+      "Startup (F)": 32,
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": null,
@@ -37808,7 +37808,7 @@
       "Image9": null
     },
     "C Ver. МУГЭЦУНОРАЙУН [Mugetu no Raiun] ([hcf+C] / [41236C])": {
-      "Startup (F)": "?",
+      "Startup (F)": 36,
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": null,
@@ -37827,7 +37827,7 @@
       "Image9": null
     },
     "D Ver. МУГЭЦУНОРАЙУН [Mugetu no Raiun] ([hcf+D] / [41236D])": {
-      "Startup (F)": "?",
+      "Startup (F)": 40,
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": null,
@@ -37883,11 +37883,11 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp ТАКЭРУ МЙКАЖУТЙ [Takeru Mikazuchi] ([dp+A] / [623A])": {
+    "Lp ТАКЭРУ МЙКАЖУТЙ [Takeru Mikazuchi] ([dp+A] / [623A], Mash A/C to maintain)": {
       "Startup (F)": 15,
       "Active (F)": null,
       "Recovery (F)": null,
-      "On Hit (F)": null,
+      "On Hit (F)": 17,
       "On Guard (F)": 0,
       "Damage": null,
       "Notes": null,
@@ -37902,14 +37902,14 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp ТАКЭРУ МЙКАЖУТЙ [Takeru Mikazuchi] ([dp+C] / [623C])": {
-      "Startup (F)": "16 ~ 17F?",
+    "Hp ТАКЭРУ МЙКАЖУТЙ [Takeru Mikazuchi] ([dp+C] / [623C], Mash A/C to maintain)": {
+      "Startup (F)": 19,
       "Active (F)": null,
       "Recovery (F)": null,
-      "On Hit (F)": null,
+      "On Hit (F)": 17,
       "On Guard (F)": 0,
       "Damage": null,
-      "Notes": "Mash A/C for more hits",
+      "Notes": null,
       "Image": null,
       "Image1": null,
       "Image2": null,
@@ -37966,7 +37966,7 @@
       "On Hit (F)": null,
       "On Guard (F)": null,
       "Damage": null,
-      "Notes": "Full invuln frame 1 to 16",
+      "Notes": "Full invuln frame 1 to 13",
       "Image": null,
       "Image1": null,
       "Image2": null,
@@ -37985,7 +37985,7 @@
       "On Hit (F)": null,
       "On Guard (F)": null,
       "Damage": null,
-      "Notes": "Full invuln frame 1 to 19",
+      "Notes": "Full invuln frame 1 to 16",
       "Image": null,
       "Image1": null,
       "Image2": null,
@@ -38004,7 +38004,7 @@
       "On Hit (F)": null,
       "On Guard (F)": -30,
       "Damage": null,
-      "Notes": null,
+      "Notes": "Full invuln frame 1 to 6",
       "Image": null,
       "Image1": null,
       "Image2": null,
@@ -38023,7 +38023,7 @@
       "On Hit (F)": null,
       "On Guard (F)": null,
       "Damage": null,
-      "Notes": "Full invuln frame 1 to 15",
+      "Notes": "Full invuln frame 1 to 12",
       "Image": null,
       "Image1": null,
       "Image2": null,
@@ -38690,7 +38690,7 @@
       "On Hit (F)": null,
       "On Guard (F)": -13,
       "Damage": null,
-      "Notes": null,
+      "Notes": "Vuln mid guard frames 6 to 14",
       "Image": null,
       "Image1": null,
       "Image2": null,
@@ -38709,7 +38709,7 @@
       "On Hit (F)": null,
       "On Guard (F)": -17,
       "Damage": null,
-      "Notes": null,
+      "Notes": "Vuln mid guard frames 6 to 17",
       "Image": null,
       "Image1": null,
       "Image2": null,
@@ -40302,7 +40302,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp Haohshikouken ([f,hcf+A] / [641236A])": {
+    "Lp Haohshikouken ([f,hcf+A] / [641236A], Hold to charge)": {
       "Startup (F)": 15,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -40321,7 +40321,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp Haohshikouken ([f,hcf+C] / [641236C])": {
+    "Hp Haohshikouken ([f,hcf+C] / [641236C], Hold to charge)": {
       "Startup (F)": 13,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -41826,7 +41826,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp/Hp Machine Gun Puncher ([hcb+A/C] / [63214A/C]) ": {
+    "Machine Gun Puncher ([hcf+A/C] / [41236A/C], Mash for more hits) ": {
       "Startup (F)": 6,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -41921,7 +41921,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Puncher Weaving ([qcb+A/C] / [214A/C])": {
+    "Puncher Weaving ([qcb+A/C] / [214A/C], Hold to maintain)": {
       "Startup (F)": 1,
       "Active (F)": "14 + X",
       "Recovery (F)": 0,
@@ -43407,7 +43407,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Strength Shot A \"Superior\" ([hcb+A] / [63214A])": {
+    "Strength Shot A \"Superior\" ([hcb+A] / [63214A], Hold to maintain)": {
       "Startup (F)": 26,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -43426,7 +43426,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Strength Shot B \"Strength\" ([hcb+B] / [63214B])": {
+    "Strength Shot B \"Strength\" ([hcb+B] / [63214B], Hold to maintain)": {
       "Startup (F)": 22,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -43445,7 +43445,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Strength Shot C \"Victory\" ([hcb+C] / [63214C])": {
+    "Strength Shot C \"Victory\" ([hcb+C] / [63214C], Hold to maintain)": {
       "Startup (F)": 23,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -45083,7 +45083,7 @@
       "Image8": null,
       "Image9": null
     },
-    "LP Ver. Serpent Slash ([qcb+A] / [214A])": {
+    "LP Ver. Serpent Slash ([qcb+A] / [214A], Hold to maintain)": {
       "Startup (F)": 9,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -45102,7 +45102,7 @@
       "Image8": null,
       "Image9": null
     },
-    "LK Ver. Serpent Slash ([qcb+B] / [214B])": {
+    "LK Ver. Serpent Slash ([qcb+B] / [214B], Hold to maintain)": {
       "Startup (F)": "1st Hit = 7 / 2nd Hit = 10",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -45121,7 +45121,7 @@
       "Image8": null,
       "Image9": null
     },
-    "HP Ver. Serpent Slash ([qcb+C] / [214C])": {
+    "HP Ver. Serpent Slash ([qcb+C] / [214C], Hold to maintain)": {
       "Startup (F)": "1st Hit = 13 / 2nd Hit = 16",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -45273,14 +45273,14 @@
       "Image8": null,
       "Image9": null
     },
-    "Drill (close [hcbx2+A/C] / [6321463214A/C])": {
+    "Drill (close [hcbx2+A/C] / [6321463214A/C], Mash for more hits)": {
       "Startup (F)": 1,
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": null,
       "On Guard (F)": null,
       "Damage": null,
-      "Notes": "Mash A/C for different versions",
+      "Notes": null,
       "Image": null,
       "Image1": null,
       "Image2": null,
@@ -45292,14 +45292,14 @@
       "Image8": null,
       "Image9": null
     },
-    "MAX Drill (close [hcfx2+AC] / [4123641236AC])": {
+    "MAX Drill (close [hcfx2+AC] / [4123641236AC], Mash for more hits)": {
       "Startup (F)": 1,
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": null,
       "On Guard (F)": null,
       "Damage": null,
-      "Notes": "Mash A/C for different versions",
+      "Notes": null,
       "Image": null,
       "Image1": null,
       "Image2": null,
@@ -46054,7 +46054,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp Final Impact ([qcfx2+A] / [236236A])": {
+    "Lp Final Impact ([qcfx2+A] / [236236A], Hold to charge)": {
       "Startup (F)": 6,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -46073,7 +46073,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp Final Impact ([qcfx2+C] / [236236C])": {
+    "Hp Final Impact ([qcfx2+C] / [236236C], Hold to charge)": {
       "Startup (F)": 9,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -46092,7 +46092,7 @@
       "Image8": null,
       "Image9": null
     },
-    "MAX Final Impact ([qcfx2+AC] / [236236AC])": {
+    "MAX Final Impact ([qcfx2+AC] / [236236AC], Hold to charge)": {
       "Startup (F)": 6,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -46111,7 +46111,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Million Bash Stream ([qcb,hcf+AC] / [2141236AC])": {
+    "Million Bash Stream ([qcb,hcf+AC] / [2141236AC], Mash for more hits)": {
       "Startup (F)": 10,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -47312,7 +47312,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp Ko Ou Ken ([qcf+A] / [236A])": {
+    "Lp Ko Ou Ken ([qcf+A] / [236A], Hold to charge)": {
       "Startup (F)": 20,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -47331,7 +47331,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp Ko Ou Ken ([qcf+C] / [236C])": {
+    "Hp Ko Ou Ken ([qcf+C] / [236C], Hold to charge)": {
       "Startup (F)": 24,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -47350,7 +47350,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Haoh Shou Kou Ken ([qcf+A/C] / [236A/C])": {
+    "Haoh Shou Kou Ken (Fully charged, [qcf+A/C] / [236A/C])": {
       "Startup (F)": null,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -47597,7 +47597,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Chou! Ryukohranbu ([qcf,hcb+AC] / [2363214AC])": {
+    "Chou! Ryukohranbu ([qcf,hcb+AC] / [2363214AC], Hold to charge)": {
       "Startup (F)": 15,
       "Active (F)": null,
       "Recovery (F)": null,
