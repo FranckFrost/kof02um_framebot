@@ -108,8 +108,8 @@ client.on("ready", () => {
     }],
   }); 
 });
-// Keep bot alive.
-keepAlive();
+// Keep bot alive. (doesn't seem to work on raspberry, port issue to look into later)
+// keepAlive();
 // Login to Discord with your client's token
 const token = process.env['DISCORD_TOKEN']
 client.login(token);
