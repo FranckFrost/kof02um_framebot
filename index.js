@@ -52,11 +52,49 @@ client.on('interactionCreate', async autocomplete => {
       })
     }
     // 
-    const character = autocomplete.options.getString('character')
+    let character = autocomplete.options.getString('character')
     // If move is focused 
     if (currentName === "move" && character !== "") {
       // currentValue = autocomplete.options.getFocused()
       let moveObj = {}
+      if (json[character] === undefined) {
+        // Capitilize first letter of char name.
+        let char = character.charAt(0).toUpperCase() + character.slice(1);
+        // Temp: validate extra names.
+        if (char === 'Mary') {
+          char = 'Blue Mary'
+            }
+        if (char === 'O.Chris') {
+          char = 'Orochi Chris'
+            }
+        if (char === 'O.Shermie') {
+          char = 'Orochi Shermie'
+            }
+        if (char === 'O.Yashiro') {
+          char = 'Orochi Yashiro'
+            }
+        if (char === 'Ex kensou' ||
+            char === 'Ex Kensou') {
+          char = 'EX Kensou'
+            }
+        if (char === 'Ex robert' ||
+            char === 'Ex Robert') {
+          char = 'EX Robert'
+            }
+        if (char === 'Ex takuma' ||
+            char === 'Ex Takuma') {
+          char = 'EX Takuma'
+            }
+        if (char === 'K Dash' ||
+            char === 'K`') {
+          char = 'K'
+            }
+        if (char === 'May Lee' ||
+            char === 'May Lee(Standard)') {
+          char = 'May Lee(Normal)'
+            }
+        character = char
+      }
       if (json[character] === undefined) {
         moveObj["name"] = 'Moves not found for specified character, try another character';
         moveObj["value"] = 'Moves not found for specified character, try another character';
