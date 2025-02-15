@@ -3,6 +3,7 @@ const fs = require('fs');
 const { Client, Collection, Intents } = require('discord.js');
 const keepAlive = require('./server');
 const path = require('path')
+// const fetch = require('node-fetch'); to fetch the cargo table (from the module node-fetch@2, pas node-fetch)
 
 // Create a new client instance
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
@@ -19,6 +20,19 @@ for (const file of guildCommandFiles) {
   const command = require(`./commands/guild/${file}`);
   client.commands.set(command.data.name, command);
 }
+
+/* Getting data directly from cargo. It works but it'd be too tedious to navigate the characters and moves
+Would need to change the structure of the json for it to be like the framedata sheet
+
+async function getData() {
+  const url = "https://dreamcancel.com/wiki/Special:CargoExport?title=Special%3ACargoQuery&tables=MoveData_KOF02UM%2C+&fields=MoveData_KOF02UM.chara%2C+MoveData_KOF02UM.input%2C+MoveData_KOF02UM.input2%2C+MoveData_KOF02UM.startup%2C+MoveData_KOF02UM.name%2C+&where=&join_on=&group_by=&having=&order_by%5B0%5D=MoveData_KOF02UM.chara&order_by_options%5B0%5D=ASC&limit=&offset=&format=json";
+  const response = await fetch(url);
+
+  const cargo = await response.json();
+  console.log(cargo[0]["input"]);
+}
+getData();
+return; the return for testing */
 
 let json = null
 let characters = []
