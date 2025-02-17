@@ -37,7 +37,7 @@ return; the return for testing */
 let json = null
 let characters = []
 client.once('ready', () => {
-  json = fs.readFileSync("./assets/framedata.json", 'utf8');
+  json = fs.readFileSync("./assets/framedata02um.json", 'utf8');
   json = JSON.parse(json);
   Object.keys(json).forEach(function (key) {
     characters.push(key);
