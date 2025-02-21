@@ -152,6 +152,9 @@ client.on('interactionCreate', async interaction => {
 });
 client.on("ready", () => {
   console.log(`Hi, ${client.user.username} is now online and used in ${client.guilds.cache.size} servers.`);
+  client.guilds.cache.forEach((guild) => {
+    console.log(`${guild.name} with ${guild.memberCount} members.`)
+  });
 
   client.user.setPresence({
     status: "online",
