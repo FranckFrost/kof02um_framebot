@@ -86,9 +86,9 @@ module.exports = {
           parsedMove = parsedMove.replace(' ', '')
           console.log("Is this still useful? " + parsedMove)
         } */
-        console.log(character)
-        let escapedMoves = move
-        /* console.log(parsedMove)
+        console.log(character, move)
+        /*let escapedMoves = move
+        console.log(parsedMove)
         let escapedMoves = ''
         const moveArray = parsedMove.split(" ")
         moveArray.forEach((element) => {
@@ -100,10 +100,10 @@ module.exports = {
         }) ;
         escapedMoves = escapedMoves.trimEnd();*/
         // If move not found, exit.
-        if (data[character].hasOwnProperty(escapedMoves) === false) {
+        if (data[character].hasOwnProperty(move) === false) {
           return interaction.reply('Could not find specified move: ' + move + 'for ' + character + '. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for available data.');
         }
-        let moveData = data[character][escapedMoves];
+        let moveData = data[character][move];
         const startup = (moveData['Startup (F)'] !== null) ? moveData['Startup (F)'].toString() : '-';
         const active = (moveData['Active (F)'] !== null) ? moveData['Active (F)'].toString() : '-';
         const recovery = (moveData['Recovery (F)'] !== null) ? moveData['Recovery (F)'].toString() : '-';
@@ -123,7 +123,7 @@ module.exports = {
           .setColor('#0x1a2c78')
           .setTitle(character)
           .setURL('https://dreamcancel.com/wiki/The_King_of_Fighters_2002_UM/' + link)
-          .setAuthor({ name: escapedMoves, iconURL: 'https://pbs.twimg.com/profile_images/1150082025673625600/m1VyNZtc_400x400.png', url: 'https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4' })
+          .setAuthor({ name: move, iconURL: 'https://pbs.twimg.com/profile_images/1150082025673625600/m1VyNZtc_400x400.png', url: 'https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4' })
           // .setDescription('Move input')
           .setThumbnail('https://tiermaker.com/images/chart/chart/the-king-of-fighters-2002-um-characters-137019/64px-portraitkof2002um' + img + 'png.png')
           .addFields(
