@@ -244,7 +244,7 @@ module.exports = {
       'May Lee(Hero)': 'maylee',
     };
     if (charImg[character] === undefined) {
-      return character.toLowerCase().replace(' ', '');
+      return character.toLowerCase().trim();
     }
     return charImg[character];
   }
