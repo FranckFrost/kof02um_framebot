@@ -111,9 +111,9 @@ module.exports = {
         const ob = (moveData['On Guard (F)'] !== null) ? moveData['On Guard (F)'].toString() : '-';
         const notes = (moveData['Notes'] !== null) ? moveData['Notes'].toString() : 'No notes found.';
         const dmg = (moveData['Damage'] !== null) ? moveData['Damage'].toString() : '-';
-        // Get lowercase trimmed character name for official site url.
+        /*Get lowercase trimmed character name for official site url.
         let lowerCaseChar = character.toLowerCase();
-        lowerCaseChar = lowerCaseChar.split(/\s+/).join('');
+        lowerCaseChar = lowerCaseChar.split(/\s+/).join('');*/
         // Get character link and img for header and thumbnail.
         const link = this.getCharacterLink(character);
         const img = this.getCharacterImg(character);
@@ -244,7 +244,7 @@ module.exports = {
       'May Lee(Hero)': 'maylee',
     };
     if (charImg[character] === undefined) {
-      return character.toLowerCase().replace(' ', '');
+      return character.toLowerCase().trim();
     }
     return charImg[character];
   }
