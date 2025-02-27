@@ -83,6 +83,19 @@ client.on('interactionCreate', async autocomplete => {
       // currentValue = autocomplete.options.getFocused()
       let moveObj = {}
       let moves = [];
+	    // Capitilize first letter of char name.
+	    let char = character.charAt(0).toUpperCase() + character.slice(1);
+	    // Validate extra names.
+	    if (char === 'Mary') char = 'Blue Mary';
+	    if (char === 'O.Chris') char = 'Orochi Chris';
+	    if (char === 'O.Shermie') char = 'Orochi Shermie';
+	    if (char === 'O.Yashiro') char = 'Orochi Yashiro';
+	    if (char === 'Ex kensou' || char === 'Ex Kensou') char = 'EX Kensou';
+	    if (char === 'Ex robert' || char === 'Ex Robert') char = 'EX Robert';
+	    if (char === 'Ex takuma' || char === 'Ex Takuma') char = 'EX Takuma';
+	    if (char === 'K Dash' || char === 'K`') char = 'K';
+	    if (char === 'May Lee' || char === 'May Lee(Standard)') char = 'May Lee(Normal)'
+	    character = char
 	    if (autocomplete.commandName === 'cargo') {
 		    if (!cargo_characters.includes(character)) {
 			    moveObj["name"] = 'No cargo data available for specified character. Gather framedata with /frames instead.';
@@ -107,19 +120,6 @@ client.on('interactionCreate', async autocomplete => {
 			    }
 					  }
 	    } else {
-		    // Capitilize first letter of char name.
-		    let char = character.charAt(0).toUpperCase() + character.slice(1);
-		    // Validate extra names.
-		    if (char === 'Mary') char = 'Blue Mary';
-		    if (char === 'O.Chris') char = 'Orochi Chris';
-		    if (char === 'O.Shermie') char = 'Orochi Shermie';
-		    if (char === 'O.Yashiro') char = 'Orochi Yashiro';
-		    if (char === 'Ex kensou' || char === 'Ex Kensou') char = 'EX Kensou';
-		    if (char === 'Ex robert' || char === 'Ex Robert') char = 'EX Robert';
-		    if (char === 'Ex takuma' || char === 'Ex Takuma') char = 'EX Takuma';
-		    if (char === 'K Dash' || char === 'K`') char = 'K';
-		    if (char === 'May Lee' || char === 'May Lee(Standard)') char = 'May Lee(Normal)'
-		    character = char
 		    if (json[character] === undefined) {
 			    moveObj["name"] = 'Moves not found for specified character, try another character';
 			    moveObj["value"] = 'Moves not found for specified character, try another character';
