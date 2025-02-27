@@ -21,19 +21,6 @@ for (const file of guildCommandFiles) {
   client.commands.set(command.data.name, command);
 }
 
-/* Getting data directly from cargo. It works but it'd be too tedious to navigate the characters and moves
-Would need to change the structure of the json for it to be like the framedata sheet
-
-async function getData() {
-  const url = "https://dreamcancel.com/wiki/Special:CargoExport?title=Special%3ACargoQuery&tables=MoveData_KOF02UM%2C+&fields=MoveData_KOF02UM.chara%2C+MoveData_KOF02UM.input%2C+MoveData_KOF02UM.input2%2C+MoveData_KOF02UM.startup%2C+MoveData_KOF02UM.name%2C+&where=&join_on=&group_by=&having=&order_by%5B0%5D=MoveData_KOF02UM.chara&order_by_options%5B0%5D=ASC&limit=&offset=&format=json";
-  const response = await fetch(url);
-
-  const cargo = await response.json();
-  console.log(cargo[0]["input"]);
-}
-getData();
-return; the return for testing */
-
 let json = null
 let characters = []
 client.once('ready', () => {
@@ -103,18 +90,16 @@ client.on('interactionCreate', async autocomplete => {
                             options.push(moveObj);
 		    } else {
 			    let move = "";
-			    const url_moves = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.input%2C+MoveData_KOF02UM.input2%2C+MoveData_KOF02UM.name%2C&where=chara+%3D+%22"+character+"%22&order+by=MoveData_KOF02UM._ID+ASC&limit=100&format=json"
+			    const url_moves = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.input%2C+MoveData_KOF02UM.input2%2C+MoveData_KOF02UM.name%2C+MoveData_KOF02UM.moveId%2C&where=chara+%3D+%22"+character+"%22&order+by=MoveData_KOF02UM._ID+ASC&limit=100&format=json"
 			    const response_moves = await fetch(url_moves);
 			    const cargo_moves = await response_moves.json();
 			    for (let x in cargo_moves) {
 				    move = cargo_moves[x]["name"] + "([" + cargo_moves[x]["input"] + "] / [" + cargo_moves[x]["input2"] + "])"
 				    moves.push(move)
-			    }
-			    moves.forEach((move) => {
 				    if (move.toLowerCase().includes(currentValue.toLowerCase())) {
 					    moveObj = {}
 					    moveObj["name"] = move;
-					    moveObj["value"] = move;
+					    moveObj["value"] = cargo_moves[x]["moveId"];
 					    if (options.length < 25) options.push(moveObj);
 				    }
 			    }
