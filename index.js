@@ -99,7 +99,7 @@ client.on('interactionCreate', async autocomplete => {
 				    if (move.toLowerCase().includes(currentValue.toLowerCase())) {
 					    moveObj = {}
 					    moveObj["name"] = move;
-					    moveObj["value"] = cargo_moves[x]["moveId"];
+					    moveObj["value"] = cargo_moves[x]["moveId"]+"..."+move;
 					    if (options.length < 25) options.push(moveObj);
 				    }
 			    }
