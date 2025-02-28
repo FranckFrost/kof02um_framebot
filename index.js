@@ -94,9 +94,12 @@ client.on('interactionCreate', async autocomplete => {
 			    const response_moves = await fetch(url_moves);
 			    const cargo_moves = await response_moves.json();
 			    for (let x in cargo_moves) {
-				    move = cargo_moves[x]["name"] + " (" + cargo_moves[x]["input"] + ")"
-				    if (cargo_moves[x]["input2"] !== null) {
-					    move = cargo_moves[x]["name"] + " ([" + cargo_moves[x]["input"] + "] / [" + cargo_moves[x]["input2"] + "])"
+				    move = cargo_moves[x]["name"]
+				    if (cargo_moves[x]["input"] !== null) {
+					    move = cargo_moves[x]["name"] + " (" + cargo_moves[x]["input"] + ")"
+					    if (cargo_moves[x]["input2"] !== null) {
+						    move = cargo_moves[x]["name"] + " ([" + cargo_moves[x]["input"] + "] / [" + cargo_moves[x]["input2"] + "])"
+					    }
 				    }
 				    moves.push(move)
 				    if (move.toLowerCase().includes(currentValue.toLowerCase())) {
