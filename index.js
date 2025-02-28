@@ -134,6 +134,7 @@ client.on('interactionCreate', async autocomplete => {
 	    }
 	    await autocomplete.respond(options);
     }
+	}
 });
 client.on('interactionCreate', async interaction => {
   if (!interaction.isCommand()) return;
