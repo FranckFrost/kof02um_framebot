@@ -22,21 +22,23 @@ module.exports = {
     console.log("cargo", character, move)
 
     // Fetch the cargo data with the appropriate moveId
-    const url_cargo = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.hitboxes%2C+MoveData_KOF02UM.damage%2C+MoveData_KOF02UM.guard%2C+MoveData_KOF02UM.startup%2C+MoveData_KOF02UM.active%2C+MoveData_KOF02UM.recovery%2C+MoveData_KOF02UM.hitadv%2C+MoveData_KOF02UM.blockadv%2C+MoveData_KOF02UM.invul%2C+MoveData_KOF02UM.cancel%2C+MoveData_KOF02UM.idle%2C+MoveData_KOF02UM.rank%2C&where=moveId+%3D+%22"+id+"%22&order+by=&limit=100&format=json";
+    const url_cargo = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.hitboxes%2C+MoveData_KOF02UM.damage%2C+MoveData_KOF02UM.guard%2C+MoveData_KOF02UM.startup%2C+MoveData_KOF02UM.active%2C+MoveData_KOF02UM.recovery%2C+MoveData_KOF02UM.hitadv%2C+MoveData_KOF02UM.blockadv%2C+MoveData_KOF02UM.invul%2C+MoveData_KOF02UM.cancel%2C+MoveData_KOF02UM.idle%2C+MoveData_KOF02UM.rank%2C+MoveData_KOF02UM.idle%2C&where=moveId+%3D+%22"+id+"%22&order+by=&limit=100&format=json";
     const response_cargo = await fetch(url_cargo);
     const cargo = await response_cargo.json();
 
     // Preparing the embed data from cargo
     let moveData = cargo[0];
-    const startup = (moveData['startup'] !== null) ? moveData['startup'].toString() : '-';
+    const startup = (moveData['startup'] !== null) ? moveData['startup'].toString().replaceAll('&#039;','') : '-';
     const active = (moveData['active'] !== null) ? moveData['active'].toString() : '-';
     const recovery = (moveData['recovery'] !== null) ? moveData['recovery'].toString() : '-';
-    const oh = (moveData['hitadv'] !== null) ? moveData['hitadv'].toString() : '-';
-    const ob = (moveData['blockadv'] !== null) ? moveData['blockadv'].toString() : '-';
-    const inv = (moveData['invul'] !== null) ? moveData['invul'].toString() : 'No recorded invincibility.';
-    const dmg = (moveData['damage'] !== null) ? moveData['damage'].toString() : '-';
-    const guard = (moveData['guard'] !== null) ? moveData['guard'].toString().split('|')[1].replace(']]','') : '-';
-    const cancel = (moveData['cancel'] !== null) ? moveData['cancel'].toString().split('|')[1].replace(']]','') : '-';
+    const oh = (moveData['hitadv'] !== null) ? moveData['hitadv'].toString().replaceAll('&#039;','').replaceAll(/\[\[.*?\|/g,'').replaceAll(']]','') : '-';
+    const ob = (moveData['blockadv'] !== null) ? moveData['blockadv'].toString().replaceAll('&#039;','').replaceAll(/\[\[.*?\|/g,'').replaceAll(']]','') : '-';
+    const inv = (moveData['invul'] !== null) ? moveData['invul'].toString().replaceAll('&#039;','') : 'No recorded invincibility.';
+    const dmg = (moveData['damage'] !== null) ? moveData['damage'].toString().replaceAll('&#039;','') : '-';
+    const guard = (moveData['guard'] !== null) ? moveData['guard'].toString().replaceAll('&#039;','').replaceAll(/\[\[.*?\|/g,'').replaceAll(']]','') : '-';
+    const cancel = (moveData['cancel'] !== null) ? moveData['cancel'].toString().replaceAll('&#039;','').replaceAll(/\[\[.*?\|/g,'').replaceAll(']]','') : '-';
+    const rank = (moveData['rank'] !== null) ? moveData['rank'].toString() : '-';
+    const idle = (moveData['idle'] !== null) ? moveData['idle'].toString() : '-';
     let hitboxes = (moveData['hitboxes'] !== null) ? moveData['hitboxes'].toString().trim().split(',') : [];
     
     // Get character link and img for header and thumbnail.
@@ -55,6 +57,11 @@ module.exports = {
         { name: 'Active', value: active, inline: true },
         { name: 'Recovery', value: recovery, inline: true },
         { name: '\u200B', value: '\u200B' },
+        )
+    if (idle == "yes") {
+      embed.addField({ name: 'Rank', value: rank, inline: true })
+    }else{
+      embed.addFields(
         { name: 'Damage', value: dmg, inline: true },
         { name: 'Cancel', value: cancel, inline: true },
         { name: '\u200B', value: '\u200B' },
@@ -65,8 +72,9 @@ module.exports = {
         { name: 'Invincibility', value: inv },
         // { name: 'Inline field title', value: 'Some value here', inline: true },
         )
-      .setFooter({ text: 'Got feedback? Join the 02UM server: discord.gg/8JNXHxf', iconURL: 'https://cdn.iconscout.com/icon/free/png-128/discord-3-569463.png' });
-      if (hitboxes.length = 0) {
+    }
+      embed.setFooter({ text: 'Got feedback? Join the 02UM server: discord.gg/8JNXHxf', iconURL: 'https://cdn.iconscout.com/icon/free/png-128/discord-3-569463.png' });
+      if (hitboxes.length === 0) {
         embed.addField('No image was found for this move', 'Feel free to share with the [developers](https://github.com/FranckFrost/kof02um_framebot/issues) if you have one.', true);
       } else {
         let ind = "url\":\""
