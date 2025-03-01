@@ -18,91 +18,24 @@ module.exports = {
   			.setDescription('The move name or input.')
   			.setRequired(true)),
   async execute(interaction) {
-    const char = interaction.options.getString('character');
+    const character = interaction.options.getString('character');
     const move = interaction.options.getString('move');
     // Load frame data json.
     fs.readFile("./assets/framedata02um.json", "utf8", (err, jsonObject) => {
       if (err) {
-        // console.log("Error reading file from disk:", err);
         return interaction.reply('Could not load frame data file. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for the data.');
       }
       try {
+        console.log(character, move)
+        
         let data = JSON.parse(jsonObject);
-        // Capitilize first letter of character name.
-        let character = char.charAt(0).toUpperCase() + char.slice(1);
-        // Temp: validate extra names.
-        if (character === 'Mary') {
-          character = 'Blue Mary'
-            }
-        if (character === 'O.Chris') {
-          character = 'Orochi Chris'
-            }
-        if (character === 'O.Shermie') {
-          character = 'Orochi Shermie'
-            }
-        if (character === 'O.Yashiro') {
-          character = 'Orochi Yashiro'
-            }
-        if (character === 'Ex kensou' ||
-            character === 'Ex Kensou') {
-          character = 'EX Kensou'
-            }
-        if (character === 'Ex robert' ||
-            character === 'Ex Robert') {
-          character = 'EX Robert'
-            }
-        if (character === 'Ex takuma' ||
-            character === 'Ex Takuma') {
-          character = 'EX Takuma'
-            }
-        if (character === 'K Dash' ||
-            character === 'K`') {
-          character = 'K'
-            }
-        if (character === 'May Lee' ||
-            character === 'May Lee(Standard)') {
-          character = 'May Lee(Normal)'
-            }
-        // If character not found, exit.
         if (data.hasOwnProperty(character) === false) {
           return interaction.reply('Could not find character: ' + character + '. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for available characters.');
         }
-        // Trim extra whitespaces from move.
-        /* let parsedMove = move.trim();
-        let singleButton = false
-        // Check if single button passed.
-        if (parsedMove.match(/^[+\-aAbBcCdD() .]+$/g)) {
-          singleButton = true
-          // console.log(parsedMove)
-          // Preppend "far" to return valid value.
-          parsedMove = (parsedMove === 'cd' || parsedMove === 'CD') ? parsedMove : 'far ' + parsedMove;
-        }
-        // console.log(parsedMove)
-        // Convert dots into whitespaces.
-        parsedMove = parsedMove.replace('.', ' ')
-        // Trim whitespaces and add caps, turning "236 a" into "236A".
-        if (parsedMove.match(/^[\d+ $+\-aAbBcCdD().]+$/g) ) {
-          parsedMove = parsedMove.toUpperCase()
-          parsedMove = parsedMove.replace(' ', '')
-          console.log("Is this still useful? " + parsedMove)
-        } */
-        console.log(character, move)
-        /*let escapedMoves = move
-        console.log(parsedMove)
-        let escapedMoves = ''
-        const moveArray = parsedMove.split(" ")
-        moveArray.forEach((element) => {
-          // Turn ABCD to uppercase if they are not.
-          if (element.match(/^[+\-aAbBcCdD() .]+$/g) ) {
-            element = element.toUpperCase()
-          }
-          escapedMoves += element + ' ';
-        }) ;
-        escapedMoves = escapedMoves.trimEnd();*/
-        // If move not found, exit.
         if (data[character].hasOwnProperty(move) === false) {
-          return interaction.reply('Could not find specified move: ' + move + 'for ' + character + '. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for available data.');
+          return interaction.reply('Could not find specified move: ' + move + 'for ' + character + '. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for available moves.');
         }
+        
         let moveData = data[character][move];
         const startup = (moveData['Startup (F)'] !== null) ? moveData['Startup (F)'].toString() : '-';
         const active = (moveData['Active (F)'] !== null) ? moveData['Active (F)'].toString() : '-';
@@ -111,11 +44,7 @@ module.exports = {
         const ob = (moveData['On Guard (F)'] !== null) ? moveData['On Guard (F)'].toString() : '-';
         const notes = (moveData['Notes'] !== null) ? moveData['Notes'].toString() : 'No notes found.';
         const dmg = (moveData['Damage'] !== null) ? moveData['Damage'].toString() : '-';
-        /* Get lowercase trimmed character name for official site url.
-        let lowerCaseChar = character.toLowerCase();
-        lowerCaseChar = lowerCaseChar.split(/\s+/).join('');*/
-        // Get character link and img for header and thumbnail.
-        const link = this.getCharacterLink(character);
+        const link = encodeURIComponent(character);
         const img = this.getCharacterImg(character);
         // console.log(charNo);
         const embeds = [];
@@ -184,68 +113,25 @@ module.exports = {
       }
     });
   },
-  getCharacterLink: function(character) {
-    const charLink = {
-      'Andy': 'Andy_Bogard',
-      'Athena': 'Athena_Asamiya',
-      'Benimaru': 'Benimaru_Nikaido',
-      'Billy': 'Billy_Kane',
-      'Blue Mary': 'Blue_Mary',
-      'EX Kensou': 'EX_Kensou',
-      'EX Robert': 'EX_Robert',
-      'EX Takuma': 'EX_Takuma',
-      'Orochi Chris': 'Orochi_Chris',
-      'Orochi Shermie': 'Orochi_Shermie',
-      'Orochi Yashiro': 'Orochi_Yashiro',
-      'Chang': 'Chang_Koehan',
-      'Chin': 'Chin_Gentsai',
-      'Choi': 'Choi_Bounge',
-      'Clark': 'Clark_Still',
-      'Foxy': 'Foxy',
-      'Daimon': 'Goro_Daimon',
-      'Hinako': 'Hinako_Shijou',
-      'Iori': 'Iori_Yagami',
-      'Jhun': 'Jhun_Hoon',
-      'Joe': 'Joe_Higashi',
-      'K': 'K%27',
-      'Kasumi': 'Kasumi_Todoh',
-      'Kim': 'Kim_Kaphwan',
-      'Kula': 'Kula_Diamond',
-      'Kyo': 'Kyo_Kusanagi',
-      'Leona': 'Leona_Heidern',
-      'Xiangfei': 'Li_Xiangfei',
-      'Mai': 'Mai_Shiranui',
-      'May Lee(Normal)': 'May_Lee',
-      'May Lee(Hero)': 'May_Lee',
-      'Ralf': 'Ralf_Jones',
-      'Robert': 'Robert_Garcia',
-      'Ryo': 'Ryo_Sakazaki',
-      'Yamazaki': 'Ryuji_Yamazaki',
-      'Shingo': 'Shingo_Yabuki',
-      'Kensou': 'Sie_Kensou',
-      'Takuma': 'Takuma_Sakazaki',
-      'Terry': 'Terry_Bogard',
-      'Yashiro': 'Yashiro_Nanakase',
-      'Yuri': 'Yuri_Sakazaki'
-    };
-    if (charLink[character] === undefined) {
-      return character;
-    }
-    return charLink[character];
-  },
   getCharacterImg: function(character) {
-    const charImg = {
+    const chartImg = {
       'EX Kensou': 'kensouex',
       'EX Robert': 'robertex',
       'EX Takuma': 'takumaex',
-      'Kyo-1': 'kyo1',
-      'Kyo-2': 'kyo2',
+      'Blue Mary': 'bluemary',
+      'Ryuji Yamazaki': 'yamazaki',
+      'Goro Daimon': 'daimon',
+      'Sie Kensou': 'kensou',
       'May Lee(Normal)': 'maylee',
       'May Lee(Hero)': 'maylee',
+      'Li Xiangfei': 'xiangfei',
+      'Orochi Chris': 'orochichris',
+      'Orochi Shermie': 'orochishermie',
+      'Orochi Yashiro': 'orochiyashiro',
     };
-    if (charImg[character] === undefined) {
-      return character.toLowerCase().trim();
+    if (chartImg[character] === undefined) {
+      return character.toLowerCase().split(' ')[0];
     }
-    return charImg[character];
+    return chartImg[character];
   }
-};
+}
