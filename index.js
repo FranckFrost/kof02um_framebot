@@ -90,7 +90,7 @@ client.on('interactionCreate', async autocomplete => {
 		    } else {
 			    let move = "";
 			    let val = "";
-			    const url_moves = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.input%2C+MoveData_KOF02UM.input2%2C+MoveData_KOF02UM.name%2C+MoveData_KOF02UM.moveId%2C&where=chara+%3D+%22"+character.replaceAll(' ','')+"%22&order+by=MoveData_KOF02UM._ID+ASC&limit=100&format=json"
+			    const url_moves = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.input%2C+MoveData_KOF02UM.input2%2C+MoveData_KOF02UM.name%2C+MoveData_KOF02UM.moveId%2C&where=chara+%3D+%22"+encodeURIComponent(character)+"%22&order+by=MoveData_KOF02UM._ID+ASC&limit=100&format=json"
 			    const response_moves = await fetch(url_moves);
 			    const cargo_moves = await response_moves.json();
 			    for (let x in cargo_moves) {
