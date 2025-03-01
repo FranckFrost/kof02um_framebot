@@ -29,17 +29,19 @@ module.exports = {
 
     // Preparing the embed data from cargo
     let moveData = cargo[0];
-    const startup = (moveData['startup'] !== null) ? moveData['startup'].toString().replaceAll('&#039;','') : '-';
-    const active = (moveData['active'] !== null) ? moveData['active'].toString() : '-';
-    const recovery = (moveData['recovery'] !== null) ? moveData['recovery'].toString() : '-';
-    const oh = (moveData['hitadv'] !== null) ? moveData['hitadv'].toString().replaceAll('&#039;','').replaceAll(/\[\[.*?\|/g,'').replaceAll(']]','') : '-';
-    const ob = (moveData['blockadv'] !== null) ? moveData['blockadv'].toString().replaceAll('&#039;','').replaceAll(/\[\[.*?\|/g,'').replaceAll(']]','') : '-';
-    const inv = (moveData['invul'] !== null) ? moveData['invul'].toString().replaceAll('&#039;','') : 'No recorded invincibility.';
-    const dmg = (moveData['damage'] !== null) ? moveData['damage'].toString().replaceAll('&#039;','') : '-';
-    const guard = (moveData['guard'] !== null) ? moveData['guard'].toString().replaceAll('&#039;','').replaceAll(/\[\[.*?\|/g,'').replaceAll(']]','') : '-';
-    const cancel = (moveData['cancel'] !== null) ? moveData['cancel'].toString().replaceAll('&#039;','').replaceAll(/\[\[.*?\|/g,'').replaceAll(']]','') : '-';
-    const rank = (moveData['rank'] !== null) ? moveData['rank'].toString() : '-';
-    const idle = (moveData['idle'] !== null) ? moveData['idle'].toString() : '-';
+    const startup = this.getHyperLink(moveData['startup']);
+    const active = this.getHyperLink(moveData['active']);
+    const recovery = this.getHyperLink(moveData['recovery']);
+    const rank = this.getHyperLink(moveData['rank']);
+    const idle = this.getHyperLink(moveData['idle']);
+    if (idle !== "yes") {
+      const oh = this.getHyperLink(moveData['hitadv']);
+      const ob = this.getHyperLink(moveData['blockadv']);
+      const inv = this.getHyperLink(moveData['invul'],1);
+      const dmg = this.getHyperLink(moveData['damage']);
+      const guard = this.getHyperLink(moveData['guard']);
+      const cancel = this.getHyperLink(moveData['cancel']);
+    }
     let hitboxes = (moveData['hitboxes'] !== null) ? moveData['hitboxes'].toString().trim().split(',') : [];
     
     // Get character link and img for header and thumbnail.
@@ -59,7 +61,7 @@ module.exports = {
         { name: 'Recovery', value: recovery, inline: true },
         { name: '\u200B', value: '\u200B' },
         )
-    if (idle == "yes") {
+    if (idle === "yes") {
       embed.addField({ name: 'Rank', value: rank})
     }else{
       embed.addFields(
@@ -120,6 +122,32 @@ module.exports = {
         
         return interaction.reply({embeds: embeds});
       }
+  },
+  getHyperLink: function(str,inv) {
+    if (inv && str === null) return 'No recorded invincibility.';
+    if (str === null) return '-';
+    let r="", v=[], w=[], t=[], y=[], h=""; z= str.toString().replaceAll('&#039;','').split(',')
+    for (let i in z) {
+        y[i] = z[i].match(/.*?\[\[.*?\]\].*/g)
+    }
+    for (let i in y) {
+      if (y[i] === null) {
+          v.push(z[i])
+      }else{
+          let url_wiki = "https://dreamcancel.com/wiki/"
+          for (let j in y[i]) {
+              w = y[i][j].replace(']]','').split('[[')
+              t = w[1].split('|')
+              if (t[1].includes("HKD")) h = " \'Hard Knockdown\'"
+              if (t[1].includes("SKD")) h = " \'Soft Knockdown\'"
+              v.push(w[0] + '[' + t[1] + '](' + url_wiki + t[0] + h + ')')
+          }
+      }
+    }
+    for (let i in v) {
+        r = r + v[i] + ','
+    }
+    return r.slice(0, -1);
   },
   getCharacterLink: function(character) {
     const charLink = {
