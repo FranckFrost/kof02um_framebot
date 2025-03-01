@@ -1,5 +1,5 @@
 {
-  "Andy": {
+  "Andy Bogard": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -1979,7 +1979,7 @@
       "Image9": null
     }
   },
-  "Athena": {
+  "Athena Asamiya": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -2133,7 +2133,7 @@
       "Image9": null
     },
     "Run / Walk rank": {
-      "Startup (F)": "2020-08-11T07:00:00.000Z",
+      "Startup (F)": "11 / 8",
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": null,
@@ -3845,7 +3845,7 @@
       "Image9": null
     }
   },
-  "Benimaru": {
+  "Benimaru Nikaido": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -3999,7 +3999,7 @@
       "Image9": null
     },
     "Run / Walk rank": {
-      "Startup (F)": "2020-04-18T07:00:00.000Z",
+      "Startup (F)": "18 / 4",
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": null,
@@ -4569,7 +4569,7 @@
       "Image9": null
     }
   },
-  "Billy": {
+  "Billy Kane": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -6036,7 +6036,7 @@
       "Image9": null
     }
   },
-  "Chang": {
+  "Chang Koehan": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -6722,7 +6722,7 @@
       "Image9": null
     }
   },
-  "Chin": {
+  "Chin Gentsai": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -7636,7 +7636,7 @@
       "Image9": null
     }
   },
-  "Choi": {
+  "Choi Bounge": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -7790,7 +7790,7 @@
       "Image9": null
     },
     "Run / Walk rank": {
-      "Startup (F)": "2020-02-02T08:00:00.000Z",
+      "Startup (F)": "2 / 2",
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": null,
@@ -9903,7 +9903,7 @@
       "Image9": null
     }
   },
-  "Clark": {
+  "Clark Still": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -10558,692 +10558,6 @@
       "On Guard (F)": null,
       "Damage": null,
       "Notes": "Cannot Link From Light Normals",
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    }
-  },
-  "Daimon": {
-    "Idle": {
-      "Startup (F)": null,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Crouch Height": {
-      "Startup (F)": "High",
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Jump": {
-      "Startup (F)": 4,
-      "Active (F)": 34,
-      "Recovery (F)": 1,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": "Unthrowable for the entire duration.",
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Hop": {
-      "Startup (F)": 4,
-      "Active (F)": 26,
-      "Recovery (F)": 1,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": "Unthrowable for the entire duration.",
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Run": {
-      "Startup (F)": 3,
-      "Active (F)": "10 ~ ∞",
-      "Recovery (F)": 2,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Backdash": {
-      "Startup (F)": 3,
-      "Active (F)": 18,
-      "Recovery (F)": 3,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": "Airborne while active.",
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Wake-up": {
-      "Startup (F)": 0,
-      "Active (F)": "25f (-1F)",
-      "Recovery (F)": 0,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering.",
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Recovery roll": {
-      "Startup (F)": 0,
-      "Active (F)": "26f (+3F)",
-      "Recovery (F)": 0,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": "Full invuln for the entire duration. No additional throw invuln.",
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Run / Walk rank": {
-      "Startup (F)": "30 / 32",
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Close A": {
-      "Startup (F)": 5,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": 1,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Close B": {
-      "Startup (F)": 8,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": -3,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Close C": {
-      "Startup (F)": 5,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": 1,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Close D": {
-      "Startup (F)": 5,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": -2,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Far A": {
-      "Startup (F)": 5,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": -1,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Far B": {
-      "Startup (F)": 6,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": -4,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Far C": {
-      "Startup (F)": 10,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": -7,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Far D": {
-      "Startup (F)": 7,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": -4,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Crouch A": {
-      "Startup (F)": 4,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": 0,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Crouch B": {
-      "Startup (F)": 5,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": -1,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Crouch C": {
-      "Startup (F)": 7,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": -5,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Crouch D": {
-      "Startup (F)": 5,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": -1,
-      "Damage": null,
-      "Notes": "Fastest cr.D in the game",
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Stand CD": {
-      "Startup (F)": 16,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": -8,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Cranium Cruncher ([df+C] / [3C])": {
-      "Startup (F)": 5,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": -11,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Lp Minelayer ([dp+A] / [623A])": {
-      "Startup (F)": 28,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Hp Minelayer ([dp+C] / [623C])": {
-      "Startup (F)": "Total Frames = 35",
-      "Active (F)": 0,
-      "Recovery (F)": 0,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Root Countermaneuver ([qcf+B/D] / [236B/D])": {
-      "Startup (F)": 3,
-      "Active (F)": 12,
-      "Recovery (F)": 15,
-      "On Hit (F)": null,
-      "On Guard (F)": "Heavy, qcf+K = -12",
-      "Damage": null,
-      "Notes": "Vulnerable (mid+high)-autoguard when active",
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Earth Mover (close [hcb,f+A/C] / [632146A/C])": {
-      "Startup (F)": 1,
-      "Active (F)": 1,
-      "Recovery (F)": 36,
-      "On Hit (F)": null,
-      "On Guard (F)": "Heavy, hcb,f+P = -20",
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Supper Ohsotogari (close, [dp+B/D] / [623B/D])": {
-      "Startup (F)": 9,
-      "Active (F)": 1,
-      "Recovery (F)": 37,
-      "On Hit (F)": null,
-      "On Guard (F)": "Heavy, dp+K = -29",
-      "Damage": null,
-      "Notes": "Full invuln frame(1-9)",
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Reverse Drop (close, [hcb,f+B/D] / [632146B/D])": {
-      "Startup (F)": "23 (point-blank)",
-      "Active (F)": null,
-      "Recovery (F)": "Run recovery = 3, Grab recovery = 56",
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": "Run (4f start-up) - Low invuln during active frames, Grab (20f start-up)",
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Cloud Tosser ([hcf+A] / [41236A])": {
-      "Startup (F)": 6,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": 15,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Stump Throw ([hcf+C] / [41236C])": {
-      "Startup (F)": 13,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": -20,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Heaven-to-Hell Drop (close [hcbx2+A/C] / [6321463214A/C])": {
-      "Startup (F)": 1,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Max Heaven-to-Hell Drop (close [hcbx2+AC] / [6321463214AC])": {
-      "Startup (F)": 1,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": null,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Stormy Mountain Uprooter (close [hcfx2+B/D] / [4123641236B/D])": {
-      "Startup (F)": 15,
-      "Active (F)": 14,
-      "Recovery (F)": 12,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": "Full autoguard when active",
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Max Stormy Mountain Uprooter (close [hcfx2+BD] / [4123641236BD])": {
-      "Startup (F)": 13,
-      "Active (F)": 12,
-      "Recovery (F)": 12,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": "Full autoguard when active",
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Hourinkazan ([hcbx2+BD] / [6321463214BD])": {
-      "Startup (F)": 18,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": null,
-      "Damage": null,
-      "Notes": null,
       "Image": null,
       "Image1": null,
       "Image2": null,
@@ -11999,6 +11313,692 @@
       "Image9": null
     }
   },
+  "Goro Daimon": {
+    "Idle": {
+      "Startup (F)": null,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch Height": {
+      "Startup (F)": "High",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Jump": {
+      "Startup (F)": 4,
+      "Active (F)": 34,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration.",
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Hop": {
+      "Startup (F)": 4,
+      "Active (F)": 26,
+      "Recovery (F)": 1,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": "Unthrowable for the entire duration.",
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Run": {
+      "Startup (F)": 3,
+      "Active (F)": "10 ~ ∞",
+      "Recovery (F)": 2,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Backdash": {
+      "Startup (F)": 3,
+      "Active (F)": 18,
+      "Recovery (F)": 3,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": "Airborne while active.",
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Wake-up": {
+      "Startup (F)": 0,
+      "Active (F)": "25f (-1F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": "Full invuln the entire duration.  8 more frames of throw invuln after recovering.",
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Recovery roll": {
+      "Startup (F)": 0,
+      "Active (F)": "26f (+3F)",
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": "Full invuln for the entire duration. No additional throw invuln.",
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Run / Walk rank": {
+      "Startup (F)": "30 / 32",
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Close A": {
+      "Startup (F)": 5,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": 1,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Close B": {
+      "Startup (F)": 8,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": -3,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Close C": {
+      "Startup (F)": 5,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": 1,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Close D": {
+      "Startup (F)": 5,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": -2,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Far A": {
+      "Startup (F)": 5,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": -1,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Far B": {
+      "Startup (F)": 6,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": -4,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Far C": {
+      "Startup (F)": 10,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": -7,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Far D": {
+      "Startup (F)": 7,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": -4,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch A": {
+      "Startup (F)": 4,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": 0,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch B": {
+      "Startup (F)": 5,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": -1,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch C": {
+      "Startup (F)": 7,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": -5,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Crouch D": {
+      "Startup (F)": 5,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": -1,
+      "Damage": null,
+      "Notes": "Fastest cr.D in the game",
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Stand CD": {
+      "Startup (F)": 16,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": -8,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Cranium Cruncher ([df+C] / [3C])": {
+      "Startup (F)": 5,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": -11,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Lp Minelayer ([dp+A] / [623A])": {
+      "Startup (F)": 28,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Hp Minelayer ([dp+C] / [623C])": {
+      "Startup (F)": "Total Frames = 35",
+      "Active (F)": 0,
+      "Recovery (F)": 0,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Root Countermaneuver ([qcf+B/D] / [236B/D])": {
+      "Startup (F)": 3,
+      "Active (F)": 12,
+      "Recovery (F)": 15,
+      "On Hit (F)": null,
+      "On Guard (F)": "Heavy, qcf+K = -12",
+      "Damage": null,
+      "Notes": "Vulnerable (mid+high)-autoguard when active",
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Earth Mover (close [hcb,f+A/C] / [632146A/C])": {
+      "Startup (F)": 1,
+      "Active (F)": 1,
+      "Recovery (F)": 36,
+      "On Hit (F)": null,
+      "On Guard (F)": "Heavy, hcb,f+P = -20",
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Supper Ohsotogari (close, [dp+B/D] / [623B/D])": {
+      "Startup (F)": 9,
+      "Active (F)": 1,
+      "Recovery (F)": 37,
+      "On Hit (F)": null,
+      "On Guard (F)": "Heavy, dp+K = -29",
+      "Damage": null,
+      "Notes": "Full invuln frame(1-9)",
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Reverse Drop (close, [hcb,f+B/D] / [632146B/D])": {
+      "Startup (F)": "23 (point-blank)",
+      "Active (F)": null,
+      "Recovery (F)": "Run recovery = 3, Grab recovery = 56",
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": "Run (4f start-up) - Low invuln during active frames, Grab (20f start-up)",
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Cloud Tosser ([hcf+A] / [41236A])": {
+      "Startup (F)": 6,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": 15,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Stump Throw ([hcf+C] / [41236C])": {
+      "Startup (F)": 13,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": -20,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Heaven-to-Hell Drop (close [hcbx2+A/C] / [6321463214A/C])": {
+      "Startup (F)": 1,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Max Heaven-to-Hell Drop (close [hcbx2+AC] / [6321463214AC])": {
+      "Startup (F)": 1,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Stormy Mountain Uprooter (close [hcfx2+B/D] / [4123641236B/D])": {
+      "Startup (F)": 15,
+      "Active (F)": 14,
+      "Recovery (F)": 12,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": "Full autoguard when active",
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Max Stormy Mountain Uprooter (close [hcfx2+BD] / [4123641236BD])": {
+      "Startup (F)": 13,
+      "Active (F)": 12,
+      "Recovery (F)": 12,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": "Full autoguard when active",
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
+    "Hourinkazan ([hcbx2+BD] / [6321463214BD])": {
+      "Startup (F)": 18,
+      "Active (F)": null,
+      "Recovery (F)": null,
+      "On Hit (F)": null,
+      "On Guard (F)": null,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    }
+  },
   "Heidern": {
     "Idle": {
       "Startup (F)": null,
@@ -12704,7 +12704,7 @@
       "Image9": null
     }
   },
-  "Hinako": {
+  "Hinako Shijou": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -13561,9 +13561,9 @@
       "Image9": null
     }
   },
-  "Iori": {
+  "Iori Yagami": {
     "Idle": {
-      "Startup (F)": null,
+      "Startup (F)": "Middle",
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": null,
@@ -13735,9 +13735,9 @@
     },
     "Close A": {
       "Startup (F)": 5,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
+      "Active (F)": 4,
+      "Recovery (F)": 5,
+      "On Hit (F)": 3,
       "On Guard (F)": 1,
       "Damage": null,
       "Notes": null,
@@ -13754,9 +13754,9 @@
     },
     "Close B": {
       "Startup (F)": 6,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
+      "Active (F)": 3,
+      "Recovery (F)": 5,
+      "On Hit (F)": 4,
       "On Guard (F)": 2,
       "Damage": null,
       "Notes": null,
@@ -13773,9 +13773,9 @@
     },
     "Close C": {
       "Startup (F)": 3,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
+      "Active (F)": "2, 5",
+      "Recovery (F)": 14,
+      "On Hit (F)": -1,
       "On Guard (F)": -3,
       "Damage": null,
       "Notes": null,
@@ -13792,9 +13792,9 @@
     },
     "Close D": {
       "Startup (F)": 6,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
+      "Active (F)": 6,
+      "Recovery (F)": 13,
+      "On Hit (F)": 1,
       "On Guard (F)": -1,
       "Damage": null,
       "Notes": null,
@@ -13811,9 +13811,9 @@
     },
     "Far A": {
       "Startup (F)": 7,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
+      "Active (F)": 3,
+      "Recovery (F)": 3,
+      "On Hit (F)": 6,
       "On Guard (F)": 4,
       "Damage": null,
       "Notes": null,
@@ -13830,9 +13830,9 @@
     },
     "Far B": {
       "Startup (F)": 7,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
+      "Active (F)": 4,
+      "Recovery (F)": 7,
+      "On Hit (F)": 1,
       "On Guard (F)": -1,
       "Damage": null,
       "Notes": null,
@@ -13849,9 +13849,9 @@
     },
     "Far C": {
       "Startup (F)": 8,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
+      "Active (F)": 3,
+      "Recovery (F)": 20,
+      "On Hit (F)": -3,
       "On Guard (F)": -5,
       "Damage": null,
       "Notes": null,
@@ -13868,9 +13868,9 @@
     },
     "Far D": {
       "Startup (F)": 9,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
+      "Active (F)": "4, 4",
+      "Recovery (F)": 20,
+      "On Hit (F)": -8,
       "On Guard (F)": -10,
       "Damage": null,
       "Notes": null,
@@ -13887,29 +13887,10 @@
     },
     "Crouch A": {
       "Startup (F)": 6,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
+      "Active (F)": 4,
+      "Recovery (F)": 7,
+      "On Hit (F)": 1,
       "On Guard (F)": -1,
-      "Damage": null,
-      "Notes": 0,
-      "Image": null,
-      "Image1": null,
-      "Image2": null,
-      "Image3": null,
-      "Image4": null,
-      "Image5": null,
-      "Image6": null,
-      "Image7": null,
-      "Image8": null,
-      "Image9": null
-    },
-    "Crouch B": {
-      "Startup (F)": 6,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": 0,
       "Damage": null,
       "Notes": null,
       "Image": null,
@@ -13923,11 +13904,30 @@
       "Image8": null,
       "Image9": null
     },
+    "Crouch B": {
+      "Startup (F)": 6,
+      "Active (F)": 5,
+      "Recovery (F)": 5,
+      "On Hit (F)": 2,
+      "On Guard (F)": 0,
+      "Damage": null,
+      "Notes": "cr.B's hurtbox grows on its last 2 active frames",
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
     "Crouch C": {
       "Startup (F)": 8,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
+      "Active (F)": 5,
+      "Recovery (F)": 16,
+      "On Hit (F)": -1,
       "On Guard (F)": -3,
       "Damage": null,
       "Notes": null,
@@ -13944,9 +13944,9 @@
     },
     "Crouch D": {
       "Startup (F)": 6,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
+      "Active (F)": 6,
+      "Recovery (F)": 31,
+      "On Hit (F)": "SKD",
       "On Guard (F)": -19,
       "Damage": null,
       "Notes": null,
@@ -13963,9 +13963,9 @@
     },
     "Stand CD": {
       "Startup (F)": 12,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
+      "Active (F)": 5,
+      "Recovery (F)": 24,
+      "On Hit (F)": "SKD",
       "On Guard (F)": -7,
       "Damage": null,
       "Notes": null,
@@ -13980,12 +13980,31 @@
       "Image8": null,
       "Image9": null
     },
+    "Ge Shiki: Yumebiki ([f+A] / [6A])": {
+      "Startup (F)": 9,
+      "Active (F)": 4,
+      "Recovery (F)": 19,
+      "On Hit (F)": -3,
+      "On Guard (F)": -5,
+      "Damage": null,
+      "Notes": null,
+      "Image": null,
+      "Image1": null,
+      "Image2": null,
+      "Image3": null,
+      "Image4": null,
+      "Image5": null,
+      "Image6": null,
+      "Image7": null,
+      "Image8": null,
+      "Image9": null
+    },
     "Ge Shiki: Yumebiki ([f+A > A] / [6A > A])": {
-      "Startup (F)": "1st Hit = 9 / 2nd = ?",
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": "1st Hit = -5 / 2nd Hit = -4",
+      "Startup (F)": 5,
+      "Active (F)": 7,
+      "Recovery (F)": 15,
+      "On Hit (F)": -2,
+      "On Guard (F)": -4,
       "Damage": null,
       "Notes": null,
       "Image": null,
@@ -14001,10 +14020,10 @@
     },
     "Ge Shiki: Gobu In \"Shinigami\" (Without Cancel [f+B] / [6B])": {
       "Startup (F)": 28,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": -11,
+      "Active (F)": "3, (3), 3",
+      "Recovery (F)": 20,
+      "On Hit (F)": "1st = -9 / 2nd = -3",
+      "On Guard (F)": "1st = -11 / 2nd = -5",
       "Damage": null,
       "Notes": null,
       "Image": null,
@@ -14020,10 +14039,10 @@
     },
     "Ge Shiki: Gobu In \"Shinigami\" (With Cancel [f+B] / [6B])": {
       "Startup (F)": 24,
-      "Active (F)": null,
-      "Recovery (F)": null,
-      "On Hit (F)": null,
-      "On Guard (F)": -13,
+      "Active (F)": "5, (3), 3",
+      "Recovery (F)": 20,
+      "On Hit (F)": "1st = -11 / 2nd = -3",
+      "On Guard (F)": "1st = -13 / 2nd = -5",
       "Damage": null,
       "Notes": null,
       "Image": null,
@@ -14189,7 +14208,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp 127 Shiki: Aoihanax2 ([qcb+Ax2] / [214Ax2])": {
+    "Lp 127 Shiki: Aoihanax2 ([qcb+A > qcb+A/C] / [214A > 214A/C])": {
       "Startup (F)": "2nd = 8",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -14208,7 +14227,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp 127 Shiki: Aoihanax3 ([qcb+Ax3] / [214Ax3])": {
+    "Lp 127 Shiki: Aoihanax3 ([qcb+A > qcb+A/C > qcb+A/C] / [214A > 214A/C > 214A/C])": {
       "Startup (F)": "3rd = 18",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -14246,7 +14265,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp 127 Shiki: Aoihanax2 ([qcb+Cx2] / [214Cx2])": {
+    "Hp 127 Shiki: Aoihanax2 ([qcb+C > qcb+A/C] / [214C > 214A/C])": {
       "Startup (F)": "2nd = 12",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -14265,7 +14284,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp 127 Shiki: Aoihanax3 ([qcb+Cx3] / [214Cx3])": {
+    "Hp 127 Shiki: Aoihanax3 ([qcb+C > qcb+A/C > qcb+A/C] / [214C > 214A/C > 214A/C])": {
       "Startup (F)": "3rd = 18",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -14418,7 +14437,7 @@
       "Image9": null
     }
   },
-  "Jhun": {
+  "Jhun Hoon": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -15294,7 +15313,7 @@
       "Image9": null
     }
   },
-  "Joe": {
+  "Joe Higashi": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -17274,7 +17293,7 @@
       "Image9": null
     }
   },
-  "Kasumi": {
+  "Kasumi Todoh": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -18074,7 +18093,7 @@
       "Image9": null
     }
   },
-  "Kensou": {
+  "Sie Kensou": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -19636,7 +19655,7 @@
       "Image9": null
     }
   },
-  "Kim": {
+  "Kim Kaphwan": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -21255,7 +21274,7 @@
       "Image9": null
     }
   },
-  "Kula": {
+  "Kula Diamond": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -22779,7 +22798,7 @@
       "Image9": null
     }
   },
-  "Kyo": {
+  "Kyo Kusanagi": {
     "Idle": {
       "Startup (F)": "Middle",
       "Active (F)": null,
@@ -22991,7 +23010,7 @@
     },
     "Close C": {
       "Startup (F)": 3,
-      "Active (F)": 10,
+      "Active (F)": "2, 8",
       "Recovery (F)": 9,
       "On Hit (F)": 1,
       "On Guard (F)": -1,
@@ -23129,7 +23148,7 @@
       "On Hit (F)": 3,
       "On Guard (F)": 1,
       "Damage": 17,
-      "Notes": null,
+      "Notes": "cr.B's hurtbox grows on its last active frame",
       "Image": "https://imgur.com/qjXyy0s.png",
       "Image1": null,
       "Image2": null,
@@ -23143,7 +23162,7 @@
     },
     "Crouch C": {
       "Startup (F)": 6,
-      "Active (F)": 6,
+      "Active (F)": "2, 4",
       "Recovery (F)": 21,
       "On Hit (F)": -7,
       "On Guard (F)": -9,
@@ -23654,7 +23673,7 @@
       "Image8": null,
       "Image9": null
     },
-    "128 Shiki: Kono Kizu ([qcf+Ax2] / [236Ax2])": {
+    "128 Shiki: Kono Kizu ([qcf+A > qcf+A/C] / [236A > 236A/C])": {
       "Startup (F)": 8,
       "Active (F)": 8,
       "Recovery (F)": 31,
@@ -23673,7 +23692,7 @@
       "Image8": null,
       "Image9": null
     },
-    "127 Shiki: Yano Sabi 1  ([qcf+Ax2 > A/C] / [236Ax2 > A/C])": {
+    "127 Shiki: Yano Sabi 1  ([qcf+A > qcf+A/C > A/C] / [236A > 236A/C > A/C])": {
       "Startup (F)": 14,
       "Active (F)": 3,
       "Recovery (F)": 30,
@@ -23692,7 +23711,7 @@
       "Image8": null,
       "Image9": null
     },
-    "125 Shiki: Nana Se ([qcf+Ax2 > B/D] / [236Ax2 > B/D])": {
+    "125 Shiki: Nana Se ([qcf+A > qcf+A/C > B/D] / [236A > 236A/C > B/D])": {
       "Startup (F)": 17,
       "Active (F)": 3,
       "Recovery (F)": 24,
@@ -25330,7 +25349,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Kono Kizu ([qcf+Ax2] / [236Ax2])": {
+    "Kono Kizu ([qcf+A > qcf+A/C] / [236A > 236A/C])": {
       "Startup (F)": 8,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -25349,7 +25368,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Yano Sabi 1 ([qcf+Ax2 > A/C] / [236Ax2 > A/C])": {
+    "Yano Sabi 1 ([qcf+A > qcf+A/C > A/C] / [236A > 236A/C > A/C])": {
       "Startup (F)": 23,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -25368,7 +25387,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Nana Se ([qcf+Ax2 > B/D] / [236Ax2 > B/D])": {
+    "Nana Se ([qcf+A > qcf+A/C > B/D] / [236A > 236A/C > B/D])": {
       "Startup (F)": 18,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -25635,7 +25654,7 @@
       "Image9": null
     }
   },
-  "Leona": {
+  "Leona Heidern": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -27197,7 +27216,7 @@
       "Image9": null
     }
   },
-  "Mai": {
+  "Mai Shiranui": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -31750,7 +31769,7 @@
       "Image9": null
     }
   },
-  "Ralf": {
+  "Ralf Jones": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -33198,7 +33217,7 @@
       "Image9": null
     }
   },
-  "Robert": {
+  "Robert Garcia": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -34798,7 +34817,7 @@
       "Image9": null
     }
   },
-  "Ryo": {
+  "Ryo Sakazaki": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -38093,7 +38112,7 @@
       "Image9": null
     }
   },
-  "Shingo": {
+  "Shingo Yabuki": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -38570,7 +38589,7 @@
       "Image9": null
     },
     "104 Shiki: Aragami Mikansei ([qcf+A] / [236A])": {
-      "Startup (F)": 11,
+      "Startup (F)": 10,
       "Active (F)": null,
       "Recovery (F)": null,
       "On Hit (F)": null,
@@ -38893,7 +38912,7 @@
       "Image9": null
     }
   },
-  "Takuma": {
+  "Takuma Sakazaki": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -40455,7 +40474,7 @@
       "Image9": null
     }
   },
-  "Terry": {
+  "Terry Bogard": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -43655,7 +43674,7 @@
       "Image9": null
     }
   },
-  "Xiangfei": {
+  "Li Xiangfei": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -44512,7 +44531,7 @@
       "Image9": null
     }
   },
-  "Yamazaki": {
+  "Ryuji Yamazaki": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -45330,7 +45349,7 @@
       "Image8": null,
       "Image9": null
     },
-    "MAX Drill (close [hcfx2+AC] / [4123641236AC], Mash for more hits)": {
+    "MAX Drill (close [hcbx2+AC] / [6321463214AC], Mash for more hits)": {
       "Startup (F)": 1,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -45369,7 +45388,7 @@
       "Image9": null
     }
   },
-  "Yashiro": {
+  "Yashiro Nanakase": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -46855,7 +46874,7 @@
       "Image9": null
     }
   },
-  "Yuri": {
+  "Yuri Sakazaki": {
     "Idle": {
       "Startup (F)": null,
       "Active (F)": null,
@@ -47566,7 +47585,7 @@
       "On Hit (F)": null,
       "On Guard (F)": "?",
       "Damage": null,
-      "Notes": "While Max Mode, f+A to Lk Yuri Super Slash = +6 on Guard",
+      "Notes": "While Max Mode, f+A to Lk Raiouken = +6 on Guard",
       "Image": null,
       "Image1": null,
       "Image2": null,
@@ -47585,7 +47604,7 @@
       "On Hit (F)": null,
       "On Guard (F)": "?",
       "Damage": null,
-      "Notes": "While Max Mode, f+A to Hk Yuri Super Slash = +3 on Guard",
+      "Notes": "While Max Mode, f+A to Hk Raiouken = +3 on Guard",
       "Image": null,
       "Image1": null,
       "Image2": null,
