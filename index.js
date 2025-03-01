@@ -70,7 +70,8 @@ client.on('interactionCreate', async autocomplete => {
       // currentValue = autocomplete.options.getFocused()
       let moveObj = {}
 	    // Capitilize first letter(s) of char name.
-	    let char = character.split(' ')[0].charAt(0).toUpperCase() + character.split(' ')[0].slice(1) + character.split(' ')[1].charAt(0).toUpperCase() + character.split(' ')[1].slice(1);
+	    let a = (character.split(' ')[1]!= null) ? ' ' + character.split(' ')[1].charAt(0).toUpperCase() + character.split(' ')[1].slice(1) : ""
+	    let char = character.split(' ')[0].charAt(0).toUpperCase() + character.split(' ')[0].slice(1) + a;
 	    // Validate extra names.
 	    character = getCharacter(char)
 	    if (autocomplete.commandName === 'cargo') {
