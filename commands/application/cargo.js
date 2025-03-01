@@ -23,7 +23,7 @@ module.exports = {
     console.log("cargo", character, move)
 
     // Fetch the cargo data with the appropriate moveId
-    const url_cargo = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.hitboxes%2C+MoveData_KOF02UM.damage%2C+MoveData_KOF02UM.guard%2C+MoveData_KOF02UM.startup%2C+MoveData_KOF02UM.active%2C+MoveData_KOF02UM.recovery%2C+MoveData_KOF02UM.hitadv%2C+MoveData_KOF02UM.blockadv%2C+MoveData_KOF02UM.invul%2C+MoveData_KOF02UM.cancel%2C+MoveData_KOF02UM.idle%2C+MoveData_KOF02UM.rank%2C+MoveData_KOF02UM.idle%2C&where=moveId+%3D+%22"+encodeURIComponent(id)+"%22&order+by=&limit=100&format=json";
+    const url_cargo = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.hitboxes%2C+MoveData_KOF02UM.images%2C+MoveData_KOF02UM.damage%2C+MoveData_KOF02UM.guard%2C+MoveData_KOF02UM.startup%2C+MoveData_KOF02UM.active%2C+MoveData_KOF02UM.recovery%2C+MoveData_KOF02UM.hitadv%2C+MoveData_KOF02UM.blockadv%2C+MoveData_KOF02UM.invul%2C+MoveData_KOF02UM.cancel%2C+MoveData_KOF02UM.idle%2C+MoveData_KOF02UM.rank%2C+MoveData_KOF02UM.idle%2C&where=moveId+%3D+%22"+encodeURIComponent(id)+"%22&order+by=&limit=100&format=json";
     const response_cargo = await fetch(url_cargo);
     const cargo = await response_cargo.json();
 
@@ -34,6 +34,7 @@ module.exports = {
     const recovery = this.getHyperLink(moveData['recovery']);
     const rank = this.getHyperLink(moveData['rank']);
     const idle = this.getHyperLink(moveData['idle']);
+    let hitboxes = (moveData['hitboxes'] !== null) ? moveData['images'].toString().trim().split(',') : [];
     if (idle !== "yes") {
       const oh = this.getHyperLink(moveData['hitadv']);
       const ob = this.getHyperLink(moveData['blockadv']);
@@ -41,8 +42,8 @@ module.exports = {
       const dmg = this.getHyperLink(moveData['damage']);
       const guard = this.getHyperLink(moveData['guard']);
       const cancel = this.getHyperLink(moveData['cancel']);
+      let hitboxes = (moveData['hitboxes'] !== null) ? moveData['hitboxes'].toString().trim().split(',') : [];
     }
-    let hitboxes = (moveData['hitboxes'] !== null) ? moveData['hitboxes'].toString().trim().split(',') : [];
     
     // Get character link and img for header and thumbnail.
     const link = 'https://dreamcancel.com/wiki/The_King_of_Fighters_2002_UM/' + this.getCharacterLink(character);
