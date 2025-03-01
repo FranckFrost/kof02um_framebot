@@ -34,7 +34,7 @@ module.exports = {
     const recovery = this.getHyperLink(moveData['recovery']);
     const rank = this.getHyperLink(moveData['rank']);
     const idle = this.getHyperLink(moveData['idle']);
-    let hitboxes = (moveData['hitboxes'] !== null) ? moveData['images'].toString().trim().split(',') : [];
+    let hitboxes = (moveData['images'] !== null) ? moveData['images'].toString().trim().split(',') : [];
     if (idle !== "yes") {
       const oh = this.getHyperLink(moveData['hitadv']);
       const ob = this.getHyperLink(moveData['blockadv']);
