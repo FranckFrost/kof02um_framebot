@@ -156,6 +156,12 @@ client.on("ready", () => {
     }],
   }); 
 });
+client.on("error", (e) => console.error(e));
+client.on("warn", (e) => console.warn(e));
+client.on("debug", (e) => console.info(e));
+client.on('rateLimit', (info) => {
+  console.log(`Rate limit hit ${info.timeDifference ? info.timeDifference : info.timeout ? info.timeout: 'Unknown timeout '}`)
+})
 // Keep bot alive. (doesn't seem to work on raspberry, port issue to look into later)
 // keepAlive();
 // Login to Discord with your client's token
