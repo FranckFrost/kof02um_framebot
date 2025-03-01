@@ -34,16 +34,14 @@ module.exports = {
     const recovery = this.getHyperLink(moveData['recovery']);
     const rank = this.getHyperLink(moveData['rank']);
     const idle = this.getHyperLink(moveData['idle']);
-    let hitboxes = (moveData['images'] !== null) ? moveData['images'].toString().trim().split(',') : [];
-    if (idle !== "yes") {
-      const oh = this.getHyperLink(moveData['hitadv']);
-      const ob = this.getHyperLink(moveData['blockadv']);
-      const inv = this.getHyperLink(moveData['invul'],1);
-      const dmg = this.getHyperLink(moveData['damage']);
-      const guard = this.getHyperLink(moveData['guard']);
-      const cancel = this.getHyperLink(moveData['cancel']);
-      let hitboxes = (moveData['hitboxes'] !== null) ? moveData['hitboxes'].toString().trim().split(',') : [];
-    }
+    const oh = this.getHyperLink(moveData['hitadv']);
+    const ob = this.getHyperLink(moveData['blockadv']);
+    const inv = this.getHyperLink(moveData['invul'],1);
+    const dmg = this.getHyperLink(moveData['damage']);
+    const guard = this.getHyperLink(moveData['guard']);
+    const cancel = this.getHyperLink(moveData['cancel']);
+    let images = (moveData['images'] !== null) ? moveData['images'].toString().trim().split(',') : [];
+    let hitboxes = (moveData['hitboxes'] !== null) ? moveData['hitboxes'].toString().trim().split(',') : [];
     
     // Get character link and img for header and thumbnail.
     const link = 'https://dreamcancel.com/wiki/The_King_of_Fighters_2002_UM/' + this.getCharacterLink(character);
@@ -63,7 +61,8 @@ module.exports = {
         { name: '\u200B', value: '\u200B' },
         )
     if (idle === "yes") {
-      embed.addField({ name: 'Rank', value: rank})
+      hitboxes = images
+      embed.addFields({ name: 'Rank', value: rank})
     }else{
       embed.addFields(
         { name: 'Damage', value: dmg, inline: true },
@@ -206,6 +205,8 @@ module.exports = {
       'EX Takuma': 'takumaex',
       'Kyo-1': 'kyo1',
       'Kyo-2': 'kyo2',
+      'Kyo Kusanagi': 'kyo',
+      'Shingo Yabuki': 'shingo',
       'May Lee(Normal)': 'maylee',
       'May Lee(Hero)': 'maylee',
     };
