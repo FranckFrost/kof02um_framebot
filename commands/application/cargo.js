@@ -80,7 +80,7 @@ module.exports = {
       } else {
         let ind = "url\":\""
         
-        let url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + hitboxes.shift() + "&iiprop=url"
+        let url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + encodeURIComponent(hitboxes.shift()) + "&iiprop=url"
         let response = await fetch(url)
         let car = await response.text()
         let s = car.indexOf(ind) + ind.length
@@ -89,7 +89,7 @@ module.exports = {
         embeds.push(embed)
 
         if (hitboxes.length > 0) {
-          url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + hitboxes.shift() + "&iiprop=url"
+          url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + encodeURIComponent(hitboxes.shift()) + "&iiprop=url"
           response = await fetch(url)
           car = await response.text()
           s = car.indexOf(ind) + ind.length
@@ -99,7 +99,7 @@ module.exports = {
         }
 
         if (hitboxes.length > 0) {
-          url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + hitboxes.shift() + "&iiprop=url"
+          url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + encodeURIComponent(hitboxes.shift()) + "&iiprop=url"
           response = await fetch(url)
           car = await response.text()
           s = car.indexOf(ind) + ind.length
@@ -109,7 +109,7 @@ module.exports = {
         }
 
         if (hitboxes.length > 0) {
-          url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + hitboxes.shift() + "&iiprop=url"
+          url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + encodeURIComponent(hitboxes.shift()) + "&iiprop=url"
           response = await fetch(url)
           car = await response.text()
           s = car.indexOf(ind) + ind.length
