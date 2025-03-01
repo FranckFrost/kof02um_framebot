@@ -69,7 +69,6 @@ client.on('interactionCreate', async autocomplete => {
     if (currentName === "move" && character !== "") {
       // currentValue = autocomplete.options.getFocused()
       let moveObj = {}
-      let moves = [];
 	    // Capitilize first letter of char name.
 	    let char = character.charAt(0).toUpperCase() + character.slice(1);
 	    // Validate extra names.
@@ -84,13 +83,14 @@ client.on('interactionCreate', async autocomplete => {
 	    if (char === 'May Lee' || char === 'May Lee(Standard)') char = 'May Lee(Normal)'
 	    character = char
 	    if (autocomplete.commandName === 'cargo') {
-		    if (!cargo_characters.includes(character)) {
+		    if (!characters.includes(character)) {
 			    moveObj["name"] = 'No cargo data available for specified character. Gather framedata with /frames instead.';
                             moveObj["value"] = 'No cargo data available for specified character. Gather framedata with /frames instead.';
                             options.push(moveObj);
 		    } else {
 			    let move = "";
-			    const url_moves = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.input%2C+MoveData_KOF02UM.input2%2C+MoveData_KOF02UM.name%2C+MoveData_KOF02UM.moveId%2C&where=chara+%3D+%22"+character+"%22&order+by=MoveData_KOF02UM._ID+ASC&limit=100&format=json"
+			    let val = "";
+			    const url_moves = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.input%2C+MoveData_KOF02UM.input2%2C+MoveData_KOF02UM.name%2C+MoveData_KOF02UM.moveId%2C&where=chara+%3D+%22"+character.replaceAll(' ','')+"%22&order+by=MoveData_KOF02UM._ID+ASC&limit=100&format=json"
 			    const response_moves = await fetch(url_moves);
 			    const cargo_moves = await response_moves.json();
 			    for (let x in cargo_moves) {
@@ -99,13 +99,14 @@ client.on('interactionCreate', async autocomplete => {
 					    move = cargo_moves[x]["name"] + " (" + cargo_moves[x]["input"] + ")"
 					    if (cargo_moves[x]["input2"] !== null) {
 						    move = cargo_moves[x]["name"] + " ([" + cargo_moves[x]["input"] + "] / [" + cargo_moves[x]["input2"] + "])"
+						    val = cargo_moves[x]["moveId"] + "??" + move
+						    if (val.length > 100) move = cargo_moves[x]["name"] + " ([" + cargo_moves[x]["input"].trim() + "] / [" + cargo_moves[x]["input2"].trim() + "])";
 					    }
 				    }
-				    moves.push(move)
 				    if (move.toLowerCase().includes(currentValue.toLowerCase())) {
 					    moveObj = {}
 					    moveObj["name"] = move;
-					    moveObj["value"] = cargo_moves[x]["moveId"]+"..."+move;
+					    moveObj["value"] = cargo_moves[x]["moveId"] + "??" + move;
 					    if (options.length < 25) options.push(moveObj);
 				    }
 			    }
@@ -116,6 +117,7 @@ client.on('interactionCreate', async autocomplete => {
 			    moveObj["value"] = 'Moves not found for specified character, try another character';
 			    options.push(moveObj);
 		    } else {
+			    let moves = [];
 			    Object.keys(json[character]).forEach(function (key) {
 				    moves.push(key);
 			    })
@@ -132,8 +134,8 @@ client.on('interactionCreate', async autocomplete => {
 			    })
 					  }
 	    }
-	    await autocomplete.respond(options);
     }
+	    await autocomplete.respond(options);
 	}
 });
 client.on('interactionCreate', async interaction => {
