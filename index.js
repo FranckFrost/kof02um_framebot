@@ -69,19 +69,10 @@ client.on('interactionCreate', async autocomplete => {
     if (currentName === "move" && character !== "") {
       // currentValue = autocomplete.options.getFocused()
       let moveObj = {}
-	    // Capitilize first letter of char name.
-	    let char = character.charAt(0).toUpperCase() + character.slice(1);
+	    // Capitilize first letter(s) of char name.
+	    let char = character.split(' ')[0].charAt(0).toUpperCase() + character.split(' ')[0].slice(1) + character.split(' ')[1].charAt(0).toUpperCase() + character.split(' ')[1].slice(1);
 	    // Validate extra names.
-	    if (char === 'Mary') char = 'Blue Mary';
-	    if (char === 'O.Chris') char = 'Orochi Chris';
-	    if (char === 'O.Shermie') char = 'Orochi Shermie';
-	    if (char === 'O.Yashiro') char = 'Orochi Yashiro';
-	    if (char === 'Ex kensou' || char === 'Ex Kensou') char = 'EX Kensou';
-	    if (char === 'Ex robert' || char === 'Ex Robert') char = 'EX Robert';
-	    if (char === 'Ex takuma' || char === 'Ex Takuma') char = 'EX Takuma';
-	    if (char === 'K Dash' || char === 'K`') char = 'K';
-	    if (char === 'May Lee' || char === 'May Lee(Standard)') char = 'May Lee(Normal)'
-	    character = char
+	    character = getCharacter(char)
 	    if (autocomplete.commandName === 'cargo') {
 		    if (!characters.includes(character)) {
 			    moveObj["name"] = 'No cargo data available for specified character. Gather framedata with /frames instead.';
@@ -97,10 +88,12 @@ client.on('interactionCreate', async autocomplete => {
 				    move = cargo_moves[x]["name"]
 				    if (cargo_moves[x]["input"] !== null) {
 					    move = cargo_moves[x]["name"] + " (" + cargo_moves[x]["input"] + ")"
-					    if (cargo_moves[x]["input2"] !== null) {
+					    if (cargo_moves[x]["input2"] !== null && cargo_moves[x]["input"] !== cargo_moves[x]["input2"]) {
 						    move = cargo_moves[x]["name"] + " ([" + cargo_moves[x]["input"] + "] / [" + cargo_moves[x]["input2"] + "])"
 						    val = cargo_moves[x]["moveId"] + "??" + move
-						    if (val.length > 100) move = cargo_moves[x]["name"] + " ([" + cargo_moves[x]["input"].trim() + "] / [" + cargo_moves[x]["input2"].trim() + "])";
+						    if (val.length > 100) {   // choice character limit of 100
+							    move = cargo_moves[x]["name"] + " ([" + cargo_moves[x]["input"].trim() + "] / [" + cargo_moves[x]["input2"].trim() + "])"; 
+						    }
 					    }
 				    }
 				    if (move.toLowerCase().includes(currentValue.toLowerCase())) {
@@ -121,8 +114,6 @@ client.on('interactionCreate', async autocomplete => {
 			    Object.keys(json[character]).forEach(function (key) {
 				    moves.push(key);
 			    })
-			    // console.log(moves)
-			    // console.log('currval ' + currentValue)
 			    moves.forEach((move) => {
 				    if (move.toLowerCase().includes(currentValue.toLowerCase())) {
 					    moveObj = {}
@@ -170,3 +161,53 @@ client.on("ready", () => {
 // Login to Discord with your client's token
 const token = process.env['DISCORD_TOKEN']
 client.login(token);
+
+function getCharacter(character) {
+    const chart = {
+      'Andy': 'Andy Bogard',
+      'Athena': 'Athena Asamiya',
+      'Benimaru': 'Benimaru Nikaido',
+      'Billy': 'Billy Kane',
+      'Blue Mary': 'Blue Mary',
+      'Ex Kensou': 'EX Kensou',
+      'Ex Robert': 'EX Robert',
+      'Ex Takuma': 'EX Takuma',
+      'O.Chris': 'Orochi Chris',
+      'O.Shermie': 'Orochi Shermie',
+      'O.Yashiro': 'Orochi Yashiro',
+      'Chang': 'Chang Koehan',
+      'Chin': 'Chin Gentsai',
+      'Choi': 'Choi Bounge',
+      'Clark': 'Clark Still',
+      'Foxy': 'Foxy',
+      'Daimon': 'Goro Daimon',
+      'Hinako': 'Hinako Shijou',
+      'Iori': 'Iori Yagami',
+      'Jhun': 'Jhun Hoon',
+      'Joe': 'Joe Higashi',
+      'K`': 'K',
+      'K Dash': 'K',
+      'Kasumi': 'Kasumi Todoh',
+      'Kim': 'Kim Kaphwan',
+      'Kula': 'Kula Diamond',
+      'Kyo': 'Kyo Kusanagi',
+      'Leona': 'Leona Heidern',
+      'Xiangfei': 'Li Xiangfei',
+      'Mai': 'Mai Shiranui',
+      'May Lee': 'May Lee(Normal)',
+      'Ralf': 'Ralf Jones',
+      'Robert': 'Robert Garcia',
+      'Ryo': 'Ryo Sakazaki',
+      'Yamazaki': 'Ryuji Yamazaki',
+      'Shingo': 'Shingo Yabuki',
+      'Kensou': 'Sie Kensou',
+      'Takuma': 'Takuma Sakazaki',
+      'Terry': 'Terry Bogard',
+      'Yashiro': 'Yashiro Nanakase',
+      'Yuri': 'Yuri Sakazaki'
+    };
+    if (chart[character] === undefined) {
+      return character;
+    }
+    return chart[character];
+};
