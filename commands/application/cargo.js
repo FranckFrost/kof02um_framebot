@@ -60,7 +60,7 @@ module.exports = {
         { name: '\u200B', value: '\u200B' },
         )
     if (idle == "yes") {
-      embed.addField({ name: 'Rank', value: rank, inline: true })
+      embed.addField({ name: 'Rank', value: rank})
     }else{
       embed.addFields(
         { name: 'Damage', value: dmg, inline: true },
