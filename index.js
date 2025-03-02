@@ -70,7 +70,7 @@ client.on('interactionCreate', async autocomplete => {
       // currentValue = autocomplete.options.getFocused()
       let moveObj = {}
 	    // Capitilize first letter(s) of char name.
-	    let a = (character.split(' ')[1]!= null) ? ' ' + character.split(' ')[1].charAt(0).toUpperCase() + character.split(' ')[1].slice(1) : ""
+	    let a = (character.split(' ')[1]!==undefined) ? ' ' + character.split(' ')[1].charAt(0).toUpperCase() + character.split(' ')[1].slice(1) : ""
 	    let char = character.split(' ')[0].charAt(0).toUpperCase() + character.split(' ')[0].slice(1) + a;
 	    // Validate extra names.
 	    character = getCharacter(char)
@@ -175,7 +175,7 @@ function getCharacter(character) {
       'Athena': 'Athena Asamiya',
       'Benimaru': 'Benimaru Nikaido',
       'Billy': 'Billy Kane',
-      'Blue Mary': 'Blue Mary',
+      'Mary': 'Blue Mary',
       'Ex Kensou': 'EX Kensou',
       'Ex Robert': 'EX Robert',
       'Ex Takuma': 'EX Takuma',
