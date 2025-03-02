@@ -42,7 +42,7 @@ module.exports = {
       const guard = this.getHyperLink(moveData['guard']);
       const cancel = this.getHyperLink(moveData['cancel']);
       let images = (moveData['images'] !== null) ? moveData['images'].toString().trim().split(',') : [];
-      let hitboxes = (moveData['hitboxes'] !== null) ? moveData['hitboxes'].toString().trim().split(',') : [];
+      let hitboxes = (moveData['hitboxes'] !== null) ? moveData['hitboxes'].toString().trim().split(',') : images;
     
       // Get character link and img for header and thumbnail.
       const link = 'https://dreamcancel.com/wiki/The_King_of_Fighters_2002_UM/' + this.getCharacterLink(character);
@@ -62,7 +62,6 @@ module.exports = {
           { name: '\u200B', value: '\u200B' },
           )
       if (idle === "yes") {
-        hitboxes = images
         embed.addFields({ name: 'Rank', value: rank})
       }else{
         embed.addFields(
