@@ -22,12 +22,12 @@ for (const file of guildCommandFiles) {
 }
 
 let json = null
-let characters = []
+let characters = [], json_characters = [];
 client.once('ready', () => {
-  json = fs.readFileSync("./assets/framedata02um.json", 'utf8');
+  json = fs.readFileSync("./assets/framedata98.json", 'utf8');
   json = JSON.parse(json);
   Object.keys(json).forEach(function (key) {
-    characters.push(key);
+    json_characters.push(key);
   })
   console.log('Ready!');
 });
@@ -38,6 +38,7 @@ client.on('interactionCreate', async autocomplete => {
     let currentOption = autocomplete.options.getFocused(true);
     let currentName = currentOption.name;
     let currentValue = currentOption.value;
+    characters = json_characters;
 
     if (autocomplete.commandName === 'cargo') {
 	    let cargo_characters = []
