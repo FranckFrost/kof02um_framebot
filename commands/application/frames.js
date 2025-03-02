@@ -18,7 +18,7 @@ module.exports = {
   			.setDescription('The move name or input.')
   			.setRequired(true)),
   async execute(interaction) {
-    const character = interaction.options.getString('character');
+    const character = this.getCharacter(interaction.options.getString('character'));
     const move = interaction.options.getString('move');
     // Load frame data json.
     fs.readFile("./assets/framedata02um.json", "utf8", (err, jsonObject) => {
@@ -115,6 +115,55 @@ module.exports = {
         return interaction.reply('There was an error while processing your request, if the problem persists, contact the bot developers. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) to look for the data.');
       }
     });
+  },
+  getCharacter: function(character) {
+    const chart = {
+      'Andy': 'Andy Bogard',
+      'Athena': 'Athena Asamiya',
+      'Benimaru': 'Benimaru Nikaido',
+      'Billy': 'Billy Kane',
+      'Mary': 'Blue Mary',
+      'Ex Kensou': 'EX Kensou',
+      'Ex Robert': 'EX Robert',
+      'Ex Takuma': 'EX Takuma',
+      'O.Chris': 'Orochi Chris',
+      'O.Shermie': 'Orochi Shermie',
+      'O.Yashiro': 'Orochi Yashiro',
+      'Chang': 'Chang Koehan',
+      'Chin': 'Chin Gentsai',
+      'Choi': 'Choi Bounge',
+      'Clark': 'Clark Still',
+      'Foxy': 'Foxy',
+      'Daimon': 'Goro Daimon',
+      'Hinako': 'Hinako Shijou',
+      'Iori': 'Iori Yagami',
+      'Jhun': 'Jhun Hoon',
+      'Joe': 'Joe Higashi',
+      'K`': 'K',
+      'K Dash': 'K',
+      'Kasumi': 'Kasumi Todoh',
+      'Kim': 'Kim Kaphwan',
+      'Kula': 'Kula Diamond',
+      'Kyo': 'Kyo Kusanagi',
+      'Leona': 'Leona Heidern',
+      'Xiangfei': 'Li Xiangfei',
+      'Mai': 'Mai Shiranui',
+      'May Lee': 'May Lee(Normal)',
+      'Ralf': 'Ralf Jones',
+      'Robert': 'Robert Garcia',
+      'Ryo': 'Ryo Sakazaki',
+      'Yamazaki': 'Ryuji Yamazaki',
+      'Shingo': 'Shingo Yabuki',
+      'Kensou': 'Sie Kensou',
+      'Takuma': 'Takuma Sakazaki',
+      'Terry': 'Terry Bogard',
+      'Yashiro': 'Yashiro Nanakase',
+      'Yuri': 'Yuri Sakazaki'
+    };
+    if (chart[character] === undefined) {
+      return character;
+    }
+    return chart[character];
   },
   getCharacterImg: function(character) {
     const chartImg = {
