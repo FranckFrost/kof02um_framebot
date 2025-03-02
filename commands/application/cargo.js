@@ -41,6 +41,8 @@ module.exports = {
       const dmg = this.getHyperLink(moveData['damage']);
       const guard = this.getHyperLink(moveData['guard']);
       const cancel = this.getHyperLink(moveData['cancel']);
+
+      // Fetch hitboxes or images if lack of the former.
       let images = (moveData['images'] !== null) ? moveData['images'].toString().trim().split(',') : [];
       let hitboxes = (moveData['hitboxes'] !== null) ? moveData['hitboxes'].toString().trim().split(',') : images;
     
@@ -128,9 +130,12 @@ module.exports = {
       }
   },
   getHyperLink: function(str,inv) {
-    if (inv && str === null) return 'No recorded invincibility.';
-    if (str === null) return '-';
-    let t="", u="", v=[], w=[], x=[], y=[], z=str.toString().replaceAll('&#039;','').split(',')
+    if (inv && str === null) return 'No recorded invincibility.'; // no invuln found
+    if (str === null) return '-'; // no property found
+    let s = str.toString().replaceAll('&#039;','');
+    if (s.match(/.*?\[\[.*?\]\].*/) === null) return s; // no hyperlink found
+    
+    let t="", u="", v=[], w=[], x=[], y=[], z=s.split(',')
     for (let i in z) {
         y[i] = z[i].match(/.*?\[\[.*?\]\].*/g)
     }
