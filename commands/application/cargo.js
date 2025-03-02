@@ -47,6 +47,7 @@ module.exports = {
       // Get character link and img for header and thumbnail.
       const link = 'https://dreamcancel.com/wiki/The_King_of_Fighters_2002_UM/' + this.getCharacterLink(character);
       const img = this.getCharacterImg(character);
+      
       const embeds = [];
       const embed = new MessageEmbed()
         .setColor('#0x1a2c78')
