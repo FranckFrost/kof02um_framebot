@@ -24,7 +24,7 @@ for (const file of guildCommandFiles) {
 let json = null
 let characters = [], json_characters = [];
 client.once('ready', () => {
-  json = fs.readFileSync("./assets/framedata98.json", 'utf8');
+  json = fs.readFileSync("./assets/framedata02um.json", 'utf8');
   json = JSON.parse(json);
   Object.keys(json).forEach(function (key) {
     json_characters.push(key);
