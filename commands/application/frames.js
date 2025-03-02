@@ -23,15 +23,17 @@ module.exports = {
     // Load frame data json.
     fs.readFile("./assets/framedata02um.json", "utf8", (err, jsonObject) => {
       if (err) {
+        // If unable to read json, exit.
         return interaction.reply('Could not load frame data file. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for the data.');
       }
       try {
         console.log(character, move)
-        
         let data = JSON.parse(jsonObject);
+        // If character not found, exit.
         if (data.hasOwnProperty(character) === false) {
           return interaction.reply('Could not find character: ' + character + '. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for available characters.');
         }
+        // If move not found, exit.
         if (data[character].hasOwnProperty(move) === false) {
           return interaction.reply('Could not find specified move: ' + move + 'for ' + character + '. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for available moves.');
         }
@@ -44,14 +46,14 @@ module.exports = {
         const ob = (moveData['On Guard (F)'] !== null) ? moveData['On Guard (F)'].toString() : '-';
         const notes = (moveData['Notes'] !== null) ? moveData['Notes'].toString() : 'No notes found.';
         const dmg = (moveData['Damage'] !== null) ? moveData['Damage'].toString() : '-';
-        const link = encodeURIComponent(character);
+        const link = 'https://dreamcancel.com/wiki/The_King_of_Fighters_2002_UM/' + encodeURIComponent(character);
         const img = this.getCharacterImg(character);
-        // console.log(charNo);
+        
         const embeds = [];
         const embed = new MessageEmbed()
           .setColor('#0x1a2c78')
           .setTitle(character)
-          .setURL('https://dreamcancel.com/wiki/The_King_of_Fighters_2002_UM/' + link)
+          .setURL(link)
           .setAuthor({ name: move, iconURL: 'https://pbs.twimg.com/profile_images/1150082025673625600/m1VyNZtc_400x400.png', url: 'https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4' })
           // .setDescription('Move input')
           .setThumbnail('https://tiermaker.com/images/chart/chart/the-king-of-fighters-2002-um-characters-137019/64px-portraitkof2002um' + img + 'png.png')
