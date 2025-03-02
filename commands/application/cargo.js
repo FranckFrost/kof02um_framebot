@@ -156,7 +156,7 @@ module.exports = {
     for (let i in x) {
         t = t + x[i] + ','
     }
-    return r.slice(0, -1);
+    return t.slice(0, -1);
   },
   getCharacterImg: function(character) {
     const chartImg = {
