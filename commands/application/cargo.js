@@ -47,7 +47,7 @@ module.exports = {
       let hitboxes = (moveData['hitboxes'] !== null) ? moveData['hitboxes'].toString().trim().split(',') : images;
     
       // Get character link and img for header and thumbnail.
-      const link = 'https://dreamcancel.com/wiki/The_King_of_Fighters_2002_UM/' + this.getCharacterLink(character);
+      const link = 'https://dreamcancel.com/wiki/The_King_of_Fighters_2002_UM/' + encodeURIComponent(character);
       const img = this.getCharacterImg(character);
       
       const embeds = [];
