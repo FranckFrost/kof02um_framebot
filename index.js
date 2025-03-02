@@ -39,7 +39,7 @@ client.on('interactionCreate', async autocomplete => {
     let currentName = currentOption.name;
     let currentValue = currentOption.value;
 
-    if (autocomplete.commandName === 'cargo'){
+    if (autocomplete.commandName === 'cargo') {
 	    let cargo_characters = []
 	    const url_char = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.chara%2C&&group+by=MoveData_KOF02UM.chara&order+by=&limit=100&format=json"
 	    const response_char = await fetch(url_char);
