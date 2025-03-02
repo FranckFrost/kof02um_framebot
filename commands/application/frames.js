@@ -46,6 +46,7 @@ module.exports = {
         const ob = (moveData['On Guard (F)'] !== null) ? moveData['On Guard (F)'].toString() : '-';
         const notes = (moveData['Notes'] !== null) ? moveData['Notes'].toString() : 'No notes found.';
         const dmg = (moveData['Damage'] !== null) ? moveData['Damage'].toString() : '-';
+        // Get character link and img for header and thumbnail
         const link = 'https://dreamcancel.com/wiki/The_King_of_Fighters_2002_UM/' + encodeURIComponent(character);
         const img = this.getCharacterImg(character);
         
