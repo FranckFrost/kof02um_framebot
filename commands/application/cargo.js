@@ -182,9 +182,9 @@ module.exports = {
     if (inv && str === null) return 'No recorded invincibility.'; // no invuln found
     if (str === null) return '-'; // no property found
     let s = str.toString().replaceAll('&#039;','');
-    if (s.match(/.*?\[\[.*?\]\].*/) === null) return s; // no hyperlink found
+    if (s.match(/.*?\[\[.*?\]\].*/) === null) return s.replaceAll('_',' '); // no hyperlink found
     
-    let t="", u="", v=[], w=[], x=[], y=[], z=s.split(',')
+    let t="", u="", v=[], w=[], x=[], y=[], z=(s.split(',')[1]!==undefined) ? s.split(',') : s.split(';')
     for (let i in z) {
         y[i] = z[i].match(/.*?\[\[.*?\]\].*/g)
     }
