@@ -46,7 +46,7 @@ client.on('interactionCreate', async autocomplete => {
 	    const response_char = await fetch(url_char);
 	    const cargo_char = await response_char.json();
 	    for (let x in cargo_char) {
-		    cargo_characters.push(cargo_char[x]["chara"])
+		    if (cargo_char[x]["chara"]!==null) cargo_characters.push(cargo_char[x]["chara"])
 	    }
 	    characters = cargo_characters;
     }
