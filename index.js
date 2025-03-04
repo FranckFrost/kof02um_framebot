@@ -4,6 +4,7 @@ const { Client, Collection, Intents } = require('discord.js');
 const keepAlive = require('./server');
 const path = require('path')
 const fetch = require('node-fetch'); // to fetch the cargo table (from the module node-fetch@2, pas node-fetch)
+const he = require('he');
 
 // Create a new client instance
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
@@ -92,16 +93,16 @@ client.on('interactionCreate', async autocomplete => {
 					    move = cargo_moves[x]["name"] + " (" + cargo_moves[x]["input"] + ")"
 					    if (cargo_moves[x]["input2"] !== null && cargo_moves[x]["input"] !== cargo_moves[x]["input2"]) {
 						    move = cargo_moves[x]["name"] + " ([" + cargo_moves[x]["input"] + "] / [" + cargo_moves[x]["input2"] + "])"
-						    val = cargo_moves[x]["moveId"] + "??" + move
+						    val = he.decode(cargo_moves[x]["moveId"] + "??" + move)
 						    if (val.length > 100) {   // choice character limit of 100
-							    move = cargo_moves[x]["name"] + " ([" + cargo_moves[x]["input"].trim() + "] / [" + cargo_moves[x]["input2"].trim() + "])"; 
+							    move = cargo_moves[x]["name"] + " ([" + cargo_moves[x]["input"].replaceAll(' ','') + "] / [" + cargo_moves[x]["input2"].replaceAll(' ','') + "])";
 						    }
 					    }
 				    }
 				    if (move.toLowerCase().includes(currentValue.toLowerCase())) {
 					    moveObj = {}
-					    moveObj["name"] = move;
-					    moveObj["value"] = cargo_moves[x]["moveId"] + "??" + move;
+					    moveObj["name"] = he.decode(move);
+					    moveObj["value"] = he.decode(cargo_moves[x]["moveId"] + "??" + move);
 					    if (options.length < 25) options.push(moveObj);
 				    }
 			    }
