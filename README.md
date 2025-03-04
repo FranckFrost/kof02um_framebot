@@ -4,6 +4,7 @@ This is a KOF 02UM bot in a very early stage of development made by [@Franck_Fro
 ## Getting started
 To start using this bot in your server, add it with the following [link](https://discord.com/api/oauth2/authorize?client_id=950847013870772264&permissions=277025721344scope=bot%20applications.commands). You can also view the bot in community bot listing platforms:
  - [Top](https://top.gg/bot/950847013870772264)
+ - [Discord bots](https://discord.bots.gg/bots/950847013870772264)
 
 ## Usage
 The bot has a `/frames` and a `/cargo` slash command that both accept 2 arguments:
