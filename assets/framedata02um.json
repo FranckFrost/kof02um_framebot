@@ -1320,7 +1320,7 @@
       "On Hit (F)": null,
       "On Guard (F)": 1,
       "Damage": null,
-      "Notes": null,
+      "Notes": "Fastest cl.B in the game",
       "Image": null,
       "Image1": null,
       "Image2": null,
@@ -9617,7 +9617,7 @@
       "Image8": null,
       "Image9": null
     },
-    "МУЁ НО ОНО [Muyou No Ono] ([f+A] / [6A])": {
+    "Muyou No Ono ([f+A] / [6A])": {
       "Startup (F)": 11,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9636,7 +9636,7 @@
       "Image8": null,
       "Image9": null
     },
-    "ЖУКЗЙ НО ОНИ [Jukei No Oni] ([f+B] / [6B])": {
+    "Jukei No Oni ([f+B] / [6B])": {
       "Startup (F)": "11 / 15",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9655,7 +9655,7 @@
       "Image8": null,
       "Image9": null
     },
-    "СЭЧДАН НО КОТО [Setsudan No Koto] ([df+B] / [3B])": {
+    "Setsudan No Koto ([df+B] / [3B])": {
       "Startup (F)": 9,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9674,7 +9674,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp ТАЙЕ О ИРУ ХОНО [Taiyou wo Iru Honoo] ([qcf+A] / [236A])": {
+    "Lp Taiyou wo Iru Honoo ([qcf+A] / [236A])": {
       "Startup (F)": 33,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9693,7 +9693,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp ТАЙЕ О ИРУ ХОНО [Taiyou wo Iru Honoo] ([qcf+C] / [236C])": {
+    "Hp Taiyou wo Iru Honoo ([qcf+C] / [236C])": {
       "Startup (F)": "?",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9712,7 +9712,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp ЦУКИ О ЦУМУ ХОНО [Tsuki wo Tsumu Honoo] ([dp+A] / [623A])": {
+    "Lp Tsuki wo Tsumu Honoo ([dp+A] / [623A])": {
       "Startup (F)": 9,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9731,7 +9731,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp ЦУКИ О ЦУМУ ХОНО [Tsuki wo Tsumu Honoo] ([dp+C] / [623C])": {
+    "Hp Tsuki wo Tsumu Honoo ([dp+C] / [623C])": {
       "Startup (F)": 9,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9750,7 +9750,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp КАГАМИ О ХОФУРУ ХОНО [Kagami wo Hofuru Honoo] ([qcb+A] / [214A])": {
+    "Lp Kagami wo Hofuru Honoo ([qcb+A] / [214A])": {
       "Startup (F)": 17,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9769,7 +9769,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp КАГАМИ О ХОФУРУ ХОНО [Kagami wo Hofuru Honoo] ([qcb+C] / [214C])": {
+    "Hp Kagami wo Hofuru Honoo ([qcb+C] / [214C])": {
       "Startup (F)": 17,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9788,7 +9788,7 @@
       "Image8": null,
       "Image9": null
     },
-    "ШИШИ О КАМУ ХОНО [Shishi wo Kamu Honoo] (close [hcf+B/D] / [41236B/D])": {
+    "Shishi wo Kamu Honoo (close [hcf+B/D] / [41236B/D])": {
       "Startup (F)": 11,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9807,7 +9807,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Lp АНКОКУ ОРОУИ НАГИ [Ankoku Orochinagi] ([qcb,hcf+A] / [2141236A], Hold to charge)": {
+    "Lp Ankoku Orochinagi ([qcb,hcf+A] / [2141236A], Hold to charge)": {
       "Startup (F)": 19,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9826,7 +9826,7 @@
       "Image8": null,
       "Image9": null
     },
-    "Hp АНКОКУ ОРОУИ НАГИ [Ankoku Orochinagi] ([qcb,hcf+C] / [2141236C], Hold to charge)": {
+    "Hp Ankoku Orochinagi ([qcb,hcf+C] / [2141236C], Hold to charge)": {
       "Startup (F)": 21,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9845,7 +9845,7 @@
       "Image8": null,
       "Image9": null
     },
-    "ДАЙЧИ О КУРАУ ГОУКА [Daichi No Kurau Gouka] ([qcfx2+A/C] / [236236A/C])": {
+    "Daichi No Kurau Gouka ([qcfx2+A/C] / [236236A/C])": {
       "Startup (F)": "At Least More Than 38F",
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9864,7 +9864,7 @@
       "Image8": null,
       "Image9": null
     },
-    "MAX АНКОКУ ОРОУИ НАГИ [Ankoku Orochinagi] ([qcb,hcf+AC] / [2141236AC], Hold to charge)": {
+    "MAX Ankoku Orochinagi ([qcb,hcf+AC] / [2141236AC], Hold to charge)": {
       "Startup (F)": 22,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -9883,7 +9883,7 @@
       "Image8": null,
       "Image9": null
     },
-    "САНАГИ О ЯБУРЙ ЧИёУХАМАУ [Sanagi wo Yaburi, Chou wa mau] ([qcfx2+BD] / [236236BD])": {
+    "Sanagi wo Yaburi, Chou wa mau ([qcfx2+BD] / [236236BD])": {
       "Startup (F)": null,
       "Active (F)": null,
       "Recovery (F)": null,
@@ -33814,7 +33814,7 @@
       "On Hit (F)": null,
       "On Guard (F)": "Proximity Unblockable",
       "Damage": null,
-      "Notes": null,
+      "Notes": "Full invuln frame(1-9)",
       "Image": null,
       "Image1": null,
       "Image2": null,
@@ -34671,7 +34671,7 @@
       "On Hit (F)": null,
       "On Guard (F)": "Proximity Unblockable",
       "Damage": null,
-      "Notes": null,
+      "Notes": "Full invuln frame(1-4)",
       "Image": null,
       "Image1": null,
       "Image2": null,
