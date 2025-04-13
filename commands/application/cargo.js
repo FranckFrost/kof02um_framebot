@@ -123,7 +123,8 @@ module.exports = {
             embeds.push(embed3)
           }
         }
-      return interaction.reply({embeds: embeds});
+      await interaction.editReply({embeds: embeds});
+      return;
       } catch (err) {
         console.log("Error finishing cargo request", err);
         return interaction.reply('There was an error while processing your request, if the problem persists, contact the bot developers. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) to look for the data.');
