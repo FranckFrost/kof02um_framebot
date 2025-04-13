@@ -140,6 +140,7 @@ client.on('interactionCreate', async interaction => {
   if (!command) return;
   
   try {
+    if (interaction.commandName === 'cargo') await interaction.deferReply();
     await command.execute(interaction);
   } catch (error) {
     console.error(error);
