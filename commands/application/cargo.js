@@ -19,6 +19,10 @@ module.exports = {
   			.setRequired(true)),
   async execute(interaction) {
     const character = this.getCharacter(interaction.options.getString('character'));
+    const mov = interaction.options.getString('move');
+    if (mov.split("??")[1] === undefined) {
+      return interaction.editReply('You are free to manually enter the character but you have to select the move from the scroll list. You can type to refine the search.')
+    }
     const [id, move] = interaction.options.getString('move').split("??");
     console.log("cargo", character, move)
 
@@ -81,7 +85,7 @@ module.exports = {
       }
         embed.setFooter({ text: 'Got feedback? Join the 02UM server: discord.gg/8JNXHxf', iconURL: 'https://cdn.iconscout.com/icon/free/png-128/discord-3-569463.png' });
         if (hitboxes.length === 0) {
-          embed.addField('No image was found for this move', 'Feel free to share with the [developers](https://github.com/FranckFrost/kof02um_framebot/issues) if you have one.', true);
+          embed.addField('No image was found for this move', 'Feel free to share with Franck Frost if you have one.', true);
         } else {
           let ind = "url\":\""
           
@@ -125,9 +129,9 @@ module.exports = {
         }
       await interaction.editReply({embeds: embeds});
       return;
-      } catch (err) {
-        console.log("Error finishing cargo request", err);
-        return interaction.editReply('There was an error while processing your request, if the problem persists, contact the bot developers. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) to look for the data.');
+      } catch (error) {
+        console.log("Error finishing cargo request", error);
+        return interaction.editReply('There was an error while processing your request, reach out to <@259615904772521984>. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) to look for the data.');
       }
   },
   getCharacter: function(character) {
