@@ -23,7 +23,7 @@ module.exports = {
     // Load frame data json.
     fs.readFile("./assets/framedata02um.json", "utf8", (err, jsonObject) => {
       if (err) {
-        return interaction.reply('Could not load frame data file. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for the data.');
+        return interaction.reply('Could not load framedata file. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for the data.');
       }
       try {
         console.log(character, move)
