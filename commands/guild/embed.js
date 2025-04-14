@@ -33,7 +33,7 @@ module.exports = {
           return interaction.reply('Could not find character: ' + character + '. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for available characters.');
         }
         if (data[character].hasOwnProperty(move) === false) {
-          return interaction.reply('Could not find specified move: ' + move + 'for ' + character + '. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for available moves.');
+          return interaction.reply('Could not find specified move: ' + move + ' for ' + character + '. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) for available moves.');
         }
         
         let moveData = data[character][move];
@@ -68,7 +68,7 @@ module.exports = {
             // { name: 'Inline field title', value: 'Some value here', inline: true },
           )
           .setFooter({ text: 'Got feedback? Join the 02UM server: discord.gg/8JNXHxf', iconURL: 'https://cdn.iconscout.com/icon/free/png-128/discord-3-569463.png' });
-          (moveData['Image'] != null) ? embed.setImage(moveData['Image']) : embed.addField('No image was found for this move', 'Feel free to share with the [developers](https://github.com/FranckFrost/kof02um_framebot/issues) if you have one.', true);
+          (moveData['Image'] != null) ? embed.setImage(moveData['Image']) : embed.addField('No image was found for this move', 'Feel free to share with Franck Frost if you have one.', true);
         embeds.push(embed);
         if (moveData['Image1'] != null) {
           const embed1 = new MessageEmbed().setImage(moveData['Image1']);
@@ -107,9 +107,9 @@ module.exports = {
           embeds.push(embed9);
         } //10 embeds max per message
         return interaction.reply({embeds: embeds});
-      } catch (err) {
-        console.log("Error parsing JSON string:", err);
-        return interaction.reply('There was an error while processing your request, if the problem persists, contact the bot developers. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) to look for the data.');
+      } catch (error) {
+        console.log("Error parsing JSON string:", error);
+        return interaction.reply('There was an error while processing your request, reach out to <@259615904772521984>. Refer to the [Google sheet](https://docs.google.com/spreadsheets/d/1lzpQMoGAboJezLT9WRd3O-vlNDNRlgF_47ShtBGZ3G4) to look for the data.');
       }
     });
   },
