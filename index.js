@@ -69,7 +69,6 @@ client.on('interactionCreate', async autocomplete => {
     let character = autocomplete.options.getString('character')
     // If move is focused 
     if (currentName === "move" && character !== "") {
-      // currentValue = autocomplete.options.getFocused()
       let moveObj = {}
 	    // Capitilize first letter(s) of char name.
 	    let a = (character.split(' ')[1]!==undefined) ? ' ' + character.split(' ')[1].charAt(0).toUpperCase() + character.split(' ')[1].slice(1) : ""
