@@ -148,7 +148,11 @@ client.on('interactionCreate', async interaction => {
     await command.execute(interaction);
   } catch (error) {
     console.error(error);
-    await interaction.reply('There was an error while executing this command! Reach out to <@259615904772521984>.');
+    if (interaction.commandName === 'cargo') {
+	    await interaction.editReply('There was an error while executing this command! Reach out to <@259615904772521984>.');
+    } else {
+	    await interaction.reply('There was an error while executing this command! Reach out to <@259615904772521984>.');
+    }
   }
 });
 client.on("ready", () => {
