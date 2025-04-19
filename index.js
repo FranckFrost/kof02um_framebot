@@ -99,6 +99,10 @@ client.on('interactionCreate', async autocomplete => {
 						    val = he.decode(cargo_moves[x]["moveId"] + "??" + move)
 						    if (val.length > 100) {   // choice character limit of 100
 							    move = cargo_moves[x]["name"] + " ([" + cargo_moves[x]["input"].replaceAll(' ','') + "] / [" + cargo_moves[x]["input2"].replaceAll(' ','') + "])";
+							    val = he.decode(cargo_moves[x]["moveId"] + "??" + move)
+							    if (val.length > 100) {   // choice character limit of 100
+								    move = move.replaceAll('A/C','P').replaceAll('B/D','K');
+							    }
 						    }
 					    }
 				    }
