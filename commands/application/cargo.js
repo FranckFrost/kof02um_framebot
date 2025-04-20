@@ -18,6 +18,7 @@ module.exports = {
   			.setDescription('The move name or input.')
   			.setRequired(true)),
   async execute(interaction) {
+    await interaction.deferReply();
     const character = this.getCharacter(interaction.options.getString('character'));
     const mov = interaction.options.getString('move');
     if (mov.split("??")[1] === undefined) {
