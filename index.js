@@ -96,10 +96,10 @@ client.on('interactionCreate', async autocomplete => {
 					    move = cargo_moves[x]["name"] + " (" + cargo_moves[x]["input"] + ")"
 					    if (cargo_moves[x]["input2"] !== null && cargo_moves[x]["input"] !== cargo_moves[x]["input2"]) {
 						    move = cargo_moves[x]["name"] + " ([" + cargo_moves[x]["input"] + "] / [" + cargo_moves[x]["input2"] + "])"
-						    val = he.decode(cargo_moves[x]["moveId"] + "??" + move)
+						    val = he.decode(cargo_moves[x]["moveId"] + "?" + move)
 						    if (val.length > 100) {   // choice character limit of 100
-							    move = cargo_moves[x]["name"] + " ([" + cargo_moves[x]["input"].replaceAll(' ','') + "] / [" + cargo_moves[x]["input2"].replaceAll(' ','') + "])";
-							    val = he.decode(cargo_moves[x]["moveId"] + "??" + move)
+							    move = cargo_moves[x]["name"].replaceAll('?','') + " ([" + cargo_moves[x]["input"].replaceAll(' ','') + "] / [" + cargo_moves[x]["input2"].replaceAll(' ','') + "])";
+							    val = he.decode(cargo_moves[x]["moveId"] + "?" + move)
 							    if (val.length > 100) {   // choice character limit of 100
 								    move = move.replaceAll('A/C','P').replaceAll('B/D','K');
 							    }
@@ -109,7 +109,7 @@ client.on('interactionCreate', async autocomplete => {
 				    if (move.toLowerCase().includes(currentValue.toLowerCase())) {
 					    moveObj = {}
 					    moveObj["name"] = he.decode(move);
-					    moveObj["value"] = he.decode(cargo_moves[x]["moveId"] + "??" + move);
+					    moveObj["value"] = he.decode(cargo_moves[x]["moveId"] + "?" + move);
 					    if (options.length < 25) options.push(moveObj);
 				    }
 			    }
