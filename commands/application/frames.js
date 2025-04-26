@@ -182,7 +182,7 @@ module.exports = {
       'Orochi Yashiro': 'orochiyashiro',
     };
     if (chartImg[character] === undefined) {
-      return character.toLowerCase().split(' ')[0];
+      return character.toLowerCase().replace('-','').split(' ')[0];
     }
     return chartImg[character];
   }
