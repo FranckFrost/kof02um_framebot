@@ -4,7 +4,7 @@ const { Client, Collection, Intents } = require('discord.js');
 const keepAlive = require('./server');
 const path = require('path')
 const fetch = require('node-fetch'); // to fetch the cargo table (from the module node-fetch@2, not node-fetch)
-//const he = require('he');
+const he = require('he');
 
 // Create a new client instance
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
@@ -108,7 +108,7 @@ client.on('interactionCreate', async autocomplete => {
 				    }
 				    if (move.toLowerCase().includes(currentValue.toLowerCase())) {
 					    moveObj = {}
-					    moveObj["name"] = move; //he.decode(move)
+					    moveObj["name"] = he.decode(move);
 					    moveObj["value"] = cargo_moves[x]["moveId"];
 					    if (options.length < 25) options.push(moveObj);
 				    }
