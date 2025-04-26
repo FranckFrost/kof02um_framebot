@@ -19,22 +19,29 @@ module.exports = {
   			.setRequired(true)),
   async execute(interaction) {
     await interaction.deferReply();
-    const character = this.getCharacter(interaction.options.getString('character'));
-    const mov = interaction.options.getString('move');
-    if (mov.split("?")[1] === undefined) {
-      return interaction.editReply('You are free to manually enter the **character** but you have to select the **move** from the scroll list. You can type to refine the search.')
-    }
-    const [id, move] = mov.split("?");
-    console.log("cargo", character, move)
-
     try {
+      const character = this.getCharacter(interaction.options.getString('character'));
+      const id = interaction.options.getString('move');
+      /*if (mov.split("?")[1] === undefined) {
+        return interaction.editReply('You are free to manually enter the **character** but you have to select the **move** from the scroll list. You can type to refine the search.')
+      }
+      const [id, move] = mov.split("?");*/
+      
       // Fetch the cargo data with the appropriate moveId
-      const url_cargo = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.hitboxes%2C+MoveData_KOF02UM.images%2C+MoveData_KOF02UM.damage%2C+MoveData_KOF02UM.guard%2C+MoveData_KOF02UM.startup%2C+MoveData_KOF02UM.active%2C+MoveData_KOF02UM.recovery%2C+MoveData_KOF02UM.hitadv%2C+MoveData_KOF02UM.blockadv%2C+MoveData_KOF02UM.invul%2C+MoveData_KOF02UM.cancel%2C+MoveData_KOF02UM.idle%2C+MoveData_KOF02UM.rank%2C+MoveData_KOF02UM.idle%2C&where=moveId+%3D+%22"+encodeURIComponent(id)+"%22&order+by=&limit=100&format=json";
+      const url_cargo = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.input%2C+MoveData_KOF02UM.input2%2C+MoveData_KOF02UM.name%2C+MoveData_KOF02UM.hitboxes%2C+MoveData_KOF02UM.images%2C+MoveData_KOF02UM.damage%2C+MoveData_KOF02UM.guard%2C+MoveData_KOF02UM.startup%2C+MoveData_KOF02UM.active%2C+MoveData_KOF02UM.recovery%2C+MoveData_KOF02UM.hitadv%2C+MoveData_KOF02UM.blockadv%2C+MoveData_KOF02UM.invul%2C+MoveData_KOF02UM.cancel%2C+MoveData_KOF02UM.idle%2C+MoveData_KOF02UM.rank%2C+MoveData_KOF02UM.idle%2C&where=moveId+%3D+%22"+encodeURIComponent(id)+"%22&order+by=&limit=100&format=json";
       const response_cargo = await fetch(url_cargo);
       const cargo = await response_cargo.json();
   
       // Preparing the embed data from cargo
       let moveData = cargo[0];
+      let move = moveData["name"]
+			if (moveData["input"] !== null) {
+        move = moveData["name"] + " (" + moveData["input"] + ")"
+        if (moveData["input2"] !== null && moveData["input"] !== moveData["input2"]) {
+          move = moveData["name"] + " ([" + moveData["input"] + "] / [" + moveData["input2"] + "])"
+        }
+      }
+      console.log("cargo", character, move)
       const startup = this.getHyperLink(moveData['startup']);
       const active = this.getHyperLink(moveData['active']);
       const recovery = this.getHyperLink(moveData['recovery']);
