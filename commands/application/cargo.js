@@ -2,6 +2,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed } = require('discord.js');
 const { MessageEmbedVideo } = require('discord.js');
 const fetch = require('node-fetch');
+const he = require('he');
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -35,12 +36,13 @@ module.exports = {
       // Preparing the embed data from cargo
       let moveData = cargo[0];
       let move = moveData["name"]
-			if (moveData["input"] !== null) {
-        move = moveData["name"] + " (" + moveData["input"] + ")"
-        if (moveData["input2"] !== null && moveData["input"] !== moveData["input2"]) {
-          move = moveData["name"] + " ([" + moveData["input"] + "] / [" + moveData["input2"] + "])"
-        }
+      if (moveData["input"] !== null) {
+	      move = moveData["name"] + " (" + moveData["input"] + ")"
+	      if (moveData["input2"] !== null && moveData["input"] !== moveData["input2"]) {
+		      move = moveData["name"] + " ([" + moveData["input"] + "] / [" + moveData["input2"] + "])"
+	      }
       }
+      move = he.decode(move)
       console.log("cargo", character, move)
       const startup = this.getHyperLink(moveData['startup']);
       const active = this.getHyperLink(moveData['active']);
