@@ -35,6 +35,9 @@ module.exports = {
   
       // Preparing the embed data from cargo
       let moveData = cargo[0];
+      if (moveData == null) {
+        return interaction.editReply('You are free to manually enter the **character** but you have to select the **move** from the scroll list. You can type to refine the search.')
+      }
       let move = moveData["name"]
       if (moveData["input"] !== null) {
 	      move = moveData["name"] + " (" + moveData["input"] + ")"
