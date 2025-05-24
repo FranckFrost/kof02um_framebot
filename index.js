@@ -87,7 +87,7 @@ client.on('interactionCreate', async autocomplete => {
 		    } else {
 			    let move = "";
 			    let val = "";
-			    const url_moves = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.input%2C+MoveData_KOF02UM.input2%2C+MoveData_KOF02UM.name%2C+MoveData_KOF02UM.moveId%2C&where=chara+%3D+%22"+encodeURIComponent(character)+"%22&order+by=MoveData_KOF02UM._ID+ASC&limit=100&format=json"
+			    const url_moves = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.input%2C+MoveData_KOF02UM.input2%2C+MoveData_KOF02UM.name%2C+MoveData_KOF02UM.version%2C+MoveData_KOF02UM.moveId%2C&where=chara+%3D+%22"+encodeURIComponent(character)+"%22&order+by=MoveData_KOF02UM._ID+ASC&limit=100&format=json"
 			    const response_moves = await fetch(url_moves);
 			    const cargo_moves = await response_moves.json();
 			    for (let x in cargo_moves) {
@@ -95,7 +95,8 @@ client.on('interactionCreate', async autocomplete => {
 				    if (cargo_moves[x]["input"] !== null) {
 					    move = cargo_moves[x]["name"] + " (" + cargo_moves[x]["input"] + ")"
 					    if (cargo_moves[x]["input2"] !== null && cargo_moves[x]["input"] !== cargo_moves[x]["input2"]) {
-						    move = cargo_moves[x]["name"] + " ([" + cargo_moves[x]["input"] + "] / [" + cargo_moves[x]["input2"] + "])"
+						    let ver = (cargo_moves[x]["version"] === 'Raw' || cargo_moves[x]["version"] === "Canceled into") ? cargo_moves[x]["version"]+" " : "";
+						    move = cargo_moves[x]["name"] + " (" + ver + "[" + cargo_moves[x]["input"] + "] / [" + cargo_moves[x]["input2"] + "])"
 						    /*val = he.decode(cargo_moves[x]["moveId"] + "?" + move)
 						    if (val.length > 100) {   // choice character limit of 100
 							    move = cargo_moves[x]["name"].replaceAll('?','') + " ([" + cargo_moves[x]["input"].replaceAll(' ','') + "] / [" + cargo_moves[x]["input2"].replaceAll(' ','') + "])";
