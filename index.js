@@ -67,21 +67,13 @@ client.on('interactionCreate', async autocomplete => {
     }
     // If move is focused 
     if (currentName === "move") {
-      let character = autocomplete.options.getString('character')
+      let character = getCharacter(autocomplete.options.getString('character'))
       let moveObj = {}
       if (character === null) {
 	    moveObj["name"] = 'You have to enter the character first. Delete and reset the command to try again.';
 	    moveObj["value"] = 'You have to enter the character first. Delete and reset the command to try again.';
 	    options.push(moveObj);
       } else {
-	    // Capitilize first letters of each word of the char name.
-	    let words = character.split(' ')
-	    for (let i in words) {
-		    words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1)
-	    }
-	    let char = words.join(' ');
-	    // Validate extra names.
-	    character = getCharacter(char)
 	    if (autocomplete.commandName === 'cargo') {
 		    if (!characters.includes(character)) {
 			    moveObj["name"] = 'No cargo data available for ' + character + ' yet. Gather its framedata with /frames instead.';
@@ -177,6 +169,14 @@ const token = process.env['DISCORD_TOKEN']
 client.login(token);
 
 function getCharacter(character) {
+    // Capitilize first letters of each word of the char name.
+    let words = character.split(' ')
+    for (let i in words) {
+	    words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1)
+    }
+    let char = words.join(' ');
+	
+    // Validate extra names.
     const chart = {
       'Andy': 'Andy Bogard',
       'Athena': 'Athena Asamiya',
@@ -220,8 +220,8 @@ function getCharacter(character) {
       'Yashiro': 'Yashiro Nanakase',
       'Yuri': 'Yuri Sakazaki'
     };
-    if (chart[character] === undefined) {
-      return character;
+    if (chart[char] === undefined) {
+      return char;
     }
-    return chart[character];
+    return chart[char];
 };
