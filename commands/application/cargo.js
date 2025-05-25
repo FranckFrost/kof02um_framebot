@@ -147,6 +147,14 @@ module.exports = {
       }
   },
   getCharacter: function(character) {
+    // Capitilize first letters of each word of the char name.
+    let words = character.split(' ')
+    for (let i in words) {
+	    words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1)
+    }
+    let char = words.join(' ');
+	
+    // Validate extra names.
     const chart = {
       'Andy': 'Andy Bogard',
       'Athena': 'Athena Asamiya',
@@ -190,10 +198,10 @@ module.exports = {
       'Yashiro': 'Yashiro Nanakase',
       'Yuri': 'Yuri Sakazaki'
     };
-    if (chart[character] === undefined) {
-      return character;
+    if (chart[char] === undefined) {
+      return char;
     }
-    return chart[character];
+    return chart[char];
   },
   getHyperLink: function(str,inv) {
     if (inv && str === null) return 'No recorded invincibility.'; // no invuln found
