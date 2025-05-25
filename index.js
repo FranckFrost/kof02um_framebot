@@ -84,8 +84,8 @@ client.on('interactionCreate', async autocomplete => {
 	    character = getCharacter(char)
 	    if (autocomplete.commandName === 'cargo') {
 		    if (!characters.includes(character)) {
-			    moveObj["name"] = 'No cargo data available for ' + character + 'yet. Gather its framedata with /frames instead.';
-                            moveObj["value"] = 'No cargo data available for ' + character + 'yet. Gather its framedata with /frames instead.';
+			    moveObj["name"] = 'No cargo data available for ' + character + ' yet. Gather its framedata with /frames instead.';
+                            moveObj["value"] = 'No cargo data available for ' + character + ' yet. Gather its framedata with /frames instead.';
                             options.push(moveObj);
 		    } else {
 			    let move = "";
