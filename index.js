@@ -74,9 +74,12 @@ client.on('interactionCreate', async autocomplete => {
 	    moveObj["value"] = 'You have to enter the character first. Delete and reset the command to try again.';
 	    options.push(moveObj);
       } else {
-	    // Capitilize first letter(s) of char name.
-	    let a = (character.split(' ')[1]!==undefined) ? ' ' + character.split(' ')[1].charAt(0).toUpperCase() + character.split(' ')[1].slice(1) : ""
-	    let char = character.split(' ')[0].charAt(0).toUpperCase() + character.split(' ')[0].slice(1) + a;
+	    // Capitilize first letters of each word of the char name.
+	    let words = character.split(' ')
+	    for (let i in words) {
+		    words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1)
+	    }
+	    let char = words.join(' ');
 	    // Validate extra names.
 	    character = getCharacter(char)
 	    if (autocomplete.commandName === 'cargo') {
