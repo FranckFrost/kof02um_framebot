@@ -166,9 +166,9 @@ module.exports = {
       'Yuri': 'Yuri Sakazaki'
     };
     if (chart[char] === undefined) {
-      return character;
+      return char;
     }
-    return chart[character];
+    return chart[char];
   },
   getCharacterImg: function(character) {
     const chartImg = {
