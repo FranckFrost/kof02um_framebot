@@ -23,13 +23,21 @@ for (const file of guildCommandFiles) {
 }
 
 let json = null
-let characters = [], json_characters = [];
+let characters = [], json_characters = [], cargo_characters = [];
 client.once('ready', () => {
   json = fs.readFileSync("./assets/framedata02um.json", 'utf8');
   json = JSON.parse(json);
   Object.keys(json).forEach(function (key) {
     json_characters.push(key);
   })
+
+  const url_char = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.chara%2C&&group+by=MoveData_KOF02UM.chara&order+by=&limit=100&format=json"
+  const response_char = await fetch(url_char);
+  const cargo_char = await response_char.json();
+  for (let x in cargo_char) {
+	  if (cargo_char[x]["chara"]!==null) cargo_characters.push(cargo_char[x]["chara"])
+  }
+	
   console.log('Ready!');
 });
 client.on('interactionCreate', async autocomplete => {
@@ -39,18 +47,7 @@ client.on('interactionCreate', async autocomplete => {
     let currentOption = autocomplete.options.getFocused(true);
     let currentName = currentOption.name;
     let currentValue = currentOption.value;
-    characters = json_characters;
-
-    if (autocomplete.commandName === 'cargo') {
-	    let cargo_characters = []
-	    const url_char = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.chara%2C&&group+by=MoveData_KOF02UM.chara&order+by=&limit=100&format=json"
-	    const response_char = await fetch(url_char);
-	    const cargo_char = await response_char.json();
-	    for (let x in cargo_char) {
-		    if (cargo_char[x]["chara"]!==null) cargo_characters.push(cargo_char[x]["chara"])
-	    }
-	    characters = cargo_characters;
-    }
+    characters = (autocomplete.commandName === 'cargo') ? cargo_characters : json_characters;
 
     const options = [];
     if (currentName === "character") {
@@ -92,14 +89,6 @@ client.on('interactionCreate', async autocomplete => {
 					    if (cargo_moves[x]["input2"] !== null && cargo_moves[x]["input"] !== cargo_moves[x]["input2"]) {
 						    let ver = (cargo_moves[x]["version"] === 'Raw' || cargo_moves[x]["version"] === "Canceled into") ? cargo_moves[x]["version"]+" " : "";
 						    move = cargo_moves[x]["name"] + " (" + ver + "[" + cargo_moves[x]["input"] + "] / [" + cargo_moves[x]["input2"] + "])"
-						    /*val = he.decode(cargo_moves[x]["moveId"] + "?" + move)
-						    if (val.length > 100) {   // choice character limit of 100
-							    move = cargo_moves[x]["name"].replaceAll('?','') + " ([" + cargo_moves[x]["input"].replaceAll(' ','') + "] / [" + cargo_moves[x]["input2"].replaceAll(' ','') + "])";
-							    val = he.decode(cargo_moves[x]["moveId"] + "?" + move)
-							    if (val.length > 100) {   // choice character limit of 100
-								    move = move.replaceAll('A/C','P').replaceAll('B/D','K');
-							    }
-						    }*/
 					    }
 				    }
 				    if (move.toLowerCase().includes(currentValue.toLowerCase())) {
@@ -142,6 +131,15 @@ client.on('interactionCreate', async interaction => {
 	
   if (!command) return;
   await command.execute(interaction);
+
+  if (interaction.commandName === 'cargo') {
+	  const url_char = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.chara%2C&&group+by=MoveData_KOF02UM.chara&order+by=&limit=100&format=json"
+	  const response_char = await fetch(url_char);
+	  const cargo_char = await response_char.json();
+	  for (let x in cargo_char) {
+		  if (cargo_char[x]["chara"]!==null) cargo_characters.push(cargo_char[x]["chara"])
+	  }
+  }
 });
 client.on("ready", () => {
   console.log(`Hi, ${client.user.username} is now online and used in ${client.guilds.cache.size} servers.`);
