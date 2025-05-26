@@ -22,8 +22,9 @@ for (const file of guildCommandFiles) {
   client.commands.set(command.data.name, command);
 }
 
-let json = null
+let json = null, cargo = null;
 let characters = [], json_characters = [], cargo_characters = [];
+const url = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.chara%2C+MoveData_KOF02UM.moveId%2C+MoveData_KOF02UM.name%2C+MoveData_KOF02UM.input%2C+MoveData_KOF02UM.input2%2C+MoveData_KOF02UM.version%2C&&order+by=MoveData_KOF02UM.chara+ASC&limit=4000&format=json"
 client.once('ready', async () => {
   json = fs.readFileSync("./assets/framedata02um.json", 'utf8');
   json = JSON.parse(json);
@@ -31,13 +32,12 @@ client.once('ready', async () => {
     json_characters.push(key);
   })
 
-  const url_char = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.chara%2C&&group+by=MoveData_KOF02UM.chara&order+by=&limit=100&format=json"
-  const response_char = await fetch(url_char);
-  const cargo_char = await response_char.json();
-  for (let x in cargo_char) {
-	  if (cargo_char[x]["chara"]!==null) cargo_characters.push(cargo_char[x]["chara"])
+  const response = await fetch(url);
+  cargo = await response.json();
+  for (let x in cargo) {
+	  if (cargo[x]["chara"]!==null && (!cargo_characters.includes(cargo[x]["chara"]))) cargo_characters.push(cargo[x]["chara"])
   }
-	
+
   console.log('Ready!');
 });
 client.on('interactionCreate', async autocomplete => {
@@ -73,32 +73,30 @@ client.on('interactionCreate', async autocomplete => {
       } else {
 	    if (autocomplete.commandName === 'cargo') {
 		    if (!characters.includes(character)) {
-			    moveObj["name"] = 'No cargo data available for ' + character + ' yet. Gather its framedata with /frames instead.';
-                            moveObj["value"] = 'No cargo data available for ' + character + ' yet. Gather its framedata with /frames instead.';
+			    moveObj["name"] = 'No cargo data available for ' + character + ' yet. Gather framedata with /frames instead.';
+                            moveObj["value"] = 'No cargo data available for ' + character + ' yet. Gather framedata with /frames instead.';
                             options.push(moveObj);
 		    } else {
-			    let move = "";
-			    let val = "";
-			    const url_moves = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.input%2C+MoveData_KOF02UM.input2%2C+MoveData_KOF02UM.name%2C+MoveData_KOF02UM.version%2C+MoveData_KOF02UM.moveId%2C&where=chara+%3D+%22"+encodeURIComponent(character)+"%22&order+by=MoveData_KOF02UM._ID+ASC&limit=100&format=json"
-			    const response_moves = await fetch(url_moves);
-			    const cargo_moves = await response_moves.json();
-			    for (let x in cargo_moves) {
-				    move = cargo_moves[x]["name"]
-				    if (cargo_moves[x]["input"] !== null) {
-					    move = cargo_moves[x]["name"] + " (" + cargo_moves[x]["input"] + ")"
-					    if (cargo_moves[x]["input2"] !== null && cargo_moves[x]["input"] !== cargo_moves[x]["input2"]) {
-						    let ver = (cargo_moves[x]["version"] === 'Raw' || cargo_moves[x]["version"] === "Canceled into") ? cargo_moves[x]["version"]+" " : "";
-						    move = cargo_moves[x]["name"] + " (" + ver + "[" + cargo_moves[x]["input"] + "] / [" + cargo_moves[x]["input2"] + "])"
+			    let move = "", x = 0;
+			    while (cargo[x]["chara"] !== character) x++;
+			    do {
+				    move = cargo[x]["name"]
+				    if (cargo[x]["input"] !== null) {
+					    move = cargo[x]["name"] + " (" + cargo[x]["input"] + ")"
+					    if (cargo[x]["input2"] !== null && cargo[x]["input"] !== cargo[x]["input2"]) {
+						    let ver = (cargo[x]["version"] === 'Raw' || cargo[x]["version"] === "Canceled into") ? cargo[x]["version"]+" " : "";
+						    move = cargo[x]["name"] + " (" + ver + "[" + cargo[x]["input"] + "] / [" + cargo[x]["input2"] + "])"
 					    }
-				    }
+				    }			    
 				    if (move.toLowerCase().includes(currentValue.toLowerCase())) {
 					    moveObj = {}
 					    moveObj["name"] = he.decode(move);
-					    moveObj["value"] = cargo_moves[x]["moveId"];
+					    moveObj["value"] = cargo[x]["moveId"];
 					    if (options.length < 25) options.push(moveObj);
 				    }
-			    }
-					  }
+				    x++;
+			    } while (cargo[x]["chara"] === character)
+		    }
 	    } else {
 		    if (json[character] === undefined) {
 			    moveObj["name"] = 'Moves not found for ' + character + ', try another character';
@@ -133,11 +131,11 @@ client.on('interactionCreate', async interaction => {
   await command.execute(interaction);
 
   if (interaction.commandName === 'cargo') {
-	  const url_char = "https://dreamcancel.com/w/index.php?title=Special:CargoExport&tables=MoveData_KOF02UM%2C&&fields=MoveData_KOF02UM.chara%2C&&group+by=MoveData_KOF02UM.chara&order+by=&limit=100&format=json"
-	  const response_char = await fetch(url_char);
-	  const cargo_char = await response_char.json();
-	  for (let x in cargo_char) {
-		  if (cargo_char[x]["chara"]!==null) cargo_characters.push(cargo_char[x]["chara"])
+	  cargo_characters = []
+	  const response = await fetch(url);
+	  cargo = await response.json();
+	  for (let x in cargo) {
+		  if (cargo[x]["chara"]!==null && (!cargo_characters.includes(cargo[x]["chara"]))) cargo_characters.push(cargo[x]["chara"])
 	  }
   }
 });
