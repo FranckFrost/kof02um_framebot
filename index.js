@@ -79,7 +79,7 @@ client.on('interactionCreate', async autocomplete => {
 		    } else {
 			    let move = "", x = 0;
 			    while (cargo[x]["chara"] !== character) x++;
-			    do {
+			    while (cargo[x] && cargo[x]["chara"] === character) {
 				    move = cargo[x]["name"]
 				    if (cargo[x]["input"] !== null) {
 					    move = cargo[x]["name"] + " (" + cargo[x]["input"] + ")"
@@ -95,7 +95,7 @@ client.on('interactionCreate', async autocomplete => {
 					    if (options.length < 25) options.push(moveObj);
 				    }
 				    x++;
-			    } while (cargo[x]["chara"] === character)
+			    }
 		    }
 	    } else {
 		    if (json[character] === undefined) {
