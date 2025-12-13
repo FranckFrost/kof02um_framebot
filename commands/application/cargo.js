@@ -1,6 +1,7 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed } = require('discord.js');
 const { MessageEmbedVideo } = require('discord.js');
+const { createCanvas, loadImage } = require('canvas');
 const fetch = require('node-fetch');
 const he = require('he');
 
@@ -101,7 +102,7 @@ module.exports = {
         } else {
           let ind = "url\":\""
           
-          let url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + encodeURIComponent(hitboxes.shift()) + "&iiprop=url"
+          let url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + encodeURIComponent(hitboxes.shift()) + "&iiprop=url|size"
           let response = await fetch(url)
           let car = await response.text()
           let s = car.indexOf(ind) + ind.length
@@ -110,13 +111,26 @@ module.exports = {
           embeds.push(embed)
 
           if (hitboxes.length > 0) {
-            url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + encodeURIComponent(hitboxes.shift()) + "&iiprop=url"
+			let indw = "width\":", indh = "height\":"
+			let sw = car.indexOf(indw) + indw.length, sh = car.indexOf(indh) + indh.length
+			let w =+ car.slice(sw,car.indexOf(",",sw)), h =+ car.slice(sh,car.indexOf(",",sh))
+			
+            url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + encodeURIComponent(hitboxes.shift()) + "&iiprop=url|size"
             response = await fetch(url)
             car = await response.text()
-            s = car.indexOf(ind) + ind.length
-            let image1 = car.slice(s,car.indexOf("\"",s))
-            const embed1 = new MessageEmbed().setImage(image1).setURL(link)
-            embeds.push(embed1)
+            s = car.indexOf(ind) + ind.length ; sw = car.indexOf(indw) + indw.length ; sh = car.indexOf(indh) + indh.length
+			let w1 =+ car.slice(sw,car.indexOf(",",sw)), h1 =+ car.slice(sh,car.indexOf(",",sh))
+
+			const canvas = createCanvas(w+w1, Math.max(h,h1)), cs = canvas.getContext('2d')
+			image = await loadImage(image) ; const image1 = await loadImage(car.slice(s,car.indexOf("\"",s)))
+			if (h > h1) {
+				cs.drawImage(image).drawImage(image1, w, h-h1)
+			}else{
+				cs.drawImage(image, 0, h1-h).drawImage(image1, w, 0)
+			}
+			embed.setImage(canvas.toDataURL())
+            //const embed1 = new MessageEmbed().setImage(image1).setURL(link)
+            //embeds.push(embed1)
           }
   
           if (hitboxes.length > 0) {
