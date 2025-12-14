@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const { MessageEmbed } = require('discord.js');
+const { MessageEmbed, MessageAttachment } = require('discord.js');
 const { MessageEmbedVideo } = require('discord.js');
 const { createCanvas, loadImage } = require('canvas');
 const fetch = require('node-fetch');
@@ -96,6 +96,7 @@ module.exports = {
           )
       }
         embed.setFooter({ text: 'Got feedback? Join the 02UM server: discord.gg/8JNXHxf', iconURL: 'https://cdn.iconscout.com/icon/free/png-128/discord-3-569463.png' });
+		let file;
         if (hitboxes.length === 0) {
           embed.addField('No image was found for this move', 'Feel free to share with Franck Frost if you have one.', true);
           embeds.push(embed)
@@ -124,36 +125,59 @@ module.exports = {
 			const canvas = createCanvas(w+w1, Math.max(h,h1)), cs = canvas.getContext('2d')
 			image = await loadImage(image) ; const image1 = await loadImage(car.slice(s,car.indexOf("\"",s)))
 			if (h > h1) {
-				cs.drawImage(image).drawImage(image1, w, h-h1)
+				cs.drawImage(image)
+				cs.drawImage(image1, w, h-h1)
 			}else{
-				cs.drawImage(image, 0, h1-h).drawImage(image1, w, 0)
+				cs.drawImage(image, 0, h1-h)
+				cs.drawImage(image1, w, 0)
 			}
-			embed.setImage(canvas.toDataURL())
+			file = new MessageAttachment(canvas.toBuffer(), 'img.png')
+			embed.setImage('attachment://img.png')
             //const embed1 = new MessageEmbed().setImage(image1).setURL(link)
             //embeds.push(embed1)
           }
   
           if (hitboxes.length > 0) {
-            url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + encodeURIComponent(hitboxes.shift()) + "&iiprop=url"
+            url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + encodeURIComponent(hitboxes.shift()) + "&iiprop=url|size"
             response = await fetch(url)
             car = await response.text()
-            s = car.indexOf(ind) + ind.length
-            let image2 = car.slice(s,car.indexOf("\"",s))
-            const embed2 = new MessageEmbed().setImage(image2).setURL(link)
-            embeds.push(embed2)
+            s = car.indexOf(ind) + ind.length ; sw = car.indexOf(indw) + indw.length ; sh = car.indexOf(indh) + indh.length
+			let w2 =+ car.slice(sw,car.indexOf(",",sw)), h2 =+ car.slice(sh,car.indexOf(",",sh))
+			const image2 = await loadImage(car.slice(s,car.indexOf("\"",s)))
+
+			const canvas2 = createCanvas(w+w1, Math.max(h,h1)+h2), cs2 = canvas2.getContext('2d')
+			cs2.drawImage(canvas)
+			cs2.drawImage(image2, 0, Math.max(h,h1))
+			file = new MessageAttachment(canvas2.toBuffer(), 'img2.png')
+			embed.setImage('attachment://img2.png')
           }
   
           if (hitboxes.length > 0) {
-            url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + encodeURIComponent(hitboxes.shift()) + "&iiprop=url"
+            url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + encodeURIComponent(hitboxes.shift()) + "&iiprop=url|size"
             response = await fetch(url)
             car = await response.text()
-            s = car.indexOf(ind) + ind.length
-            let image3 = car.slice(s,car.indexOf("\"",s))
-            const embed3 = new MessageEmbed().setImage(image3).setURL(link)
-            embeds.push(embed3)
+            s = car.indexOf(ind) + ind.length ; sw = car.indexOf(indw) + indw.length ; sh = car.indexOf(indh) + indh.length
+			let w3 =+ car.slice(sw,car.indexOf(",",sw)), h3 =+ car.slice(sh,car.indexOf(",",sh))
+			const image3 = await loadImage(car.slice(s,car.indexOf("\"",s)))
+
+			const canvas3 = createCanvas(Math.max(w+w1,w2+w3), Math.max(h,h1)+Math.max(h2,h3)), cs3 = canvas3.getContext('2d')
+			cs3.drawImage(canvas)
+			if (h2 > h3) {
+				cs3.drawImage(image2, 0, Math.max(h,h1))
+				cs3.drawImage(image3, w2, Math.max(h,h1)+h2-h3)
+			}else{
+				cs3.drawImage(image2, 0, Math.max(h,h1)+h3-h2)
+				cs3.drawImage(image3, w2, Math.max(h,h1))
+			}
+			file = new MessageAttachment(canvas3.toBuffer(), 'img3.png')
+			embed.setImage('attachment://img3.png')
           }
         }
-      await interaction.editReply({embeds: embeds});
+      if (file !== undefined) {
+		  await interaction.editReply({embeds: embeds, files:[file]});
+	  }else{
+		  await interaction.editReply({embeds: embeds});
+	  }
       return;
       } catch (error) {
         console.log("Error finishing cargo request", error);
