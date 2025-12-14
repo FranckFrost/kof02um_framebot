@@ -66,7 +66,7 @@ module.exports = {
       const link = 'https://dreamcancel.com/wiki/The_King_of_Fighters_2002_UM/' + encodeURIComponent(character);
       const img = this.getCharacterImg(character);
       
-      const embeds = [];
+      const embeds = [] ; let file
       const embed = new MessageEmbed()
         .setColor('#0x1a2c78')
         .setTitle(character)
@@ -96,12 +96,11 @@ module.exports = {
           )
       }
         embed.setFooter({ text: 'Got feedback? Join the 02UM server: discord.gg/8JNXHxf', iconURL: 'https://cdn.iconscout.com/icon/free/png-128/discord-3-569463.png' });
-		let file;
         if (hitboxes.length === 0) {
           embed.addField('No image was found for this move', 'Feel free to share with Franck Frost if you have one.', true);
           embeds.push(embed)
         } else {
-          let ind = "url\":\""
+          let ind = "url\":\"", indw = "width\":", indh = "height\":", sw, sh, w, w1, w2, w3, h, h1, h2, h3, canvas, canvas2, canvas3
           
           let url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + encodeURIComponent(hitboxes.shift()) + "&iiprop=url|size"
           let response = await fetch(url)
@@ -112,25 +111,20 @@ module.exports = {
           embeds.push(embed)
 
           if (hitboxes.length > 0) {
-			let indw = "width\":", indh = "height\":"
-			let sw = car.indexOf(indw) + indw.length, sh = car.indexOf(indh) + indh.length
-			let w =+ car.slice(sw,car.indexOf(",",sw)), h =+ car.slice(sh,car.indexOf(",",sh))
+			sw = car.indexOf(indw) + indw.length ; sh = car.indexOf(indh) + indh.length
+			w =+ car.slice(sw,car.indexOf(",",sw)) ; h =+ car.slice(sh,car.indexOf(",",sh))
 			
             url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + encodeURIComponent(hitboxes.shift()) + "&iiprop=url|size"
             response = await fetch(url)
             car = await response.text()
             s = car.indexOf(ind) + ind.length ; sw = car.indexOf(indw) + indw.length ; sh = car.indexOf(indh) + indh.length
-			let w1 =+ car.slice(sw,car.indexOf(",",sw)), h1 =+ car.slice(sh,car.indexOf(",",sh))
+			w1 =+ car.slice(sw,car.indexOf(",",sw)) ; h1 =+ car.slice(sh,car.indexOf(",",sh))
 
-			const canvas = createCanvas(w+w1, Math.max(h,h1)), cs = canvas.getContext('2d')
+			canvas = createCanvas(w+w1, Math.max(h,h1)) ; const cs = canvas.getContext('2d')
 			image = await loadImage(image) ; const image1 = await loadImage(car.slice(s,car.indexOf("\"",s)))
-			if (h > h1) {
-				cs.drawImage(image)
-				cs.drawImage(image1, w, h-h1)
-			}else{
-				cs.drawImage(image, 0, h1-h)
-				cs.drawImage(image1, w, 0)
-			}
+			cs.drawImage(image, 0, Math.max(h,h1)-h)
+			cs.drawImage(image1, w, Math.max(h,h1)-h1)
+			
 			file = new MessageAttachment(canvas.toBuffer(), 'img.png')
 			embed.setImage('attachment://img.png')
             //const embed1 = new MessageEmbed().setImage(image1).setURL(link)
@@ -142,14 +136,15 @@ module.exports = {
             response = await fetch(url)
             car = await response.text()
             s = car.indexOf(ind) + ind.length ; sw = car.indexOf(indw) + indw.length ; sh = car.indexOf(indh) + indh.length
-			let w2 =+ car.slice(sw,car.indexOf(",",sw)), h2 =+ car.slice(sh,car.indexOf(",",sh))
+			w2 =+ car.slice(sw,car.indexOf(",",sw)) ; h2 =+ car.slice(sh,car.indexOf(",",sh))
 			const image2 = await loadImage(car.slice(s,car.indexOf("\"",s)))
 
-			const canvas2 = createCanvas(w+w1, Math.max(h,h1)+h2), cs2 = canvas2.getContext('2d')
-			cs2.drawImage(canvas)
-			cs2.drawImage(image2, 0, Math.max(h,h1))
-			file = new MessageAttachment(canvas2.toBuffer(), 'img2.png')
-			embed.setImage('attachment://img2.png')
+			canvas2 = createCanvas(w+w1+w2, Math.max(h,h1,h2)) ; const cs2 = canvas2.getContext('2d')
+			cs2.drawImage(canvas, 0, Math.max(h,h1,h2)-Math.max(h,h1))
+			cs2.drawImage(image2, w+w1, Math.max(h,h1,h2)-h2)
+			  
+			file = new MessageAttachment(canvas2.toBuffer(), 'img.png')
+			embed.setImage('attachment://img.png')
           }
   
           if (hitboxes.length > 0) {
@@ -157,20 +152,15 @@ module.exports = {
             response = await fetch(url)
             car = await response.text()
             s = car.indexOf(ind) + ind.length ; sw = car.indexOf(indw) + indw.length ; sh = car.indexOf(indh) + indh.length
-			let w3 =+ car.slice(sw,car.indexOf(",",sw)), h3 =+ car.slice(sh,car.indexOf(",",sh))
-			const image3 = await loadImage(car.slice(s,car.indexOf("\"",s)))
+			w3 =+ car.slice(sw,car.indexOf(",",sw)) ; h3 =+ car.slice(sh,car.indexOf(",",sh))
+			image3 = await loadImage(car.slice(s,car.indexOf("\"",s)))
 
-			const canvas3 = createCanvas(Math.max(w+w1,w2+w3), Math.max(h,h1)+Math.max(h2,h3)), cs3 = canvas3.getContext('2d')
-			cs3.drawImage(canvas)
-			if (h2 > h3) {
-				cs3.drawImage(image2, 0, Math.max(h,h1))
-				cs3.drawImage(image3, w2, Math.max(h,h1)+h2-h3)
-			}else{
-				cs3.drawImage(image2, 0, Math.max(h,h1)+h3-h2)
-				cs3.drawImage(image3, w2, Math.max(h,h1))
-			}
-			file = new MessageAttachment(canvas3.toBuffer(), 'img3.png')
-			embed.setImage('attachment://img3.png')
+			canvas3 = createCanvas(w+w1+w2+w3, Math.max(h,h1,h2,h3)) ; const cs3 = canvas3.getContext('2d')
+			cs3.drawImage(canvas2, 0, Math.max(h,h1,h2,h3)-Math.max(h,h1,h2))
+			cs3.drawImage(image3, w+w1+w2, Math.max(h,h1,h2,h3)-h3)
+			  
+			file = new MessageAttachment(canvas3.toBuffer(), 'img.png')
+			embed.setImage('attachment://img.png')
           }
         }
       if (file !== undefined) {
