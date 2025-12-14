@@ -105,14 +105,12 @@ module.exports = {
           let response = await fetch(url)
           let car = await response.text()
           let s = car.indexOf(ind) + ind.length
+		  let image = car.slice(s,car.indexOf("\"",s))
 
-          if (hitboxes.length === 0) {
-			let image = car.slice(s,car.indexOf("\"",s))
-            embed.setImage(image)
-		  } else {
+          if (hitboxes.length > 0) {
 			sw = car.indexOf(indw) + indw.length ; sh = car.indexOf(indh) + indh.length
 			w =+ car.slice(sw,car.indexOf(",",sw)) ; h =+ car.slice(sh,car.indexOf(",",sh))
-			const image = await loadImage(car.slice(s,car.indexOf("\"",s)))
+			image = await loadImage(car.slice(s,car.indexOf("\"",s)))
 			  
             url = "https://dreamcancel.com/w/api.php?action=query&format=json&prop=imageinfo&titles=File:" + encodeURIComponent(hitboxes.shift()) + "&iiprop=url|size"
             response = await fetch(url)
@@ -126,6 +124,7 @@ module.exports = {
 			cs.drawImage(image1, w, Math.max(h,h1)-h1)
 			
 			if (hitboxes.length === 0) file = new MessageAttachment(canvas.toBuffer(), 'img.png')
+			image = 'attachment://img.png'
             //const embed1 = new MessageEmbed().setImage(image1).setURL(link)
             //embeds.push(embed1)
           }
@@ -159,7 +158,7 @@ module.exports = {
 			  
 			file = new MessageAttachment(canvas3.toBuffer(), 'img.png')
           }
-		  embed.setImage('attachment://img.png')
+		  embed.setImage(image)
         }
 		embeds.push(embed)
 		
